@@ -1,0 +1,12 @@
+
+{ 
+    crc :  4408313717079051455  , 
+    ccp_crc :  0  , 
+    cmdline : " -wto 4c03ccdcc4684ee49ebfdd4c78c77288 --incr --debug typical --relax --mt 8 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot JKMasterSimulation_behav xil_defaultlib.JKMasterSimulation xil_defaultlib.glbl" , 
+    buildDate : "Dec  6 2018" , 
+    buildTime : "23:39:36" , 
+    linkCmd : "/usr/bin/gcc -Wa,-W  -O -fPIC  -m64  -Wl,--no-as-needed  -Wl,--unresolved-symbols=ignore-all  -o \"xsim.dir/JKMasterSimulation_behav/xsimk\"   \"xsim.dir/JKMasterSimulation_behav/obj/xsim_0.lnx64.o\" \"xsim.dir/JKMasterSimulation_behav/obj/xsim_1.lnx64.o\" -L\"/home/shubham/Xilinx2018.3/Vivado/2018.3/lib/lnx64.o\" -lrdi_simulator_kernel  -lrdi_simbridge_kernel" , 
+    aggregate_nets : 
+    [ 
+    ] 
+} 

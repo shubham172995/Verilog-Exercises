@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xczu28dr-ffvg1517-2-e" LaunchTime="1576819874">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="JKMaster.drc"/>
+  <File Type="BG-BGN" Name="JKMaster.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="JKMaster.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="JKMaster.ltx"/>
+  <File Type="BITSTR-MMI" Name="JKMaster.mmi"/>
+  <File Type="BITSTR-BMM" Name="JKMaster_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="JKMaster.nky"/>
+  <File Type="BITSTR-RBT" Name="JKMaster.rbt"/>
+  <File Type="BITSTR-MSK" Name="JKMaster.msk"/>
+  <File Type="BG-BIN" Name="JKMaster.bin"/>
+  <File Type="BG-BIT" Name="JKMaster.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="JKMaster_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="JKMaster_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="JKMaster_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="JKMaster.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="JKMaster_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="JKMaster_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="JKMaster_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="JKMaster_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="JKMaster_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="JKMaster_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="JKMaster_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="JKMaster_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="JKMaster_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="JKMaster_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="JKMaster_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="JKMaster_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="JKMaster_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="JKMaster_power_routed.rpx"/>
+  <File Type="PLACE-UTIL-PB" Name="JKMaster_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="JKMaster_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="JKMaster_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="JKMaster_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="JKMaster_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="JKMaster_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="JKMaster_timing_summary_opted.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="JKMaster_incremental_reuse_placed.rpt"/>
+  <File Type="OPT-HWDEF" Name="JKMaster.hwdef"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="JKMaster_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="JKMaster_reports.tcl"/>
+  <File Type="PWROPT-DRC" Name="JKMaster_drc_pwropted.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="JKMaster_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="JKMaster.tcl"/>
+  <File Type="INIT-TIMING" Name="JKMaster_timing_summary_init.rpt"/>
+  <File Type="PLACE-CTRL" Name="JKMaster_control_sets_placed.rpt"/>
+  <File Type="PWROPT-TIMING" Name="JKMaster_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="JKMaster_incremental_reuse_pre_placed.rpt"/>
+  <File Type="OPT-DCP" Name="JKMaster_opt.dcp"/>
+  <File Type="OPT-DRC" Name="JKMaster_drc_opted.rpt"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="JKMaster_methodology_drc_opted.rpt"/>
+  <File Type="PLACE-TIMING" Name="JKMaster_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-DRC" Name="JKMaster_drc_routed.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="JKMaster_postplace_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="JKMaster_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="JKMaster_drc_routed.pb"/>
+  <File Type="PHYSOPT-DCP" Name="JKMaster_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="JKMaster_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-TIMING" Name="JKMaster_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-PWR" Name="JKMaster_power_routed.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="JKMaster_routed_error.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="JKMaster_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-DCP" Name="JKMaster_routed.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="JKMaster_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="JKMaster_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC-RPX" Name="JKMaster_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="JKMaster_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-PWR-SUM" Name="JKMaster_power_summary_routed.pb"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/JKMaster.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="JKMaster"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1">
+    <Filter Type="Utils"/>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>
