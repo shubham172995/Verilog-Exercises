@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Mon Dec 23 00:30:47 2019
+# Process ID: 6081
+# Current directory: /home/shubham/Vivado Exercises/Blinky/Blinky.runs/impl_2
+# Command line: vivado -log blinky.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source blinky.tcl -notrace
+# Log file: /home/shubham/Vivado Exercises/Blinky/Blinky.runs/impl_2/blinky.vdi
+# Journal file: /home/shubham/Vivado Exercises/Blinky/Blinky.runs/impl_2/vivado.jou
+#-----------------------------------------------------------
+source blinky.tcl -notrace
