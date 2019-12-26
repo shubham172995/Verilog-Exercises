@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Dec 27 00:08:27 2019
+# Process ID: 5800
+# Current directory: /home/shubham/Vivado_Exercises/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_ds_0_synth_1
+# Command line: vivado -log first_zynq_system_auto_ds_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source first_zynq_system_auto_ds_0.tcl
+# Log file: /home/shubham/Vivado_Exercises/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_ds_0_synth_1/first_zynq_system_auto_ds_0.vds
+# Journal file: /home/shubham/Vivado_Exercises/first_zynq_design/first_zynq_design.runs/first_zynq_system_auto_ds_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source first_zynq_system_auto_ds_0.tcl -notrace
