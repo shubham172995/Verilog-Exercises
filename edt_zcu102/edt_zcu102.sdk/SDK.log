@@ -1,0 +1,39 @@
+19:36:50 INFO  : Registering command handlers for SDK TCF services
+19:36:53 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/temp_xsdb_launch_script.tcl
+19:36:56 INFO  : XSCT server has started successfully.
+19:37:02 INFO  : Successfully done setting XSCT server connection channel  
+19:37:02 INFO  : Successfully done setting SDK workspace  
+19:37:02 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.
+14:08:19 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/temp_xsdb_launch_script.tcl
+14:08:21 INFO  : XSCT server has started successfully.
+14:08:21 INFO  : Successfully done setting XSCT server connection channel  
+14:08:25 INFO  : Successfully done setting SDK workspace  
+14:08:27 INFO  : Registering command handlers for SDK TCF services
+14:08:28 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.
+14:08:28 INFO  : Checking for hwspec changes in the project edt_zcu102_wrapper_hw_platform_0.
+20:45:54 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/temp_xsdb_launch_script.tcl
+20:45:58 INFO  : XSCT server has started successfully.
+20:46:07 INFO  : Successfully done setting XSCT server connection channel  
+20:46:07 INFO  : Successfully done setting SDK workspace  
+20:46:10 INFO  : Registering command handlers for SDK TCF services
+20:46:11 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.
+20:46:11 INFO  : Checking for hwspec changes in the project edt_zcu102_wrapper_hw_platform_0.
+20:49:54 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/temp_xsdb_launch_script.tcl
+20:49:56 INFO  : XSCT server has started successfully.
+20:49:56 INFO  : Successfully done setting XSCT server connection channel  
+20:50:00 INFO  : Successfully done setting SDK workspace  
+20:50:02 INFO  : Registering command handlers for SDK TCF services
+20:50:03 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.
+20:50:03 INFO  : Checking for hwspec changes in the project edt_zcu102_wrapper_hw_platform_0.
+12:17:01 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/temp_xsdb_launch_script.tcl
+12:17:02 INFO  : XSCT server has started successfully.
+12:17:02 INFO  : Successfully done setting XSCT server connection channel  
+12:17:06 INFO  : Successfully done setting SDK workspace  
+12:17:08 INFO  : Registering command handlers for SDK TCF services
+12:17:09 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.
+12:17:09 INFO  : Checking for hwspec changes in the project edt_zcu102_wrapper_hw_platform_0.
+12:29:38 INFO  : Invoking Bootgen: bootgen -image output.bif -arch zynqmp -o /home/shubham/Vivado_Exercises/edt_zcu102/BOOT.bin
+12:29:38 INFO  : Creating new bif file /home/shubham/Vivado_Exercises/edt_zcu102/output.bif
+12:29:39 INFO  : Bootgen command execution is done.
+12:35:34 INFO  : Invoking Bootgen: bootgen -image sd_boot.bif -arch zynqmp -o /home/shubham/Vivado_Exercises/edt_zcu102/BOOT.bin -w on
+12:35:35 INFO  : Bootgen command execution is done.

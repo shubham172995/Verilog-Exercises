@@ -1,0 +1,21 @@
+20:49:43 **** Build of configuration Debug for project testapp_r5 ****
+make all 
+Building file: ../src/testapp.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/testapp.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/testapp.d" -MT"src/testapp.o" -o "src/testapp.o" "../src/testapp.c"
+Finished building: ../src/testapp.c
+ 
+Building target: testapp_r5.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../r5_bsp/psu_cortexr5_0/lib -o "testapp_r5.elf"  ./src/testapp.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16
+Finished building target: testapp_r5.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size testapp_r5.elf  |tee "testapp_r5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17157	   4184	  22748	  44089	   ac39	testapp_r5.elf
+Finished building: testapp_r5.elf.size
+ 
+
+20:49:43 Build Finished (took 379ms)
+

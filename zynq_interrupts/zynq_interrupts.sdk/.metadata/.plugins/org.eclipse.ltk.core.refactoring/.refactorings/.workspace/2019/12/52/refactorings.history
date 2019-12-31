@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;zynq_interrupt_2/src/interrupt_counter_tut_2D.c&apos;" deleteContents="false" description="Delete resource &apos;zynq_interrupt_2/src/interrupt_counter_tut_2D.c&apos;" element1="/zynq_interrupt_2/src/interrupt_counter_tut_2D.c" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1577441535797"/>
+</session>

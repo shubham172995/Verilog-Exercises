@@ -73,3 +73,9 @@ con
 ----------------End of Script----------------
 
 00:54:36 INFO  : Disconnected from the channel tcfchan#1.
+20:46:50 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/first_zynq_design/first_zynq_design.sdk/temp_xsdb_launch_script.tcl
+20:46:51 INFO  : XSCT server has started successfully.
+20:46:51 INFO  : Successfully done setting XSCT server connection channel  
+20:46:51 INFO  : Successfully done setting SDK workspace  
+20:46:57 INFO  : Registering command handlers for SDK TCF services
+20:46:57 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102.sdk/edt_zcu102_wrapper.hdf.

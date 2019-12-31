@@ -1,4 +1,4 @@
-13:58:22 **** Build of project zynq_interrupt_2_bsp ****
+15:39:01 **** Build of project zynq_interrupt_2_bsp ****
 make -k all 
 Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src
 make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
@@ -61,7 +61,6 @@ make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPI
 Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src
 make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
 Compiling sdps
-aarch64-none-elf-ar: creating ../../../lib/libxil.a
 Running Make libs in psu_cortexa53_0/libsrc/tmrctr_v4_5/src
 make -C psu_cortexa53_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
 Compiling tmrctr
@@ -72,11 +71,11 @@ In file included from xtime_l.c:52:0:
 xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
  #pragma message ("For the sleep routines, Global timer is being used")
          ^~~~~~~
-In file included from sleep.c:59:0:
+In file included from xil_sleeptimer.c:51:0:
 xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
  #pragma message ("For the sleep routines, Global timer is being used")
          ^~~~~~~
-In file included from xil_sleeptimer.c:51:0:
+In file included from sleep.c:59:0:
 xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
  #pragma message ("For the sleep routines, Global timer is being used")
          ^~~~~~~
@@ -160,5 +159,5 @@ make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER
 Compiling wdtps
 Finished building libraries
 
-13:58:32 Build Finished (took 10s.479ms)
+15:39:12 Build Finished (took 11s.583ms)
 
