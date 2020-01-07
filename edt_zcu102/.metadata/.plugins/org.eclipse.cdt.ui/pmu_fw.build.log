@@ -1,4 +1,4 @@
-20:49:21 **** Build of configuration Debug for project pmu_fw ****
+18:07:12 **** Build of configuration Debug for project pmu_fw ****
 make all 
 Building file: ../src/idle_hooks.c
 Invoking: MicroBlaze gcc compiler
@@ -90,11 +90,6 @@ Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node.d" -MT"src/pm_node.o" -o "src/pm_node.o" "../src/pm_node.c"
 Finished building: ../src/pm_node.c
  
-Building file: ../src/pm_node_reset.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node_reset.d" -MT"src/pm_node_reset.o" -o "src/pm_node_reset.o" "../src/pm_node_reset.c"
-Finished building: ../src/pm_node_reset.c
- 
 Building file: ../src/pm_notifier.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_notifier.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_notifier.d" -MT"src/pm_notifier.o" -o "src/pm_notifier.o" "../src/pm_notifier.c"
@@ -132,11 +127,6 @@ Building file: ../src/pm_proc.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_proc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_proc.d" -MT"src/pm_proc.o" -o "src/pm_proc.o" "../src/pm_proc.c"
 Finished building: ../src/pm_proc.c
- 
-Building file: ../src/pm_qspi.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_qspi.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_qspi.d" -MT"src/pm_qspi.o" -o "src/pm_qspi.o" "../src/pm_qspi.c"
-Finished building: ../src/pm_qspi.c
  
 Building file: ../src/pm_requirement.c
 Invoking: MicroBlaze gcc compiler
@@ -278,11 +268,6 @@ Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_scheduler.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_scheduler.d" -MT"src/xpfw_scheduler.o" -o "src/xpfw_scheduler.o" "../src/xpfw_scheduler.c"
 Finished building: ../src/xpfw_scheduler.c
  
-Building file: ../src/xpfw_start.S
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_start.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_start.d" -MT"src/xpfw_start.o" -o "src/xpfw_start.o" "../src/xpfw_start.S"
-Finished building: ../src/xpfw_start.S
- 
 Building file: ../src/xpfw_user_startup.c
 Invoking: MicroBlaze gcc compiler
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_user_startup.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_user_startup.d" -MT"src/xpfw_user_startup.o" -o "src/xpfw_user_startup.o" "../src/xpfw_user_startup.c"
@@ -310,5 +295,5 @@ mb-size pmu_fw.elf  |tee "pmu_fw.elf.size"
 Finished building: pmu_fw.elf.size
  
 
-20:49:28 Build Finished (took 7s.124ms)
+18:07:19 Build Finished (took 7s.383ms)
 

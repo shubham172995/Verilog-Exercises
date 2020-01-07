@@ -1,15 +1,17 @@
-20:49:14 **** Build of project pmu_bsp ****
+18:07:00 **** Build of project pmu_bsp ****
 make -k all 
 Running Make include in psu_pmu_0/libsrc/sdps_v3_6/src
 make -C psu_pmu_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Running Make include in psu_pmu_0/libsrc/tmrctr_v4_5/src
+make -C psu_pmu_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/standalone_v6_8/src
 make -C psu_pmu_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/xilskey_v6_6/src
 make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/xilsecure_v3_2/src
 make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Running Make include in psu_pmu_0/libsrc/csudma_v1_3/src
+make -C psu_pmu_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/ipipsu_v2_4/src
 make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/emacps_v3_8/src
@@ -38,6 +40,8 @@ Running Make include in psu_pmu_0/libsrc/gpiops_v3_4/src
 make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/cpu_v2_8/src
 make -C psu_pmu_0/libsrc/cpu_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Running Make include in psu_pmu_0/libsrc/gpio_v4_3/src
+make -C psu_pmu_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/uartps_v3_7/src
 make -C psu_pmu_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Running Make include in psu_pmu_0/libsrc/qspipsu_v1_8/src
@@ -59,9 +63,10 @@ make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=
 Running Make libs in psu_pmu_0/libsrc/sdps_v3_6/src
 make -C psu_pmu_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling sdps
-Running Make libs in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling csudma
+mb-ar: creating ../../../lib/libxil.a
+Running Make libs in psu_pmu_0/libsrc/tmrctr_v4_5/src
+make -C psu_pmu_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Compiling tmrctr
 Running Make libs in psu_pmu_0/libsrc/standalone_v6_8/src
 make -C psu_pmu_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling standalone
@@ -74,6 +79,9 @@ Compiling Xilskey Library
 Running Make libs in psu_pmu_0/libsrc/xilsecure_v3_2/src
 make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling XilSecure Library
+Running Make libs in psu_pmu_0/libsrc/csudma_v1_3/src
+make -C psu_pmu_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Compiling csudma
 Running Make libs in psu_pmu_0/libsrc/ipipsu_v2_4/src
 make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling ipipsu
@@ -116,6 +124,9 @@ Compiling gpiops
 Running Make libs in psu_pmu_0/libsrc/cpu_v2_8/src
 make -C psu_pmu_0/libsrc/cpu_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling cpu
+Running Make libs in psu_pmu_0/libsrc/gpio_v4_3/src
+make -C psu_pmu_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
+Compiling gpio
 Running Make libs in psu_pmu_0/libsrc/uartps_v3_7/src
 make -C psu_pmu_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
 Compiling uartps
@@ -145,5 +156,5 @@ make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-
 Compiling xilfpga Library
 Finished building libraries
 
-20:49:21 Build Finished (took 6s.924ms)
+18:07:08 Build Finished (took 7s.326ms)
 

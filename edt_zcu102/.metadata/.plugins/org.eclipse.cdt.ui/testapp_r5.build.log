@@ -1,4 +1,4 @@
-20:49:43 **** Build of configuration Debug for project testapp_r5 ****
+18:18:38 **** Auto Build of configuration Debug for project testapp_r5 ****
 make all 
 Building file: ../src/testapp.c
 Invoking: ARM R5 gcc compiler
@@ -17,5 +17,5 @@ armr5-none-eabi-size testapp_r5.elf  |tee "testapp_r5.elf.size"
 Finished building: testapp_r5.elf.size
  
 
-20:49:43 Build Finished (took 379ms)
+18:18:38 Build Finished (took 266ms)
 

@@ -1,0 +1,21 @@
+18:18:38 **** Auto Build of configuration Debug for project tmr_psled_r5 ****
+make all 
+Building file: ../src/timer_psled_r5.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_psled_r5.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/timer_psled_r5.d" -MT"src/timer_psled_r5.o" -o "src/timer_psled_r5.o" "../src/timer_psled_r5.c"
+Finished building: ../src/timer_psled_r5.c
+ 
+Building target: tmr_psled_r5.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../r5_bsp/psu_cortexr5_0/lib -o "tmr_psled_r5.elf"  ./src/timer_psled_r5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16
+Finished building target: tmr_psled_r5.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size tmr_psled_r5.elf  |tee "tmr_psled_r5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21233	   4200	  22828	  48261	   bc85	tmr_psled_r5.elf
+Finished building: tmr_psled_r5.elf.size
+ 
+
+18:18:38 Build Finished (took 366ms)
+

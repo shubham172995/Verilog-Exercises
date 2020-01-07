@@ -55,6 +55,46 @@ USE ieee.numeric_std.ALL;
 
 ENTITY edt_zcu102_zynq_ultra_ps_e_0_0 IS
   PORT (
+    maxihpm0_lpd_aclk : IN STD_LOGIC;
+    maxigp2_awid : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_awaddr : OUT STD_LOGIC_VECTOR(39 DOWNTO 0);
+    maxigp2_awlen : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    maxigp2_awsize : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    maxigp2_awburst : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    maxigp2_awlock : OUT STD_LOGIC;
+    maxigp2_awcache : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    maxigp2_awprot : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    maxigp2_awvalid : OUT STD_LOGIC;
+    maxigp2_awuser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_awready : IN STD_LOGIC;
+    maxigp2_wdata : OUT STD_LOGIC_VECTOR(127 DOWNTO 0);
+    maxigp2_wstrb : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_wlast : OUT STD_LOGIC;
+    maxigp2_wvalid : OUT STD_LOGIC;
+    maxigp2_wready : IN STD_LOGIC;
+    maxigp2_bid : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_bresp : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    maxigp2_bvalid : IN STD_LOGIC;
+    maxigp2_bready : OUT STD_LOGIC;
+    maxigp2_arid : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_araddr : OUT STD_LOGIC_VECTOR(39 DOWNTO 0);
+    maxigp2_arlen : OUT STD_LOGIC_VECTOR(7 DOWNTO 0);
+    maxigp2_arsize : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    maxigp2_arburst : OUT STD_LOGIC_VECTOR(1 DOWNTO 0);
+    maxigp2_arlock : OUT STD_LOGIC;
+    maxigp2_arcache : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    maxigp2_arprot : OUT STD_LOGIC_VECTOR(2 DOWNTO 0);
+    maxigp2_arvalid : OUT STD_LOGIC;
+    maxigp2_aruser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_arready : IN STD_LOGIC;
+    maxigp2_rid : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
+    maxigp2_rdata : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
+    maxigp2_rresp : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+    maxigp2_rlast : IN STD_LOGIC;
+    maxigp2_rvalid : IN STD_LOGIC;
+    maxigp2_rready : OUT STD_LOGIC;
+    maxigp2_awqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+    maxigp2_arqos : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
     pl_ps_irq0 : IN STD_LOGIC_VECTOR(0 DOWNTO 0);
     pl_resetn0 : OUT STD_LOGIC;
     pl_clk0 : OUT STD_LOGIC
@@ -197,8 +237,8 @@ ARCHITECTURE edt_zcu102_zynq_ultra_ps_e_0_0_arch OF edt_zcu102_zynq_ultra_ps_e_0
       maxigp2_awvalid : OUT STD_LOGIC;
       maxigp2_awuser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
       maxigp2_awready : IN STD_LOGIC;
-      maxigp2_wdata : OUT STD_LOGIC_VECTOR(31 DOWNTO 0);
-      maxigp2_wstrb : OUT STD_LOGIC_VECTOR(3 DOWNTO 0);
+      maxigp2_wdata : OUT STD_LOGIC_VECTOR(127 DOWNTO 0);
+      maxigp2_wstrb : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
       maxigp2_wlast : OUT STD_LOGIC;
       maxigp2_wvalid : OUT STD_LOGIC;
       maxigp2_wready : IN STD_LOGIC;
@@ -218,7 +258,7 @@ ARCHITECTURE edt_zcu102_zynq_ultra_ps_e_0_0_arch OF edt_zcu102_zynq_ultra_ps_e_0
       maxigp2_aruser : OUT STD_LOGIC_VECTOR(15 DOWNTO 0);
       maxigp2_arready : IN STD_LOGIC;
       maxigp2_rid : IN STD_LOGIC_VECTOR(15 DOWNTO 0);
-      maxigp2_rdata : IN STD_LOGIC_VECTOR(31 DOWNTO 0);
+      maxigp2_rdata : IN STD_LOGIC_VECTOR(127 DOWNTO 0);
       maxigp2_rresp : IN STD_LOGIC_VECTOR(1 DOWNTO 0);
       maxigp2_rlast : IN STD_LOGIC;
       maxigp2_rvalid : IN STD_LOGIC;
@@ -1599,9 +1639,9 @@ ARCHITECTURE edt_zcu102_zynq_ultra_ps_e_0_0_arch OF edt_zcu102_zynq_ultra_ps_e_0
   ATTRIBUTE CHECK_LICENSE_TYPE : STRING;
   ATTRIBUTE CHECK_LICENSE_TYPE OF edt_zcu102_zynq_ultra_ps_e_0_0_arch : ARCHITECTURE IS "edt_zcu102_zynq_ultra_ps_e_0_0,zynq_ultra_ps_e_v3_2_2_zynq_ultra_ps_e,{}";
   ATTRIBUTE CORE_GENERATION_INFO : STRING;
-  ATTRIBUTE CORE_GENERATION_INFO OF edt_zcu102_zynq_ultra_ps_e_0_0_arch: ARCHITECTURE IS "edt_zcu102_zynq_ultra_ps_e_0_0,zynq_ultra_ps_e_v3_2_2_zynq_ultra_ps_e,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=zynq_ultra_ps_e,x_ipVersion=3.2,x_ipCoreRevision=2,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_DP_USE_AUDIO=0,C_DP_USE_VIDEO=0,C_MAXIGP0_DATA_WIDTH=128,C_MAXIGP1_DATA_WIDTH=128,C_MAXIGP2_DATA_WIDTH=32,C_SAXIGP0_DATA_WIDTH=128,C_SAXIGP1_DATA_WIDTH=128,C_SAXIGP2_DATA_WIDTH=128,C_SAXIGP3_DATA_WIDTH=128,C_SAXIGP4_DATA_WIDTH=128,C_SAXIGP5_DATA_WIDTH=128,C_SAXIGP" & 
-"6_DATA_WIDTH=128,C_USE_DIFF_RW_CLK_GP0=0,C_USE_DIFF_RW_CLK_GP1=0,C_USE_DIFF_RW_CLK_GP2=0,C_USE_DIFF_RW_CLK_GP3=0,C_USE_DIFF_RW_CLK_GP4=0,C_USE_DIFF_RW_CLK_GP5=0,C_USE_DIFF_RW_CLK_GP6=0,C_EN_FIFO_ENET0=0,C_EN_FIFO_ENET1=0,C_EN_FIFO_ENET2=0,C_EN_FIFO_ENET3=0,C_PL_CLK0_BUF=TRUE,C_PL_CLK1_BUF=FALSE,C_PL_CLK2_BUF=FALSE,C_PL_CLK3_BUF=FALSE,C_TRACE_PIPELINE_WIDTH=8,C_EN_EMIO_TRACE=0,C_TRACE_DATA_WIDTH=32,C_USE_DEBUG_TEST=0,C_SD0_INTERNAL_BUS_WIDTH=8,C_SD1_INTERNAL_BUS_WIDTH=8,C_NUM_F2P_0_INTR_INPUTS=1," & 
-"C_NUM_F2P_1_INTR_INPUTS=1,C_EMIO_GPIO_WIDTH=1,C_NUM_FABRIC_RESETS=1}";
+  ATTRIBUTE CORE_GENERATION_INFO OF edt_zcu102_zynq_ultra_ps_e_0_0_arch: ARCHITECTURE IS "edt_zcu102_zynq_ultra_ps_e_0_0,zynq_ultra_ps_e_v3_2_2_zynq_ultra_ps_e,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=zynq_ultra_ps_e,x_ipVersion=3.2,x_ipCoreRevision=2,x_ipLanguage=VHDL,x_ipSimLanguage=MIXED,C_DP_USE_AUDIO=0,C_DP_USE_VIDEO=0,C_MAXIGP0_DATA_WIDTH=128,C_MAXIGP1_DATA_WIDTH=128,C_MAXIGP2_DATA_WIDTH=128,C_SAXIGP0_DATA_WIDTH=128,C_SAXIGP1_DATA_WIDTH=128,C_SAXIGP2_DATA_WIDTH=128,C_SAXIGP3_DATA_WIDTH=128,C_SAXIGP4_DATA_WIDTH=128,C_SAXIGP5_DATA_WIDTH=128,C_SAXIG" & 
+"P6_DATA_WIDTH=128,C_USE_DIFF_RW_CLK_GP0=0,C_USE_DIFF_RW_CLK_GP1=0,C_USE_DIFF_RW_CLK_GP2=0,C_USE_DIFF_RW_CLK_GP3=0,C_USE_DIFF_RW_CLK_GP4=0,C_USE_DIFF_RW_CLK_GP5=0,C_USE_DIFF_RW_CLK_GP6=0,C_EN_FIFO_ENET0=0,C_EN_FIFO_ENET1=0,C_EN_FIFO_ENET2=0,C_EN_FIFO_ENET3=0,C_PL_CLK0_BUF=TRUE,C_PL_CLK1_BUF=FALSE,C_PL_CLK2_BUF=FALSE,C_PL_CLK3_BUF=FALSE,C_TRACE_PIPELINE_WIDTH=8,C_EN_EMIO_TRACE=0,C_TRACE_DATA_WIDTH=32,C_USE_DEBUG_TEST=0,C_SD0_INTERNAL_BUS_WIDTH=8,C_SD1_INTERNAL_BUS_WIDTH=8,C_NUM_F2P_0_INTR_INPUTS=1" & 
+",C_NUM_F2P_1_INTR_INPUTS=1,C_EMIO_GPIO_WIDTH=1,C_NUM_FABRIC_RESETS=1}";
   ATTRIBUTE X_INTERFACE_INFO : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER : STRING;
   ATTRIBUTE X_INTERFACE_PARAMETER OF pl_clk0: SIGNAL IS "XIL_INTERFACENAME PL_CLK0, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN edt_zcu102_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
@@ -1610,6 +1650,49 @@ ARCHITECTURE edt_zcu102_zynq_ultra_ps_e_0_0_arch OF edt_zcu102_zynq_ultra_ps_e_0
   ATTRIBUTE X_INTERFACE_INFO OF pl_resetn0: SIGNAL IS "xilinx.com:signal:reset:1.0 PL_RESETN0 RST";
   ATTRIBUTE X_INTERFACE_PARAMETER OF pl_ps_irq0: SIGNAL IS "XIL_INTERFACENAME PL_PS_IRQ0, SENSITIVITY LEVEL_HIGH, PortWidth 1";
   ATTRIBUTE X_INTERFACE_INFO OF pl_ps_irq0: SIGNAL IS "xilinx.com:signal:interrupt:1.0 PL_PS_IRQ0 INTERRUPT";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arqos: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARQOS";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awqos: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWQOS";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rready: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_rid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD RID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arready: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_aruser: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARUSER";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARCACHE";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARSIZE";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_araddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARADDR";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_arid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD ARID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_bready: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD BREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_bvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD BVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_bresp: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD BRESP";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_bid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD BID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_wready: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD WREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_wvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD WVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_wlast: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD WLAST";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_wstrb: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD WSTRB";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_wdata: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD WDATA";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awready: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWREADY";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awuser: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWUSER";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awvalid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWVALID";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awprot: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWPROT";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awcache: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWCACHE";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awlock: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWLOCK";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awburst: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWBURST";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awsize: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWSIZE";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awlen: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWLEN";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awaddr: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWADDR";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF maxigp2_awid: SIGNAL IS "XIL_INTERFACENAME M_AXI_HPM0_LPD, NUM_WRITE_OUTSTANDING 8, NUM_READ_OUTSTANDING 8, DATA_WIDTH 128, PROTOCOL AXI4, FREQ_HZ 99990005, ID_WIDTH 16, ADDR_WIDTH 40, AWUSER_WIDTH 16, ARUSER_WIDTH 16, WUSER_WIDTH 0, RUSER_WIDTH 0, BUSER_WIDTH 0, READ_WRITE_MODE READ_WRITE, HAS_BURST 1, HAS_LOCK 1, HAS_PROT 1, HAS_CACHE 1, HAS_QOS 1, HAS_REGION 0, HAS_WSTRB 1, HAS_BRESP 1, HAS_RRESP 1, SUPPORTS_NARROW_BURST 1, MAX_BURST_LENGTH 256, PHASE 0.000, CLK_DOMAIN edt_zcu102_zynq_ultra_ps_e_0_0_pl_clk0, NUM_READ" & 
+"_THREADS 4, NUM_WRITE_THREADS 4, RUSER_BITS_PER_BYTE 0, WUSER_BITS_PER_BYTE 0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF maxigp2_awid: SIGNAL IS "xilinx.com:interface:aximm:1.0 M_AXI_HPM0_LPD AWID";
+  ATTRIBUTE X_INTERFACE_PARAMETER OF maxihpm0_lpd_aclk: SIGNAL IS "XIL_INTERFACENAME M_AXI_HPM0_LPD_ACLK, ASSOCIATED_BUSIF M_AXI_HPM0_LPD, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN edt_zcu102_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
+  ATTRIBUTE X_INTERFACE_INFO OF maxihpm0_lpd_aclk: SIGNAL IS "xilinx.com:signal:clock:1.0 M_AXI_HPM0_LPD_ACLK CLK";
 BEGIN
   U0 : zynq_ultra_ps_e_v3_2_2_zynq_ultra_ps_e
     GENERIC MAP (
@@ -1617,7 +1700,7 @@ BEGIN
       C_DP_USE_VIDEO => 0,
       C_MAXIGP0_DATA_WIDTH => 128,
       C_MAXIGP1_DATA_WIDTH => 128,
-      C_MAXIGP2_DATA_WIDTH => 32,
+      C_MAXIGP2_DATA_WIDTH => 128,
       C_SAXIGP0_DATA_WIDTH => 128,
       C_SAXIGP1_DATA_WIDTH => 128,
       C_SAXIGP2_DATA_WIDTH => 128,
@@ -1676,18 +1759,46 @@ BEGIN
       maxigp1_rresp => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
       maxigp1_rlast => '0',
       maxigp1_rvalid => '0',
-      maxihpm0_lpd_aclk => '0',
-      maxigp2_awready => '0',
-      maxigp2_wready => '0',
-      maxigp2_bid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 16)),
-      maxigp2_bresp => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      maxigp2_bvalid => '0',
-      maxigp2_arready => '0',
-      maxigp2_rid => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 16)),
-      maxigp2_rdata => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 32)),
-      maxigp2_rresp => STD_LOGIC_VECTOR(TO_UNSIGNED(0, 2)),
-      maxigp2_rlast => '0',
-      maxigp2_rvalid => '0',
+      maxihpm0_lpd_aclk => maxihpm0_lpd_aclk,
+      maxigp2_awid => maxigp2_awid,
+      maxigp2_awaddr => maxigp2_awaddr,
+      maxigp2_awlen => maxigp2_awlen,
+      maxigp2_awsize => maxigp2_awsize,
+      maxigp2_awburst => maxigp2_awburst,
+      maxigp2_awlock => maxigp2_awlock,
+      maxigp2_awcache => maxigp2_awcache,
+      maxigp2_awprot => maxigp2_awprot,
+      maxigp2_awvalid => maxigp2_awvalid,
+      maxigp2_awuser => maxigp2_awuser,
+      maxigp2_awready => maxigp2_awready,
+      maxigp2_wdata => maxigp2_wdata,
+      maxigp2_wstrb => maxigp2_wstrb,
+      maxigp2_wlast => maxigp2_wlast,
+      maxigp2_wvalid => maxigp2_wvalid,
+      maxigp2_wready => maxigp2_wready,
+      maxigp2_bid => maxigp2_bid,
+      maxigp2_bresp => maxigp2_bresp,
+      maxigp2_bvalid => maxigp2_bvalid,
+      maxigp2_bready => maxigp2_bready,
+      maxigp2_arid => maxigp2_arid,
+      maxigp2_araddr => maxigp2_araddr,
+      maxigp2_arlen => maxigp2_arlen,
+      maxigp2_arsize => maxigp2_arsize,
+      maxigp2_arburst => maxigp2_arburst,
+      maxigp2_arlock => maxigp2_arlock,
+      maxigp2_arcache => maxigp2_arcache,
+      maxigp2_arprot => maxigp2_arprot,
+      maxigp2_arvalid => maxigp2_arvalid,
+      maxigp2_aruser => maxigp2_aruser,
+      maxigp2_arready => maxigp2_arready,
+      maxigp2_rid => maxigp2_rid,
+      maxigp2_rdata => maxigp2_rdata,
+      maxigp2_rresp => maxigp2_rresp,
+      maxigp2_rlast => maxigp2_rlast,
+      maxigp2_rvalid => maxigp2_rvalid,
+      maxigp2_rready => maxigp2_rready,
+      maxigp2_awqos => maxigp2_awqos,
+      maxigp2_arqos => maxigp2_arqos,
       saxihpc0_fpd_rclk => '0',
       saxihpc0_fpd_wclk => '0',
       saxihpc0_fpd_aclk => '0',

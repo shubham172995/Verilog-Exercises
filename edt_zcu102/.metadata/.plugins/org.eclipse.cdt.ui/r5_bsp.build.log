@@ -1,13 +1,15 @@
-20:49:29 **** Build of project r5_bsp ****
+18:18:26 **** Auto Build of project r5_bsp ****
 make -k all 
 Running Make include in psu_cortexr5_0/libsrc/sdps_v3_6/src
 make -C psu_cortexr5_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexr5_0/libsrc/csudma_v1_3/src
-make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexr5_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/standalone_v6_8/src
 make -C psu_cortexr5_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/xilsecure_v3_2/src
 make -C psu_cortexr5_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/csudma_v1_3/src
+make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/ipipsu_v2_4/src
 make -C psu_cortexr5_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/emacps_v3_8/src
@@ -41,6 +43,8 @@ Running Make include in psu_cortexr5_0/libsrc/video_common_v4_5/src
 make -C psu_cortexr5_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/gpiops_v3_4/src
 make -C psu_cortexr5_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/gpio_v4_3/src
+make -C psu_cortexr5_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/uartps_v3_7/src
 make -C psu_cortexr5_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/qspipsu_v1_8/src
@@ -64,9 +68,9 @@ make -C psu_cortexr5_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPIL
 Running Make libs in psu_cortexr5_0/libsrc/sdps_v3_6/src
 make -C psu_cortexr5_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling sdps
-Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_3/src
-make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
-Compiling csudma
+Running Make libs in psu_cortexr5_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexr5_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling tmrctr
 Running Make libs in psu_cortexr5_0/libsrc/standalone_v6_8/src
 make -C psu_cortexr5_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling standalone R5
@@ -89,6 +93,9 @@ xtime_l.h:78:9: note: #pragma message: For the sleep routines, TTC3 is used if p
 Running Make libs in psu_cortexr5_0/libsrc/xilsecure_v3_2/src
 make -C psu_cortexr5_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling XilSecure Library
+Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_3/src
+make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling csudma
 Running Make libs in psu_cortexr5_0/libsrc/ipipsu_v2_4/src
 make -C psu_cortexr5_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling ipipsu
@@ -137,6 +144,9 @@ Compiling video_common
 Running Make libs in psu_cortexr5_0/libsrc/gpiops_v3_4/src
 make -C psu_cortexr5_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling gpiops
+Running Make libs in psu_cortexr5_0/libsrc/gpio_v4_3/src
+make -C psu_cortexr5_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling gpio
 Running Make libs in psu_cortexr5_0/libsrc/uartps_v3_7/src
 make -C psu_cortexr5_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling uartps
@@ -169,5 +179,5 @@ make -C psu_cortexr5_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=
 Compiling wdtps
 Finished building libraries
 
-20:49:38 Build Finished (took 9s.699ms)
+18:18:34 Build Finished (took 7s.931ms)
 

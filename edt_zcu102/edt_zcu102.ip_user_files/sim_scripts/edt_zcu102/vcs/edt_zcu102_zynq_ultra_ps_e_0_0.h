@@ -68,12 +68,54 @@ public:
 
 public: // module pin-to-pin RTL interface
 
+  sc_in< bool > maxihpm0_lpd_aclk;
+  sc_out< sc_bv<16> > maxigp2_awid;
+  sc_out< sc_bv<40> > maxigp2_awaddr;
+  sc_out< sc_bv<8> > maxigp2_awlen;
+  sc_out< sc_bv<3> > maxigp2_awsize;
+  sc_out< sc_bv<2> > maxigp2_awburst;
+  sc_out< bool > maxigp2_awlock;
+  sc_out< sc_bv<4> > maxigp2_awcache;
+  sc_out< sc_bv<3> > maxigp2_awprot;
+  sc_out< bool > maxigp2_awvalid;
+  sc_out< sc_bv<16> > maxigp2_awuser;
+  sc_in< bool > maxigp2_awready;
+  sc_out< sc_bv<128> > maxigp2_wdata;
+  sc_out< sc_bv<16> > maxigp2_wstrb;
+  sc_out< bool > maxigp2_wlast;
+  sc_out< bool > maxigp2_wvalid;
+  sc_in< bool > maxigp2_wready;
+  sc_in< sc_bv<16> > maxigp2_bid;
+  sc_in< sc_bv<2> > maxigp2_bresp;
+  sc_in< bool > maxigp2_bvalid;
+  sc_out< bool > maxigp2_bready;
+  sc_out< sc_bv<16> > maxigp2_arid;
+  sc_out< sc_bv<40> > maxigp2_araddr;
+  sc_out< sc_bv<8> > maxigp2_arlen;
+  sc_out< sc_bv<3> > maxigp2_arsize;
+  sc_out< sc_bv<2> > maxigp2_arburst;
+  sc_out< bool > maxigp2_arlock;
+  sc_out< sc_bv<4> > maxigp2_arcache;
+  sc_out< sc_bv<3> > maxigp2_arprot;
+  sc_out< bool > maxigp2_arvalid;
+  sc_out< sc_bv<16> > maxigp2_aruser;
+  sc_in< bool > maxigp2_arready;
+  sc_in< sc_bv<16> > maxigp2_rid;
+  sc_in< sc_bv<128> > maxigp2_rdata;
+  sc_in< sc_bv<2> > maxigp2_rresp;
+  sc_in< bool > maxigp2_rlast;
+  sc_in< bool > maxigp2_rvalid;
+  sc_out< bool > maxigp2_rready;
+  sc_out< sc_bv<4> > maxigp2_awqos;
+  sc_out< sc_bv<4> > maxigp2_arqos;
   sc_in< sc_bv<1> > pl_ps_irq0;
   sc_out< bool > pl_resetn0;
   sc_out< bool > pl_clk0;
 
 public: // module socket-to-socket TLM interface
 
+  xtlm::xtlm_aximm_initiator_socket* M_AXI_HPM0_LPD_wr_socket;
+  xtlm::xtlm_aximm_initiator_socket* M_AXI_HPM0_LPD_rd_socket;
 
 protected:
 
@@ -85,6 +127,9 @@ private:
   const edt_zcu102_zynq_ultra_ps_e_0_0& operator=(const edt_zcu102_zynq_ultra_ps_e_0_0&);
 
   zynq_ultra_ps_e_tlm* mp_impl;
+
+  xtlm::xaximm_xtlm2pin_t<128,40,16,16,1,1,16,1>* mp_M_AXI_HPM0_LPD_transactor;
+  sc_signal< bool > m_M_AXI_HPM0_LPD_transactor_rst_signal;
 
 };
 

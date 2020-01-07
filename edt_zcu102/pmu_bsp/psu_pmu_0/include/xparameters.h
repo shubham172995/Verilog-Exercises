@@ -753,6 +753,44 @@
 
 /******************************************************************/
 
+/* Definitions for driver GPIO */
+#define XPAR_XGPIO_NUM_INSTANCES 2
+
+/* Definitions for peripheral AXI_GPIO_0 */
+#define XPAR_AXI_GPIO_0_BASEADDR 0x80001000
+#define XPAR_AXI_GPIO_0_HIGHADDR 0x80001FFF
+#define XPAR_AXI_GPIO_0_DEVICE_ID 0
+#define XPAR_AXI_GPIO_0_INTERRUPT_PRESENT 0
+#define XPAR_AXI_GPIO_0_IS_DUAL 0
+
+
+/* Definitions for peripheral AXI_GPIO_1 */
+#define XPAR_AXI_GPIO_1_BASEADDR 0x80002000
+#define XPAR_AXI_GPIO_1_HIGHADDR 0x80002FFF
+#define XPAR_AXI_GPIO_1_DEVICE_ID 1
+#define XPAR_AXI_GPIO_1_INTERRUPT_PRESENT 0
+#define XPAR_AXI_GPIO_1_IS_DUAL 0
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_GPIO_0 */
+#define XPAR_GPIO_0_BASEADDR 0x80001000
+#define XPAR_GPIO_0_HIGHADDR 0x80001FFF
+#define XPAR_GPIO_0_DEVICE_ID XPAR_AXI_GPIO_0_DEVICE_ID
+#define XPAR_GPIO_0_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_0_IS_DUAL 0
+
+/* Canonical definitions for peripheral AXI_GPIO_1 */
+#define XPAR_GPIO_1_BASEADDR 0x80002000
+#define XPAR_GPIO_1_HIGHADDR 0x80002FFF
+#define XPAR_GPIO_1_DEVICE_ID XPAR_AXI_GPIO_1_DEVICE_ID
+#define XPAR_GPIO_1_INTERRUPT_PRESENT 0
+#define XPAR_GPIO_1_IS_DUAL 0
+
+
+/******************************************************************/
+
 /* Definitions for driver GPIOPS */
 #define XPAR_XGPIOPS_NUM_INSTANCES 1
 
@@ -1105,6 +1143,26 @@
 /******************************************************************/
 
 #define XPAR_XSYSMONPSU_0_REF_FREQMHZ 49.995003
+/* Definitions for driver TMRCTR */
+#define XPAR_XTMRCTR_NUM_INSTANCES 1U
+
+/* Definitions for peripheral AXI_TIMER_0 */
+#define XPAR_AXI_TIMER_0_DEVICE_ID 0U
+#define XPAR_AXI_TIMER_0_BASEADDR 0x80000000U
+#define XPAR_AXI_TIMER_0_HIGHADDR 0x80000FFFU
+#define XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ 99990005U
+
+
+/******************************************************************/
+
+/* Canonical definitions for peripheral AXI_TIMER_0 */
+#define XPAR_TMRCTR_0_DEVICE_ID 0U
+#define XPAR_TMRCTR_0_BASEADDR 0x80000000U
+#define XPAR_TMRCTR_0_HIGHADDR 0x80000FFFU
+#define XPAR_TMRCTR_0_CLOCK_FREQ_HZ XPAR_AXI_TIMER_0_CLOCK_FREQ_HZ
+
+/******************************************************************/
+
 /* Definitions for driver TTCPS */
 #define XPAR_XTTCPS_NUM_INSTANCES 12U
 

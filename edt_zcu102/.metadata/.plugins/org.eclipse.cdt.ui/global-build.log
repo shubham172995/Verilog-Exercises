@@ -1,1323 +1,18 @@
-15:18:26 **** Clean-only build of configuration Debug for project pmu_fw ****
-make clean 
-rm -rf  ./src/idle_hooks.o ./src/pm_binding.o ./src/pm_callbacks.o ./src/pm_clock.o ./src/pm_config.o ./src/pm_core.o ./src/pm_ddr.o ./src/pm_extern.o ./src/pm_gic_proxy.o ./src/pm_gpp.o ./src/pm_hooks.o ./src/pm_master.o ./src/pm_mmio_access.o ./src/pm_node.o ./src/pm_node_reset.o ./src/pm_notifier.o ./src/pm_periph.o ./src/pm_pinctrl.o ./src/pm_pll.o ./src/pm_power.o ./src/pm_proc.o ./src/pm_qspi.o ./src/pm_requirement.o ./src/pm_reset.o ./src/pm_slave.o ./src/pm_sram.o ./src/pm_system.o ./src/pm_usb.o ./src/xpfw_aib.o ./src/xpfw_core.o ./src/xpfw_crc.o ./src/xpfw_error_manager.o ./src/xpfw_events.o ./src/xpfw_interrupts.o ./src/xpfw_ipi_manager.o ./src/xpfw_main.o ./src/xpfw_mod_dap.o ./src/xpfw_mod_em.o ./src/xpfw_mod_legacy.o ./src/xpfw_mod_pm.o ./src/xpfw_mod_rtc.o ./src/xpfw_mod_sched.o ./src/xpfw_mod_stl.o ./src/xpfw_mod_wdt.o ./src/xpfw_module.o ./src/xpfw_platform.o ./src/xpfw_resets.o ./src/xpfw_restart.o ./src/xpfw_rom_interface.o ./src/xpfw_scheduler.o ./src/xpfw_start.o ./src/xpfw_user_startup.o ./src/xpfw_util.o ./src/xpfw_xpu.o  ./src/xpfw_start.d  ./src/idle_hooks.d ./src/pm_binding.d ./src/pm_callbacks.d ./src/pm_clock.d ./src/pm_config.d ./src/pm_core.d ./src/pm_ddr.d ./src/pm_extern.d ./src/pm_gic_proxy.d ./src/pm_gpp.d ./src/pm_hooks.d ./src/pm_master.d ./src/pm_mmio_access.d ./src/pm_node.d ./src/pm_node_reset.d ./src/pm_notifier.d ./src/pm_periph.d ./src/pm_pinctrl.d ./src/pm_pll.d ./src/pm_power.d ./src/pm_proc.d ./src/pm_qspi.d ./src/pm_requirement.d ./src/pm_reset.d ./src/pm_slave.d ./src/pm_sram.d ./src/pm_system.d ./src/pm_usb.d ./src/xpfw_aib.d ./src/xpfw_core.d ./src/xpfw_crc.d ./src/xpfw_error_manager.d ./src/xpfw_events.d ./src/xpfw_interrupts.d ./src/xpfw_ipi_manager.d ./src/xpfw_main.d ./src/xpfw_mod_dap.d ./src/xpfw_mod_em.d ./src/xpfw_mod_legacy.d ./src/xpfw_mod_pm.d ./src/xpfw_mod_rtc.d ./src/xpfw_mod_sched.d ./src/xpfw_mod_stl.d ./src/xpfw_mod_wdt.d ./src/xpfw_module.d ./src/xpfw_platform.d ./src/xpfw_resets.d ./src/xpfw_restart.d ./src/xpfw_rom_interface.d ./src/xpfw_scheduler.d ./src/xpfw_user_startup.d ./src/xpfw_util.d ./src/xpfw_xpu.d  pmu_fw.elf.size  pmu_fw.elf
- 
-15:18:27 **** Clean-only build of project pmu_bsp ****
-make -k clean 
-make -C psu_pmu_0/libsrc/sdps_v3_6/src -s clean 
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s clean 
-make -C psu_pmu_0/libsrc/standalone_v6_8/src -s clean 
-make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s clean 
-make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s clean 
-make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s clean 
-make -C psu_pmu_0/libsrc/emacps_v3_8/src -s clean 
-make -C psu_pmu_0/libsrc/ttcps_v3_7/src -s clean 
-make -C psu_pmu_0/libsrc/resetps_v1_2/src -s clean 
-make -C psu_pmu_0/libsrc/axipmon_v6_7/src -s clean 
-make -C psu_pmu_0/libsrc/avbuf_v2_2/src -s clean 
-make -C psu_pmu_0/libsrc/dpdma_v1_1/src -s clean 
-make -C psu_pmu_0/libsrc/iicps_v3_8/src -s clean 
-make -C psu_pmu_0/libsrc/canps_v3_2/src -s clean 
-make -C psu_pmu_0/libsrc/sysmonpsu_v2_5/src -s clean 
-make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s clean 
-make -C psu_pmu_0/libsrc/video_common_v4_5/src -s clean 
-make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s clean 
-make -C psu_pmu_0/libsrc/cpu_v2_8/src -s clean 
-make -C psu_pmu_0/libsrc/uartps_v3_7/src -s clean 
-make -C psu_pmu_0/libsrc/qspipsu_v1_8/src -s clean 
-make -C psu_pmu_0/libsrc/rtcpsu_v1_6/src -s clean 
-make -C psu_pmu_0/libsrc/pciepsu_v1_0/src -s clean 
-make -C psu_pmu_0/libsrc/clockps_v1_0/src -s clean 
-make -C psu_pmu_0/libsrc/zdma_v1_6/src -s clean 
-make -C psu_pmu_0/libsrc/usbpsu_v1_4/src -s clean 
-make -C psu_pmu_0/libsrc/wdtps_v3_1/src -s clean 
-make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s clean 
-rm -f psu_pmu_0/lib/libxil.a
-15:18:27 **** Build of project pmu_bsp ****
-make -k all 
-Running Make include in psu_pmu_0/libsrc/sdps_v3_6/src
-make -C psu_pmu_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/standalone_v6_8/src
-make -C psu_pmu_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilskey_v6_6/src
-make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilsecure_v3_2/src
-make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ipipsu_v2_4/src
-make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/emacps_v3_8/src
-make -C psu_pmu_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ttcps_v3_7/src
-make -C psu_pmu_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/resetps_v1_2/src
-make -C psu_pmu_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/axipmon_v6_7/src
-make -C psu_pmu_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/avbuf_v2_2/src
-make -C psu_pmu_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/dpdma_v1_1/src
-make -C psu_pmu_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/iicps_v3_8/src
-make -C psu_pmu_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/canps_v3_2/src
-make -C psu_pmu_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_pmu_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/video_common_v4_5/src
-make -C psu_pmu_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/gpiops_v3_4/src
-make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/cpu_v2_8/src
-make -C psu_pmu_0/libsrc/cpu_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/uartps_v3_7/src
-make -C psu_pmu_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/qspipsu_v1_8/src
-make -C psu_pmu_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/rtcpsu_v1_6/src
-make -C psu_pmu_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/pciepsu_v1_0/src
-make -C psu_pmu_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/clockps_v1_0/src
-make -C psu_pmu_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/zdma_v1_6/src
-make -C psu_pmu_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/usbpsu_v1_4/src
-make -C psu_pmu_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/wdtps_v3_1/src
-make -C psu_pmu_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilfpga_v4_2/src
-make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make libs in psu_pmu_0/libsrc/sdps_v3_6/src
-make -C psu_pmu_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sdps
-mb-ar: creating ../../../lib/libxil.a
-Running Make libs in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling csudma
-Running Make libs in psu_pmu_0/libsrc/standalone_v6_8/src
-make -C psu_pmu_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling standalone
-microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-Running Make libs in psu_pmu_0/libsrc/xilskey_v6_6/src
-make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling Xilskey Library
-Running Make libs in psu_pmu_0/libsrc/xilsecure_v3_2/src
-make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling XilSecure Library
-Running Make libs in psu_pmu_0/libsrc/ipipsu_v2_4/src
-make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ipipsu
-Running Make libs in psu_pmu_0/libsrc/emacps_v3_8/src
-make -C psu_pmu_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling emacps
-Running Make libs in psu_pmu_0/libsrc/ttcps_v3_7/src
-make -C psu_pmu_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ttcps
-Running Make libs in psu_pmu_0/libsrc/resetps_v1_2/src
-make -C psu_pmu_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling resetps
-Running Make libs in psu_pmu_0/libsrc/axipmon_v6_7/src
-make -C psu_pmu_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling axipmon
-Running Make libs in psu_pmu_0/libsrc/avbuf_v2_2/src
-make -C psu_pmu_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling avbuf
-Running Make libs in psu_pmu_0/libsrc/dpdma_v1_1/src
-make -C psu_pmu_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling dpdma
-Running Make libs in psu_pmu_0/libsrc/iicps_v3_8/src
-make -C psu_pmu_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling iicps
-Running Make libs in psu_pmu_0/libsrc/canps_v3_2/src
-make -C psu_pmu_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling canps
-Running Make libs in psu_pmu_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_pmu_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sysmonpsu
-Running Make libs in psu_pmu_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ddrcpsu
-Running Make libs in psu_pmu_0/libsrc/video_common_v4_5/src
-make -C psu_pmu_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling video_common
-Running Make libs in psu_pmu_0/libsrc/gpiops_v3_4/src
-make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling gpiops
-Running Make libs in psu_pmu_0/libsrc/cpu_v2_8/src
-make -C psu_pmu_0/libsrc/cpu_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling cpu
-Running Make libs in psu_pmu_0/libsrc/uartps_v3_7/src
-make -C psu_pmu_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling uartps
-Running Make libs in psu_pmu_0/libsrc/qspipsu_v1_8/src
-make -C psu_pmu_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling qspipsu
-Running Make libs in psu_pmu_0/libsrc/rtcpsu_v1_6/src
-make -C psu_pmu_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling rtcpsu
-Running Make libs in psu_pmu_0/libsrc/pciepsu_v1_0/src
-make -C psu_pmu_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling pciepsu
-Running Make libs in psu_pmu_0/libsrc/clockps_v1_0/src
-make -C psu_pmu_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling clockps
-Running Make libs in psu_pmu_0/libsrc/zdma_v1_6/src
-make -C psu_pmu_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling zdma
-Running Make libs in psu_pmu_0/libsrc/usbpsu_v1_4/src
-make -C psu_pmu_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling usbpsu
-Running Make libs in psu_pmu_0/libsrc/wdtps_v3_1/src
-make -C psu_pmu_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling wdtps
-Running Make libs in psu_pmu_0/libsrc/xilfpga_v4_2/src
-make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling xilfpga Library
-Finished building libraries
-15:18:33 **** Build of configuration Debug for project pmu_fw ****
-make all 
-Building file: ../src/idle_hooks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/idle_hooks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/idle_hooks.d" -MT"src/idle_hooks.o" -o "src/idle_hooks.o" "../src/idle_hooks.c"
-Finished building: ../src/idle_hooks.c
- 
-Building file: ../src/pm_binding.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_binding.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_binding.d" -MT"src/pm_binding.o" -o "src/pm_binding.o" "../src/pm_binding.c"
-Finished building: ../src/pm_binding.c
- 
-Building file: ../src/pm_callbacks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_callbacks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_callbacks.d" -MT"src/pm_callbacks.o" -o "src/pm_callbacks.o" "../src/pm_callbacks.c"
-Finished building: ../src/pm_callbacks.c
- 
-Building file: ../src/pm_clock.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_clock.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_clock.d" -MT"src/pm_clock.o" -o "src/pm_clock.o" "../src/pm_clock.c"
-Finished building: ../src/pm_clock.c
- 
-Building file: ../src/pm_config.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_config.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_config.d" -MT"src/pm_config.o" -o "src/pm_config.o" "../src/pm_config.c"
-Finished building: ../src/pm_config.c
- 
-Building file: ../src/pm_core.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_core.d" -MT"src/pm_core.o" -o "src/pm_core.o" "../src/pm_core.c"
-../src/pm_core.c: In function 'PmPinCtrlRequest':
-../src/pm_core.c:1704:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlRelease':
-../src/pm_core.c:1721:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlGetFunction':
-../src/pm_core.c:1739:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlConfigParamGet':
-../src/pm_core.c:1781:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlConfigParamSet':
-../src/pm_core.c:1796:6: warning: unused variable 'value' [-Wunused-variable]
-  u32 value;
-      ^~~~~
-Finished building: ../src/pm_core.c
- 
-Building file: ../src/pm_ddr.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_ddr.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_ddr.d" -MT"src/pm_ddr.o" -o "src/pm_ddr.o" "../src/pm_ddr.c"
-Finished building: ../src/pm_ddr.c
- 
-Building file: ../src/pm_extern.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_extern.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_extern.d" -MT"src/pm_extern.o" -o "src/pm_extern.o" "../src/pm_extern.c"
-Finished building: ../src/pm_extern.c
- 
-Building file: ../src/pm_gic_proxy.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gic_proxy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gic_proxy.d" -MT"src/pm_gic_proxy.o" -o "src/pm_gic_proxy.o" "../src/pm_gic_proxy.c"
-Finished building: ../src/pm_gic_proxy.c
- 
-Building file: ../src/pm_gpp.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gpp.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gpp.d" -MT"src/pm_gpp.o" -o "src/pm_gpp.o" "../src/pm_gpp.c"
-Finished building: ../src/pm_gpp.c
- 
-Building file: ../src/pm_hooks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_hooks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_hooks.d" -MT"src/pm_hooks.o" -o "src/pm_hooks.o" "../src/pm_hooks.c"
-Finished building: ../src/pm_hooks.c
- 
-Building file: ../src/pm_master.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_master.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_master.d" -MT"src/pm_master.o" -o "src/pm_master.o" "../src/pm_master.c"
-Finished building: ../src/pm_master.c
- 
-Building file: ../src/pm_mmio_access.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_mmio_access.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_mmio_access.d" -MT"src/pm_mmio_access.o" -o "src/pm_mmio_access.o" "../src/pm_mmio_access.c"
-Finished building: ../src/pm_mmio_access.c
- 
-Building file: ../src/pm_node.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node.d" -MT"src/pm_node.o" -o "src/pm_node.o" "../src/pm_node.c"
-Finished building: ../src/pm_node.c
- 
-Building file: ../src/pm_node_reset.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node_reset.d" -MT"src/pm_node_reset.o" -o "src/pm_node_reset.o" "../src/pm_node_reset.c"
-Finished building: ../src/pm_node_reset.c
- 
-Building file: ../src/pm_notifier.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_notifier.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_notifier.d" -MT"src/pm_notifier.o" -o "src/pm_notifier.o" "../src/pm_notifier.c"
-Finished building: ../src/pm_notifier.c
- 
-Building file: ../src/pm_periph.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_periph.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_periph.d" -MT"src/pm_periph.o" -o "src/pm_periph.o" "../src/pm_periph.c"
-Finished building: ../src/pm_periph.c
- 
-Building file: ../src/pm_pinctrl.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_pinctrl.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_pinctrl.d" -MT"src/pm_pinctrl.o" -o "src/pm_pinctrl.o" "../src/pm_pinctrl.c"
-../src/pm_pinctrl.c: In function 'PmPinCtrlSetFunctionInt':
-../src/pm_pinctrl.c:911:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_pinctrl.c: In function 'PmPinCtrlSetParam':
-../src/pm_pinctrl.c:988:12: warning: unused variable 'val' [-Wunused-variable]
-  u32 addr, val, shift;
-            ^~~
-Finished building: ../src/pm_pinctrl.c
- 
-Building file: ../src/pm_pll.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_pll.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_pll.d" -MT"src/pm_pll.o" -o "src/pm_pll.o" "../src/pm_pll.c"
-Finished building: ../src/pm_pll.c
- 
-Building file: ../src/pm_power.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_power.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_power.d" -MT"src/pm_power.o" -o "src/pm_power.o" "../src/pm_power.c"
-Finished building: ../src/pm_power.c
- 
-Building file: ../src/pm_proc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_proc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_proc.d" -MT"src/pm_proc.o" -o "src/pm_proc.o" "../src/pm_proc.c"
-Finished building: ../src/pm_proc.c
- 
-Building file: ../src/pm_qspi.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_qspi.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_qspi.d" -MT"src/pm_qspi.o" -o "src/pm_qspi.o" "../src/pm_qspi.c"
-Finished building: ../src/pm_qspi.c
- 
-Building file: ../src/pm_requirement.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_requirement.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_requirement.d" -MT"src/pm_requirement.o" -o "src/pm_requirement.o" "../src/pm_requirement.c"
-Finished building: ../src/pm_requirement.c
- 
-Building file: ../src/pm_reset.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_reset.d" -MT"src/pm_reset.o" -o "src/pm_reset.o" "../src/pm_reset.c"
-Finished building: ../src/pm_reset.c
- 
-Building file: ../src/pm_slave.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_slave.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_slave.d" -MT"src/pm_slave.o" -o "src/pm_slave.o" "../src/pm_slave.c"
-Finished building: ../src/pm_slave.c
- 
-Building file: ../src/pm_sram.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_sram.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_sram.d" -MT"src/pm_sram.o" -o "src/pm_sram.o" "../src/pm_sram.c"
-Finished building: ../src/pm_sram.c
- 
-Building file: ../src/pm_system.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_system.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_system.d" -MT"src/pm_system.o" -o "src/pm_system.o" "../src/pm_system.c"
-Finished building: ../src/pm_system.c
- 
-Building file: ../src/pm_usb.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_usb.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_usb.d" -MT"src/pm_usb.o" -o "src/pm_usb.o" "../src/pm_usb.c"
-Finished building: ../src/pm_usb.c
- 
-Building file: ../src/xpfw_aib.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_aib.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_aib.d" -MT"src/xpfw_aib.o" -o "src/xpfw_aib.o" "../src/xpfw_aib.c"
-Finished building: ../src/xpfw_aib.c
- 
-Building file: ../src/xpfw_core.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_core.d" -MT"src/xpfw_core.o" -o "src/xpfw_core.o" "../src/xpfw_core.c"
-Finished building: ../src/xpfw_core.c
- 
-Building file: ../src/xpfw_crc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_crc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_crc.d" -MT"src/xpfw_crc.o" -o "src/xpfw_crc.o" "../src/xpfw_crc.c"
-Finished building: ../src/xpfw_crc.c
- 
-Building file: ../src/xpfw_error_manager.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_error_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_error_manager.d" -MT"src/xpfw_error_manager.o" -o "src/xpfw_error_manager.o" "../src/xpfw_error_manager.c"
-Finished building: ../src/xpfw_error_manager.c
- 
-Building file: ../src/xpfw_events.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_events.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_events.d" -MT"src/xpfw_events.o" -o "src/xpfw_events.o" "../src/xpfw_events.c"
-Finished building: ../src/xpfw_events.c
- 
-Building file: ../src/xpfw_interrupts.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_interrupts.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_interrupts.d" -MT"src/xpfw_interrupts.o" -o "src/xpfw_interrupts.o" "../src/xpfw_interrupts.c"
-Finished building: ../src/xpfw_interrupts.c
- 
-Building file: ../src/xpfw_ipi_manager.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_ipi_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_ipi_manager.d" -MT"src/xpfw_ipi_manager.o" -o "src/xpfw_ipi_manager.o" "../src/xpfw_ipi_manager.c"
-Finished building: ../src/xpfw_ipi_manager.c
- 
-Building file: ../src/xpfw_main.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_main.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_main.d" -MT"src/xpfw_main.o" -o "src/xpfw_main.o" "../src/xpfw_main.c"
-Finished building: ../src/xpfw_main.c
- 
-Building file: ../src/xpfw_mod_dap.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_dap.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_dap.d" -MT"src/xpfw_mod_dap.o" -o "src/xpfw_mod_dap.o" "../src/xpfw_mod_dap.c"
-Finished building: ../src/xpfw_mod_dap.c
- 
-Building file: ../src/xpfw_mod_em.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_em.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_em.d" -MT"src/xpfw_mod_em.o" -o "src/xpfw_mod_em.o" "../src/xpfw_mod_em.c"
-Finished building: ../src/xpfw_mod_em.c
- 
-Building file: ../src/xpfw_mod_legacy.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_legacy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_legacy.d" -MT"src/xpfw_mod_legacy.o" -o "src/xpfw_mod_legacy.o" "../src/xpfw_mod_legacy.c"
-Finished building: ../src/xpfw_mod_legacy.c
- 
-Building file: ../src/xpfw_mod_pm.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_pm.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_pm.d" -MT"src/xpfw_mod_pm.o" -o "src/xpfw_mod_pm.o" "../src/xpfw_mod_pm.c"
-Finished building: ../src/xpfw_mod_pm.c
- 
-Building file: ../src/xpfw_mod_rtc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_rtc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_rtc.d" -MT"src/xpfw_mod_rtc.o" -o "src/xpfw_mod_rtc.o" "../src/xpfw_mod_rtc.c"
-Finished building: ../src/xpfw_mod_rtc.c
- 
-Building file: ../src/xpfw_mod_sched.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_sched.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_sched.d" -MT"src/xpfw_mod_sched.o" -o "src/xpfw_mod_sched.o" "../src/xpfw_mod_sched.c"
-Finished building: ../src/xpfw_mod_sched.c
- 
-Building file: ../src/xpfw_mod_stl.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_stl.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_stl.d" -MT"src/xpfw_mod_stl.o" -o "src/xpfw_mod_stl.o" "../src/xpfw_mod_stl.c"
-Finished building: ../src/xpfw_mod_stl.c
- 
-Building file: ../src/xpfw_mod_wdt.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_wdt.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_wdt.d" -MT"src/xpfw_mod_wdt.o" -o "src/xpfw_mod_wdt.o" "../src/xpfw_mod_wdt.c"
-Finished building: ../src/xpfw_mod_wdt.c
- 
-Building file: ../src/xpfw_module.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_module.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_module.d" -MT"src/xpfw_module.o" -o "src/xpfw_module.o" "../src/xpfw_module.c"
-Finished building: ../src/xpfw_module.c
- 
-Building file: ../src/xpfw_platform.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_platform.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_platform.d" -MT"src/xpfw_platform.o" -o "src/xpfw_platform.o" "../src/xpfw_platform.c"
-Finished building: ../src/xpfw_platform.c
- 
-Building file: ../src/xpfw_resets.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_resets.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_resets.d" -MT"src/xpfw_resets.o" -o "src/xpfw_resets.o" "../src/xpfw_resets.c"
-Finished building: ../src/xpfw_resets.c
- 
-Building file: ../src/xpfw_restart.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_restart.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_restart.d" -MT"src/xpfw_restart.o" -o "src/xpfw_restart.o" "../src/xpfw_restart.c"
-Finished building: ../src/xpfw_restart.c
- 
-Building file: ../src/xpfw_rom_interface.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_rom_interface.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_rom_interface.d" -MT"src/xpfw_rom_interface.o" -o "src/xpfw_rom_interface.o" "../src/xpfw_rom_interface.c"
-Finished building: ../src/xpfw_rom_interface.c
- 
-Building file: ../src/xpfw_scheduler.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_scheduler.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_scheduler.d" -MT"src/xpfw_scheduler.o" -o "src/xpfw_scheduler.o" "../src/xpfw_scheduler.c"
-Finished building: ../src/xpfw_scheduler.c
- 
-Building file: ../src/xpfw_start.S
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_start.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_start.d" -MT"src/xpfw_start.o" -o "src/xpfw_start.o" "../src/xpfw_start.S"
-Finished building: ../src/xpfw_start.S
- 
-Building file: ../src/xpfw_user_startup.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_user_startup.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_user_startup.d" -MT"src/xpfw_user_startup.o" -o "src/xpfw_user_startup.o" "../src/xpfw_user_startup.c"
-Finished building: ../src/xpfw_user_startup.c
- 
-Building file: ../src/xpfw_util.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_util.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_util.d" -MT"src/xpfw_util.o" -o "src/xpfw_util.o" "../src/xpfw_util.c"
-Finished building: ../src/xpfw_util.c
- 
-Building file: ../src/xpfw_xpu.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_xpu.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_xpu.d" -MT"src/xpfw_xpu.o" -o "src/xpfw_xpu.o" "../src/xpfw_xpu.c"
-Finished building: ../src/xpfw_xpu.c
- 
-Building target: pmu_fw.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -nostartfiles -Wl,-T -Wl,../src/lscript.ld -L../../pmu_bsp/psu_pmu_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pmu_fw.elf"  ./src/idle_hooks.o ./src/pm_binding.o ./src/pm_callbacks.o ./src/pm_clock.o ./src/pm_config.o ./src/pm_core.o ./src/pm_ddr.o ./src/pm_extern.o ./src/pm_gic_proxy.o ./src/pm_gpp.o ./src/pm_hooks.o ./src/pm_master.o ./src/pm_mmio_access.o ./src/pm_node.o ./src/pm_node_reset.o ./src/pm_notifier.o ./src/pm_periph.o ./src/pm_pinctrl.o ./src/pm_pll.o ./src/pm_power.o ./src/pm_proc.o ./src/pm_qspi.o ./src/pm_requirement.o ./src/pm_reset.o ./src/pm_slave.o ./src/pm_sram.o ./src/pm_system.o ./src/pm_usb.o ./src/xpfw_aib.o ./src/xpfw_core.o ./src/xpfw_crc.o ./src/xpfw_error_manager.o ./src/xpfw_events.o ./src/xpfw_interrupts.o ./src/xpfw_ipi_manager.o ./src/xpfw_main.o ./src/xpfw_mod_dap.o ./src/xpfw_mod_em.o ./src/xpfw_mod_legacy.o ./src/xpfw_mod_pm.o ./src/xpfw_mod_rtc.o ./src/xpfw_mod_sched.o ./src/xpfw_mod_stl.o ./src/xpfw_mod_wdt.o ./src/xpfw_module.o ./src/xpfw_platform.o ./src/xpfw_resets.o ./src/xpfw_restart.o ./src/xpfw_rom_interface.o ./src/xpfw_scheduler.o ./src/xpfw_start.o ./src/xpfw_user_startup.o ./src/xpfw_util.o ./src/xpfw_xpu.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lxilsecure,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group
-Finished building target: pmu_fw.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size pmu_fw.elf  |tee "pmu_fw.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  74528	  19848	  20624	 115000	  1c138	pmu_fw.elf
-Finished building: pmu_fw.elf.size
- 
-20:48:53 **** Incremental Build of configuration Debug for project test_a53 ****
+18:14:15 **** Incremental Build of configuration Debug for project tmr_psled_r5 ****
 make all 
 make: Nothing to be done for 'all'.
-20:48:55 **** Build of project a53_bsp ****
-make -k all 
-Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src
-make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src
-make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src
-make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/xilsecure_v3_2/src
-make -C psu_cortexa53_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
-make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/emacps_v3_8/src
-make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src
-make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src
-make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src
-make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/xilffs_v4_0/src
-make -C psu_cortexa53_0/libsrc/xilffs_v4_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src
-make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src
-make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src
-make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src
-make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/xilpm_v2_4/src
-make -C psu_cortexa53_0/libsrc/xilpm_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Include files for this library have already been copied.
-Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src
-make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src
-make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src
-make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
-make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src
-make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
-make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
-make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
-make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src
-make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src
-make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
-make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
-make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src
-make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src
-make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sdps
-Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src
-make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling csudma
-Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src
-make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling standalone A53
-In file included from xtime_l.c:52:0:
-xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-In file included from xil_sleeptimer.c:51:0:
-xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-In file included from sleep.c:59:0:
-xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Running Make libs in psu_cortexa53_0/libsrc/xilsecure_v3_2/src
-make -C psu_cortexa53_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling XilSecure Library
-Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
-make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ipipsu
-Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_8/src
-make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling emacps
-Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src
-make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ttcps
-Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src
-make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling resetps
-Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src
-make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling axipmon
-Running Make libs in psu_cortexa53_0/libsrc/xilffs_v4_0/src
-make -C psu_cortexa53_0/libsrc/xilffs_v4_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling XilFFs Library
-Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src
-make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling avbuf
-Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src
-make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling dpdma
-Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src
-make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling iicps
-Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src
-make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling canps
-Running Make libs in psu_cortexa53_0/libsrc/xilpm_v2_4/src
-make -C psu_cortexa53_0/libsrc/xilpm_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling xilpm library
-Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src
-make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling scugic
-Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sysmonpsu
-Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ddrcpsu
-Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src
-make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling video_common
-Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src
-make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling gpiops
-Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
-make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling cpu_cortexa53
-Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src
-make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling uartps
-Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
-make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling qspipsu
-Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
-make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling rtcpsu
-Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
-make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling pciepsu
-Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src
-make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling clockps
-Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src
-make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling zdma
-Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
-make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling coresightps_dcc
-Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
-make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling usbpsu
-Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src
-make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling wdtps
-Finished building libraries
-20:49:08 **** Clean-only build of configuration Debug for project fsbl_a53 ****
-make clean 
-rm -rf  ./src/psu_init.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_ddr_init.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_translation_table.o ./src/xfsbl_usb.o  ./src/xfsbl_exit.d ./src/xfsbl_translation_table.d  ./src/psu_init.d ./src/xfsbl_authentication.d ./src/xfsbl_board.d ./src/xfsbl_bs.d ./src/xfsbl_csu_dma.d ./src/xfsbl_ddr_init.d ./src/xfsbl_dfu_util.d ./src/xfsbl_handoff.d ./src/xfsbl_hooks.d ./src/xfsbl_image_header.d ./src/xfsbl_initialization.d ./src/xfsbl_main.d ./src/xfsbl_misc.d ./src/xfsbl_misc_drivers.d ./src/xfsbl_nand.d ./src/xfsbl_partition_load.d ./src/xfsbl_plpartition_valid.d ./src/xfsbl_qspi.d ./src/xfsbl_rsa_sha.d ./src/xfsbl_sd.d ./src/xfsbl_usb.d  fsbl_a53.elf.size  fsbl_a53.elf
- 
-20:49:08 **** Build of configuration Debug for project fsbl_a53 ****
-make all 
-Building file: /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/psu_init.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/psu_init.d" -MT"src/psu_init.o" -o "src/psu_init.o" "/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c"
-Finished building: /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c
- 
-Building file: ../src/xfsbl_authentication.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_authentication.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_authentication.d" -MT"src/xfsbl_authentication.o" -o "src/xfsbl_authentication.o" "../src/xfsbl_authentication.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_bs.h:61,
-                 from ../src/xfsbl_authentication.c:63:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_authentication.c
- 
-Building file: ../src/xfsbl_board.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_board.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_board.d" -MT"src/xfsbl_board.o" -o "src/xfsbl_board.o" "../src/xfsbl_board.c"
-Finished building: ../src/xfsbl_board.c
- 
-Building file: ../src/xfsbl_bs.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_bs.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_bs.d" -MT"src/xfsbl_bs.o" -o "src/xfsbl_bs.o" "../src/xfsbl_bs.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_bs.h:61,
-                 from ../src/xfsbl_bs.c:55:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_bs.c
- 
-Building file: ../src/xfsbl_csu_dma.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_csu_dma.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_csu_dma.d" -MT"src/xfsbl_csu_dma.o" -o "src/xfsbl_csu_dma.o" "../src/xfsbl_csu_dma.c"
-Finished building: ../src/xfsbl_csu_dma.c
- 
-Building file: ../src/xfsbl_ddr_init.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_ddr_init.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_ddr_init.d" -MT"src/xfsbl_ddr_init.o" -o "src/xfsbl_ddr_init.o" "../src/xfsbl_ddr_init.c"
-Finished building: ../src/xfsbl_ddr_init.c
- 
-Building file: ../src/xfsbl_dfu_util.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
-Finished building: ../src/xfsbl_dfu_util.c
- 
-Building file: ../src/xfsbl_exit.S
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
-Finished building: ../src/xfsbl_exit.S
- 
-Building file: ../src/xfsbl_handoff.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_handoff.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_handoff.d" -MT"src/xfsbl_handoff.o" -o "src/xfsbl_handoff.o" "../src/xfsbl_handoff.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_handoff.c:59:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_handoff.c
- 
-Building file: ../src/xfsbl_hooks.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_hooks.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_hooks.d" -MT"src/xfsbl_hooks.o" -o "src/xfsbl_hooks.o" "../src/xfsbl_hooks.c"
-Finished building: ../src/xfsbl_hooks.c
- 
-Building file: ../src/xfsbl_image_header.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_image_header.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_image_header.d" -MT"src/xfsbl_image_header.o" -o "src/xfsbl_image_header.o" "../src/xfsbl_image_header.c"
-Finished building: ../src/xfsbl_image_header.c
- 
-Building file: ../src/xfsbl_initialization.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_initialization.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_initialization.d" -MT"src/xfsbl_initialization.o" -o "src/xfsbl_initialization.o" "../src/xfsbl_initialization.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_initialization.c:69:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_initialization.c
- 
-Building file: ../src/xfsbl_main.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_main.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_main.d" -MT"src/xfsbl_main.o" -o "src/xfsbl_main.o" "../src/xfsbl_main.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_main.c:54:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_main.c
- 
-Building file: ../src/xfsbl_misc.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_misc.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_misc.d" -MT"src/xfsbl_misc.o" -o "src/xfsbl_misc.o" "../src/xfsbl_misc.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_misc.c:53:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_misc.c
- 
-Building file: ../src/xfsbl_misc_drivers.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_misc_drivers.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_misc_drivers.d" -MT"src/xfsbl_misc_drivers.o" -o "src/xfsbl_misc_drivers.o" "../src/xfsbl_misc_drivers.c"
-Finished building: ../src/xfsbl_misc_drivers.c
- 
-Building file: ../src/xfsbl_nand.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_nand.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_nand.d" -MT"src/xfsbl_nand.o" -o "src/xfsbl_nand.o" "../src/xfsbl_nand.c"
-Finished building: ../src/xfsbl_nand.c
- 
-Building file: ../src/xfsbl_partition_load.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_partition_load.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_partition_load.d" -MT"src/xfsbl_partition_load.o" -o "src/xfsbl_partition_load.o" "../src/xfsbl_partition_load.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_partition_load.c:70:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_partition_load.c
- 
-Building file: ../src/xfsbl_plpartition_valid.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_plpartition_valid.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_plpartition_valid.d" -MT"src/xfsbl_plpartition_valid.o" -o "src/xfsbl_plpartition_valid.o" "../src/xfsbl_plpartition_valid.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_authentication.h:64,
-                 from ../src/xfsbl_plpartition_valid.h:58,
-                 from ../src/xfsbl_plpartition_valid.c:73:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_plpartition_valid.c
- 
-Building file: ../src/xfsbl_qspi.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_qspi.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_qspi.d" -MT"src/xfsbl_qspi.o" -o "src/xfsbl_qspi.o" "../src/xfsbl_qspi.c"
-Finished building: ../src/xfsbl_qspi.c
- 
-Building file: ../src/xfsbl_rsa_sha.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_rsa_sha.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_rsa_sha.d" -MT"src/xfsbl_rsa_sha.o" -o "src/xfsbl_rsa_sha.o" "../src/xfsbl_rsa_sha.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_authentication.h:64,
-                 from ../src/xfsbl_rsa_sha.c:54:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_rsa_sha.c
- 
-Building file: ../src/xfsbl_sd.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_sd.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_sd.d" -MT"src/xfsbl_sd.o" -o "src/xfsbl_sd.o" "../src/xfsbl_sd.c"
-In file included from ../src/xfsbl_main.h:63:0,
-                 from ../src/xfsbl_sd.c:51:
-../../a53_bsp/psu_cortexa53_0/include/xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
- #pragma message ("For the sleep routines, Global timer is being used")
-         ^~~~~~~
-Finished building: ../src/xfsbl_sd.c
- 
-Building file: ../src/xfsbl_translation_table.S
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_translation_table.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_translation_table.d" -MT"src/xfsbl_translation_table.o" -o "src/xfsbl_translation_table.o" "../src/xfsbl_translation_table.S"
-Finished building: ../src/xfsbl_translation_table.S
- 
-Building file: ../src/xfsbl_usb.c
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_usb.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_usb.d" -MT"src/xfsbl_usb.o" -o "src/xfsbl_usb.o" "../src/xfsbl_usb.c"
-Finished building: ../src/xfsbl_usb.c
- 
-Building target: fsbl_a53.elf
-Invoking: ARM v8 gcc linker
-aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../a53_bsp/psu_cortexa53_0/lib -o "fsbl_a53.elf"  ./src/psu_init.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_ddr_init.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_translation_table.o ./src/xfsbl_usb.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -n
-Finished building target: fsbl_a53.elf
- 
-Invoking: ARM v8 Print Size
-aarch64-none-elf-size fsbl_a53.elf  |tee "fsbl_a53.elf.size"
-   text	   data	    bss	    dec	    hex	filename
- 110804	   4848	  87416	 203068	  3193c	fsbl_a53.elf
-Finished building: fsbl_a53.elf.size
- 
-20:49:14 **** Build of project pmu_bsp ****
-make -k all 
-Running Make include in psu_pmu_0/libsrc/sdps_v3_6/src
-make -C psu_pmu_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/standalone_v6_8/src
-make -C psu_pmu_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilskey_v6_6/src
-make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilsecure_v3_2/src
-make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ipipsu_v2_4/src
-make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/emacps_v3_8/src
-make -C psu_pmu_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ttcps_v3_7/src
-make -C psu_pmu_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/resetps_v1_2/src
-make -C psu_pmu_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/axipmon_v6_7/src
-make -C psu_pmu_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/avbuf_v2_2/src
-make -C psu_pmu_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/dpdma_v1_1/src
-make -C psu_pmu_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/iicps_v3_8/src
-make -C psu_pmu_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/canps_v3_2/src
-make -C psu_pmu_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_pmu_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/video_common_v4_5/src
-make -C psu_pmu_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/gpiops_v3_4/src
-make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/cpu_v2_8/src
-make -C psu_pmu_0/libsrc/cpu_v2_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/uartps_v3_7/src
-make -C psu_pmu_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/qspipsu_v1_8/src
-make -C psu_pmu_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/rtcpsu_v1_6/src
-make -C psu_pmu_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/pciepsu_v1_0/src
-make -C psu_pmu_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/clockps_v1_0/src
-make -C psu_pmu_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/zdma_v1_6/src
-make -C psu_pmu_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/usbpsu_v1_4/src
-make -C psu_pmu_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/wdtps_v3_1/src
-make -C psu_pmu_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make include in psu_pmu_0/libsrc/xilfpga_v4_2/src
-make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s include  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Running Make libs in psu_pmu_0/libsrc/sdps_v3_6/src
-make -C psu_pmu_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sdps
-Running Make libs in psu_pmu_0/libsrc/csudma_v1_3/src
-make -C psu_pmu_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling csudma
-Running Make libs in psu_pmu_0/libsrc/standalone_v6_8/src
-make -C psu_pmu_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling standalone
-microblaze_sleep.c:77:9: note: #pragma message: For the sleep routines, assembly instructions are used
- #pragma message ("For the sleep routines, assembly instructions are used")
-         ^~~~~~~
-Running Make libs in psu_pmu_0/libsrc/xilskey_v6_6/src
-make -C psu_pmu_0/libsrc/xilskey_v6_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling Xilskey Library
-Running Make libs in psu_pmu_0/libsrc/xilsecure_v3_2/src
-make -C psu_pmu_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling XilSecure Library
-Running Make libs in psu_pmu_0/libsrc/ipipsu_v2_4/src
-make -C psu_pmu_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ipipsu
-Running Make libs in psu_pmu_0/libsrc/emacps_v3_8/src
-make -C psu_pmu_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling emacps
-Running Make libs in psu_pmu_0/libsrc/ttcps_v3_7/src
-make -C psu_pmu_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ttcps
-Running Make libs in psu_pmu_0/libsrc/resetps_v1_2/src
-make -C psu_pmu_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling resetps
-Running Make libs in psu_pmu_0/libsrc/axipmon_v6_7/src
-make -C psu_pmu_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling axipmon
-Running Make libs in psu_pmu_0/libsrc/avbuf_v2_2/src
-make -C psu_pmu_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling avbuf
-Running Make libs in psu_pmu_0/libsrc/dpdma_v1_1/src
-make -C psu_pmu_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling dpdma
-Running Make libs in psu_pmu_0/libsrc/iicps_v3_8/src
-make -C psu_pmu_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling iicps
-Running Make libs in psu_pmu_0/libsrc/canps_v3_2/src
-make -C psu_pmu_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling canps
-Running Make libs in psu_pmu_0/libsrc/sysmonpsu_v2_5/src
-make -C psu_pmu_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling sysmonpsu
-Running Make libs in psu_pmu_0/libsrc/ddrcpsu_v1_1/src
-make -C psu_pmu_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling ddrcpsu
-Running Make libs in psu_pmu_0/libsrc/video_common_v4_5/src
-make -C psu_pmu_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling video_common
-Running Make libs in psu_pmu_0/libsrc/gpiops_v3_4/src
-make -C psu_pmu_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling gpiops
-Running Make libs in psu_pmu_0/libsrc/cpu_v2_8/src
-make -C psu_pmu_0/libsrc/cpu_v2_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling cpu
-Running Make libs in psu_pmu_0/libsrc/uartps_v3_7/src
-make -C psu_pmu_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling uartps
-Running Make libs in psu_pmu_0/libsrc/qspipsu_v1_8/src
-make -C psu_pmu_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling qspipsu
-Running Make libs in psu_pmu_0/libsrc/rtcpsu_v1_6/src
-make -C psu_pmu_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling rtcpsu
-Running Make libs in psu_pmu_0/libsrc/pciepsu_v1_0/src
-make -C psu_pmu_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling pciepsu
-Running Make libs in psu_pmu_0/libsrc/clockps_v1_0/src
-make -C psu_pmu_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling clockps
-Running Make libs in psu_pmu_0/libsrc/zdma_v1_6/src
-make -C psu_pmu_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling zdma
-Running Make libs in psu_pmu_0/libsrc/usbpsu_v1_4/src
-make -C psu_pmu_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling usbpsu
-Running Make libs in psu_pmu_0/libsrc/wdtps_v3_1/src
-make -C psu_pmu_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling wdtps
-Running Make libs in psu_pmu_0/libsrc/xilfpga_v4_2/src
-make -C psu_pmu_0/libsrc/xilfpga_v4_2/src -s libs  "SHELL=/bin/sh" "COMPILER=mb-gcc" "ARCHIVER=mb-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=v9.2 -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mxl-soft-mul" "EXTRA_COMPILER_FLAGS=-ffunction-sections -fdata-sections -Wall -Wextra -Os -flto -ffat-lto-objects"
-Compiling xilfpga Library
-Finished building libraries
-20:49:21 **** Clean-only build of configuration Debug for project pmu_fw ****
-make clean 
-rm -rf  ./src/idle_hooks.o ./src/pm_binding.o ./src/pm_callbacks.o ./src/pm_clock.o ./src/pm_config.o ./src/pm_core.o ./src/pm_ddr.o ./src/pm_extern.o ./src/pm_gic_proxy.o ./src/pm_gpp.o ./src/pm_hooks.o ./src/pm_master.o ./src/pm_mmio_access.o ./src/pm_node.o ./src/pm_node_reset.o ./src/pm_notifier.o ./src/pm_periph.o ./src/pm_pinctrl.o ./src/pm_pll.o ./src/pm_power.o ./src/pm_proc.o ./src/pm_qspi.o ./src/pm_requirement.o ./src/pm_reset.o ./src/pm_slave.o ./src/pm_sram.o ./src/pm_system.o ./src/pm_usb.o ./src/xpfw_aib.o ./src/xpfw_core.o ./src/xpfw_crc.o ./src/xpfw_error_manager.o ./src/xpfw_events.o ./src/xpfw_interrupts.o ./src/xpfw_ipi_manager.o ./src/xpfw_main.o ./src/xpfw_mod_dap.o ./src/xpfw_mod_em.o ./src/xpfw_mod_legacy.o ./src/xpfw_mod_pm.o ./src/xpfw_mod_rtc.o ./src/xpfw_mod_sched.o ./src/xpfw_mod_stl.o ./src/xpfw_mod_wdt.o ./src/xpfw_module.o ./src/xpfw_platform.o ./src/xpfw_resets.o ./src/xpfw_restart.o ./src/xpfw_rom_interface.o ./src/xpfw_scheduler.o ./src/xpfw_start.o ./src/xpfw_user_startup.o ./src/xpfw_util.o ./src/xpfw_xpu.o  ./src/xpfw_start.d  ./src/idle_hooks.d ./src/pm_binding.d ./src/pm_callbacks.d ./src/pm_clock.d ./src/pm_config.d ./src/pm_core.d ./src/pm_ddr.d ./src/pm_extern.d ./src/pm_gic_proxy.d ./src/pm_gpp.d ./src/pm_hooks.d ./src/pm_master.d ./src/pm_mmio_access.d ./src/pm_node.d ./src/pm_node_reset.d ./src/pm_notifier.d ./src/pm_periph.d ./src/pm_pinctrl.d ./src/pm_pll.d ./src/pm_power.d ./src/pm_proc.d ./src/pm_qspi.d ./src/pm_requirement.d ./src/pm_reset.d ./src/pm_slave.d ./src/pm_sram.d ./src/pm_system.d ./src/pm_usb.d ./src/xpfw_aib.d ./src/xpfw_core.d ./src/xpfw_crc.d ./src/xpfw_error_manager.d ./src/xpfw_events.d ./src/xpfw_interrupts.d ./src/xpfw_ipi_manager.d ./src/xpfw_main.d ./src/xpfw_mod_dap.d ./src/xpfw_mod_em.d ./src/xpfw_mod_legacy.d ./src/xpfw_mod_pm.d ./src/xpfw_mod_rtc.d ./src/xpfw_mod_sched.d ./src/xpfw_mod_stl.d ./src/xpfw_mod_wdt.d ./src/xpfw_module.d ./src/xpfw_platform.d ./src/xpfw_resets.d ./src/xpfw_restart.d ./src/xpfw_rom_interface.d ./src/xpfw_scheduler.d ./src/xpfw_user_startup.d ./src/xpfw_util.d ./src/xpfw_xpu.d  pmu_fw.elf.size  pmu_fw.elf
- 
-20:49:21 **** Build of configuration Debug for project pmu_fw ****
-make all 
-Building file: ../src/idle_hooks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/idle_hooks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/idle_hooks.d" -MT"src/idle_hooks.o" -o "src/idle_hooks.o" "../src/idle_hooks.c"
-Finished building: ../src/idle_hooks.c
- 
-Building file: ../src/pm_binding.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_binding.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_binding.d" -MT"src/pm_binding.o" -o "src/pm_binding.o" "../src/pm_binding.c"
-Finished building: ../src/pm_binding.c
- 
-Building file: ../src/pm_callbacks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_callbacks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_callbacks.d" -MT"src/pm_callbacks.o" -o "src/pm_callbacks.o" "../src/pm_callbacks.c"
-Finished building: ../src/pm_callbacks.c
- 
-Building file: ../src/pm_clock.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_clock.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_clock.d" -MT"src/pm_clock.o" -o "src/pm_clock.o" "../src/pm_clock.c"
-Finished building: ../src/pm_clock.c
- 
-Building file: ../src/pm_config.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_config.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_config.d" -MT"src/pm_config.o" -o "src/pm_config.o" "../src/pm_config.c"
-Finished building: ../src/pm_config.c
- 
-Building file: ../src/pm_core.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_core.d" -MT"src/pm_core.o" -o "src/pm_core.o" "../src/pm_core.c"
-../src/pm_core.c: In function 'PmPinCtrlRequest':
-../src/pm_core.c:1704:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlRelease':
-../src/pm_core.c:1721:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlGetFunction':
-../src/pm_core.c:1739:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlConfigParamGet':
-../src/pm_core.c:1781:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_core.c: In function 'PmPinCtrlConfigParamSet':
-../src/pm_core.c:1796:6: warning: unused variable 'value' [-Wunused-variable]
-  u32 value;
-      ^~~~~
-Finished building: ../src/pm_core.c
- 
-Building file: ../src/pm_ddr.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_ddr.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_ddr.d" -MT"src/pm_ddr.o" -o "src/pm_ddr.o" "../src/pm_ddr.c"
-Finished building: ../src/pm_ddr.c
- 
-Building file: ../src/pm_extern.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_extern.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_extern.d" -MT"src/pm_extern.o" -o "src/pm_extern.o" "../src/pm_extern.c"
-Finished building: ../src/pm_extern.c
- 
-Building file: ../src/pm_gic_proxy.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gic_proxy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gic_proxy.d" -MT"src/pm_gic_proxy.o" -o "src/pm_gic_proxy.o" "../src/pm_gic_proxy.c"
-Finished building: ../src/pm_gic_proxy.c
- 
-Building file: ../src/pm_gpp.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_gpp.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_gpp.d" -MT"src/pm_gpp.o" -o "src/pm_gpp.o" "../src/pm_gpp.c"
-Finished building: ../src/pm_gpp.c
- 
-Building file: ../src/pm_hooks.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_hooks.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_hooks.d" -MT"src/pm_hooks.o" -o "src/pm_hooks.o" "../src/pm_hooks.c"
-Finished building: ../src/pm_hooks.c
- 
-Building file: ../src/pm_master.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_master.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_master.d" -MT"src/pm_master.o" -o "src/pm_master.o" "../src/pm_master.c"
-Finished building: ../src/pm_master.c
- 
-Building file: ../src/pm_mmio_access.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_mmio_access.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_mmio_access.d" -MT"src/pm_mmio_access.o" -o "src/pm_mmio_access.o" "../src/pm_mmio_access.c"
-Finished building: ../src/pm_mmio_access.c
- 
-Building file: ../src/pm_node.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node.d" -MT"src/pm_node.o" -o "src/pm_node.o" "../src/pm_node.c"
-Finished building: ../src/pm_node.c
- 
-Building file: ../src/pm_node_reset.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_node_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_node_reset.d" -MT"src/pm_node_reset.o" -o "src/pm_node_reset.o" "../src/pm_node_reset.c"
-Finished building: ../src/pm_node_reset.c
- 
-Building file: ../src/pm_notifier.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_notifier.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_notifier.d" -MT"src/pm_notifier.o" -o "src/pm_notifier.o" "../src/pm_notifier.c"
-Finished building: ../src/pm_notifier.c
- 
-Building file: ../src/pm_periph.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_periph.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_periph.d" -MT"src/pm_periph.o" -o "src/pm_periph.o" "../src/pm_periph.c"
-Finished building: ../src/pm_periph.c
- 
-Building file: ../src/pm_pinctrl.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_pinctrl.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_pinctrl.d" -MT"src/pm_pinctrl.o" -o "src/pm_pinctrl.o" "../src/pm_pinctrl.c"
-../src/pm_pinctrl.c: In function 'PmPinCtrlSetFunctionInt':
-../src/pm_pinctrl.c:911:1: warning: label 'done' defined but not used [-Wunused-label]
- done:
- ^~~~
-../src/pm_pinctrl.c: In function 'PmPinCtrlSetParam':
-../src/pm_pinctrl.c:988:12: warning: unused variable 'val' [-Wunused-variable]
-  u32 addr, val, shift;
-            ^~~
-Finished building: ../src/pm_pinctrl.c
- 
-Building file: ../src/pm_pll.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_pll.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_pll.d" -MT"src/pm_pll.o" -o "src/pm_pll.o" "../src/pm_pll.c"
-Finished building: ../src/pm_pll.c
- 
-Building file: ../src/pm_power.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_power.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_power.d" -MT"src/pm_power.o" -o "src/pm_power.o" "../src/pm_power.c"
-Finished building: ../src/pm_power.c
- 
-Building file: ../src/pm_proc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_proc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_proc.d" -MT"src/pm_proc.o" -o "src/pm_proc.o" "../src/pm_proc.c"
-Finished building: ../src/pm_proc.c
- 
-Building file: ../src/pm_qspi.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_qspi.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_qspi.d" -MT"src/pm_qspi.o" -o "src/pm_qspi.o" "../src/pm_qspi.c"
-Finished building: ../src/pm_qspi.c
- 
-Building file: ../src/pm_requirement.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_requirement.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_requirement.d" -MT"src/pm_requirement.o" -o "src/pm_requirement.o" "../src/pm_requirement.c"
-Finished building: ../src/pm_requirement.c
- 
-Building file: ../src/pm_reset.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_reset.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_reset.d" -MT"src/pm_reset.o" -o "src/pm_reset.o" "../src/pm_reset.c"
-Finished building: ../src/pm_reset.c
- 
-Building file: ../src/pm_slave.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_slave.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_slave.d" -MT"src/pm_slave.o" -o "src/pm_slave.o" "../src/pm_slave.c"
-Finished building: ../src/pm_slave.c
- 
-Building file: ../src/pm_sram.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_sram.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_sram.d" -MT"src/pm_sram.o" -o "src/pm_sram.o" "../src/pm_sram.c"
-Finished building: ../src/pm_sram.c
- 
-Building file: ../src/pm_system.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_system.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_system.d" -MT"src/pm_system.o" -o "src/pm_system.o" "../src/pm_system.c"
-Finished building: ../src/pm_system.c
- 
-Building file: ../src/pm_usb.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/pm_usb.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/pm_usb.d" -MT"src/pm_usb.o" -o "src/pm_usb.o" "../src/pm_usb.c"
-Finished building: ../src/pm_usb.c
- 
-Building file: ../src/xpfw_aib.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_aib.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_aib.d" -MT"src/xpfw_aib.o" -o "src/xpfw_aib.o" "../src/xpfw_aib.c"
-Finished building: ../src/xpfw_aib.c
- 
-Building file: ../src/xpfw_core.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_core.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_core.d" -MT"src/xpfw_core.o" -o "src/xpfw_core.o" "../src/xpfw_core.c"
-Finished building: ../src/xpfw_core.c
- 
-Building file: ../src/xpfw_crc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_crc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_crc.d" -MT"src/xpfw_crc.o" -o "src/xpfw_crc.o" "../src/xpfw_crc.c"
-Finished building: ../src/xpfw_crc.c
- 
-Building file: ../src/xpfw_error_manager.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_error_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_error_manager.d" -MT"src/xpfw_error_manager.o" -o "src/xpfw_error_manager.o" "../src/xpfw_error_manager.c"
-Finished building: ../src/xpfw_error_manager.c
- 
-Building file: ../src/xpfw_events.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_events.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_events.d" -MT"src/xpfw_events.o" -o "src/xpfw_events.o" "../src/xpfw_events.c"
-Finished building: ../src/xpfw_events.c
- 
-Building file: ../src/xpfw_interrupts.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_interrupts.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_interrupts.d" -MT"src/xpfw_interrupts.o" -o "src/xpfw_interrupts.o" "../src/xpfw_interrupts.c"
-Finished building: ../src/xpfw_interrupts.c
- 
-Building file: ../src/xpfw_ipi_manager.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_ipi_manager.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_ipi_manager.d" -MT"src/xpfw_ipi_manager.o" -o "src/xpfw_ipi_manager.o" "../src/xpfw_ipi_manager.c"
-Finished building: ../src/xpfw_ipi_manager.c
- 
-Building file: ../src/xpfw_main.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_main.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_main.d" -MT"src/xpfw_main.o" -o "src/xpfw_main.o" "../src/xpfw_main.c"
-Finished building: ../src/xpfw_main.c
- 
-Building file: ../src/xpfw_mod_dap.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_dap.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_dap.d" -MT"src/xpfw_mod_dap.o" -o "src/xpfw_mod_dap.o" "../src/xpfw_mod_dap.c"
-Finished building: ../src/xpfw_mod_dap.c
- 
-Building file: ../src/xpfw_mod_em.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_em.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_em.d" -MT"src/xpfw_mod_em.o" -o "src/xpfw_mod_em.o" "../src/xpfw_mod_em.c"
-Finished building: ../src/xpfw_mod_em.c
- 
-Building file: ../src/xpfw_mod_legacy.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_legacy.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_legacy.d" -MT"src/xpfw_mod_legacy.o" -o "src/xpfw_mod_legacy.o" "../src/xpfw_mod_legacy.c"
-Finished building: ../src/xpfw_mod_legacy.c
- 
-Building file: ../src/xpfw_mod_pm.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_pm.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_pm.d" -MT"src/xpfw_mod_pm.o" -o "src/xpfw_mod_pm.o" "../src/xpfw_mod_pm.c"
-Finished building: ../src/xpfw_mod_pm.c
- 
-Building file: ../src/xpfw_mod_rtc.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_rtc.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_rtc.d" -MT"src/xpfw_mod_rtc.o" -o "src/xpfw_mod_rtc.o" "../src/xpfw_mod_rtc.c"
-Finished building: ../src/xpfw_mod_rtc.c
- 
-Building file: ../src/xpfw_mod_sched.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_sched.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_sched.d" -MT"src/xpfw_mod_sched.o" -o "src/xpfw_mod_sched.o" "../src/xpfw_mod_sched.c"
-Finished building: ../src/xpfw_mod_sched.c
- 
-Building file: ../src/xpfw_mod_stl.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_stl.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_stl.d" -MT"src/xpfw_mod_stl.o" -o "src/xpfw_mod_stl.o" "../src/xpfw_mod_stl.c"
-Finished building: ../src/xpfw_mod_stl.c
- 
-Building file: ../src/xpfw_mod_wdt.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_mod_wdt.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_mod_wdt.d" -MT"src/xpfw_mod_wdt.o" -o "src/xpfw_mod_wdt.o" "../src/xpfw_mod_wdt.c"
-Finished building: ../src/xpfw_mod_wdt.c
- 
-Building file: ../src/xpfw_module.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_module.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_module.d" -MT"src/xpfw_module.o" -o "src/xpfw_module.o" "../src/xpfw_module.c"
-Finished building: ../src/xpfw_module.c
- 
-Building file: ../src/xpfw_platform.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_platform.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_platform.d" -MT"src/xpfw_platform.o" -o "src/xpfw_platform.o" "../src/xpfw_platform.c"
-Finished building: ../src/xpfw_platform.c
- 
-Building file: ../src/xpfw_resets.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_resets.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_resets.d" -MT"src/xpfw_resets.o" -o "src/xpfw_resets.o" "../src/xpfw_resets.c"
-Finished building: ../src/xpfw_resets.c
- 
-Building file: ../src/xpfw_restart.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_restart.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_restart.d" -MT"src/xpfw_restart.o" -o "src/xpfw_restart.o" "../src/xpfw_restart.c"
-Finished building: ../src/xpfw_restart.c
- 
-Building file: ../src/xpfw_rom_interface.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_rom_interface.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_rom_interface.d" -MT"src/xpfw_rom_interface.o" -o "src/xpfw_rom_interface.o" "../src/xpfw_rom_interface.c"
-Finished building: ../src/xpfw_rom_interface.c
- 
-Building file: ../src/xpfw_scheduler.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_scheduler.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_scheduler.d" -MT"src/xpfw_scheduler.o" -o "src/xpfw_scheduler.o" "../src/xpfw_scheduler.c"
-Finished building: ../src/xpfw_scheduler.c
- 
-Building file: ../src/xpfw_start.S
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_start.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_start.d" -MT"src/xpfw_start.o" -o "src/xpfw_start.o" "../src/xpfw_start.S"
-Finished building: ../src/xpfw_start.S
- 
-Building file: ../src/xpfw_user_startup.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_user_startup.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_user_startup.d" -MT"src/xpfw_user_startup.o" -o "src/xpfw_user_startup.o" "../src/xpfw_user_startup.c"
-Finished building: ../src/xpfw_user_startup.c
- 
-Building file: ../src/xpfw_util.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_util.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_util.d" -MT"src/xpfw_util.o" -o "src/xpfw_util.o" "../src/xpfw_util.c"
-Finished building: ../src/xpfw_util.c
- 
-Building file: ../src/xpfw_xpu.c
-Invoking: MicroBlaze gcc compiler
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/xpfw_xpu.o" -Os -flto -ffat-lto-objects -I../../pmu_bsp/psu_pmu_0/include -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/xpfw_xpu.d" -MT"src/xpfw_xpu.o" -o "src/xpfw_xpu.o" "../src/xpfw_xpu.c"
-Finished building: ../src/xpfw_xpu.c
- 
-Building target: pmu_fw.elf
-Invoking: MicroBlaze gcc linker
-mb-gcc -nostartfiles -Wl,-T -Wl,../src/lscript.ld -L../../pmu_bsp/psu_pmu_0/lib -mlittle-endian -mxl-barrel-shift -mxl-pattern-compare -mcpu=v9.2 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "pmu_fw.elf"  ./src/idle_hooks.o ./src/pm_binding.o ./src/pm_callbacks.o ./src/pm_clock.o ./src/pm_config.o ./src/pm_core.o ./src/pm_ddr.o ./src/pm_extern.o ./src/pm_gic_proxy.o ./src/pm_gpp.o ./src/pm_hooks.o ./src/pm_master.o ./src/pm_mmio_access.o ./src/pm_node.o ./src/pm_node_reset.o ./src/pm_notifier.o ./src/pm_periph.o ./src/pm_pinctrl.o ./src/pm_pll.o ./src/pm_power.o ./src/pm_proc.o ./src/pm_qspi.o ./src/pm_requirement.o ./src/pm_reset.o ./src/pm_slave.o ./src/pm_sram.o ./src/pm_system.o ./src/pm_usb.o ./src/xpfw_aib.o ./src/xpfw_core.o ./src/xpfw_crc.o ./src/xpfw_error_manager.o ./src/xpfw_events.o ./src/xpfw_interrupts.o ./src/xpfw_ipi_manager.o ./src/xpfw_main.o ./src/xpfw_mod_dap.o ./src/xpfw_mod_em.o ./src/xpfw_mod_legacy.o ./src/xpfw_mod_pm.o ./src/xpfw_mod_rtc.o ./src/xpfw_mod_sched.o ./src/xpfw_mod_stl.o ./src/xpfw_mod_wdt.o ./src/xpfw_module.o ./src/xpfw_platform.o ./src/xpfw_resets.o ./src/xpfw_restart.o ./src/xpfw_rom_interface.o ./src/xpfw_scheduler.o ./src/xpfw_start.o ./src/xpfw_user_startup.o ./src/xpfw_util.o ./src/xpfw_xpu.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilfpga,-lxil,-lxilsecure,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilskey,-lxil,-lgcc,-lc,--end-group
-Finished building target: pmu_fw.elf
- 
-Invoking: MicroBlaze Print Size
-mb-size pmu_fw.elf  |tee "pmu_fw.elf.size"
-   text	   data	    bss	    dec	    hex	filename
-  74528	  19848	  20624	 115000	  1c138	pmu_fw.elf
-Finished building: pmu_fw.elf.size
- 
-20:49:29 **** Build of project r5_bsp ****
+18:18:26 **** Auto Build of project r5_bsp ****
 make -k all 
 Running Make include in psu_cortexr5_0/libsrc/sdps_v3_6/src
 make -C psu_cortexr5_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
-Running Make include in psu_cortexr5_0/libsrc/csudma_v1_3/src
-make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexr5_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/standalone_v6_8/src
 make -C psu_cortexr5_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/xilsecure_v3_2/src
 make -C psu_cortexr5_0/libsrc/xilsecure_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/csudma_v1_3/src
+make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/ipipsu_v2_4/src
 make -C psu_cortexr5_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/emacps_v3_8/src
@@ -1351,6 +46,8 @@ Running Make include in psu_cortexr5_0/libsrc/video_common_v4_5/src
 make -C psu_cortexr5_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/gpiops_v3_4/src
 make -C psu_cortexr5_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Running Make include in psu_cortexr5_0/libsrc/gpio_v4_3/src
+make -C psu_cortexr5_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/uartps_v3_7/src
 make -C psu_cortexr5_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Running Make include in psu_cortexr5_0/libsrc/qspipsu_v1_8/src
@@ -1374,9 +71,9 @@ make -C psu_cortexr5_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPIL
 Running Make libs in psu_cortexr5_0/libsrc/sdps_v3_6/src
 make -C psu_cortexr5_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling sdps
-Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_3/src
-make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
-Compiling csudma
+Running Make libs in psu_cortexr5_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexr5_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling tmrctr
 Running Make libs in psu_cortexr5_0/libsrc/standalone_v6_8/src
 make -C psu_cortexr5_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling standalone R5
@@ -1399,6 +96,9 @@ xtime_l.h:78:9: note: #pragma message: For the sleep routines, TTC3 is used if p
 Running Make libs in psu_cortexr5_0/libsrc/xilsecure_v3_2/src
 make -C psu_cortexr5_0/libsrc/xilsecure_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling XilSecure Library
+Running Make libs in psu_cortexr5_0/libsrc/csudma_v1_3/src
+make -C psu_cortexr5_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling csudma
 Running Make libs in psu_cortexr5_0/libsrc/ipipsu_v2_4/src
 make -C psu_cortexr5_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling ipipsu
@@ -1447,6 +147,9 @@ Compiling video_common
 Running Make libs in psu_cortexr5_0/libsrc/gpiops_v3_4/src
 make -C psu_cortexr5_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling gpiops
+Running Make libs in psu_cortexr5_0/libsrc/gpio_v4_3/src
+make -C psu_cortexr5_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
+Compiling gpio
 Running Make libs in psu_cortexr5_0/libsrc/uartps_v3_7/src
 make -C psu_cortexr5_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling uartps
@@ -1478,11 +181,7 @@ Running Make libs in psu_cortexr5_0/libsrc/wdtps_v3_1/src
 make -C psu_cortexr5_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=armr5-none-eabi-gcc" "ARCHIVER=armr5-none-eabi-ar" "COMPILER_FLAGS=  -O2 -c -mcpu=cortex-r5" "EXTRA_COMPILER_FLAGS=-g -DARMR5 -Wall -Wextra -mfloat-abi=hard -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects"
 Compiling wdtps
 Finished building libraries
-20:49:38 **** Clean-only build of configuration Debug for project fsbl_r5 ****
-make clean 
-rm -rf  ./src/psu_init.o ./src/xfsbl_authentication.o ./src/xfsbl_board.o ./src/xfsbl_bs.o ./src/xfsbl_csu_dma.o ./src/xfsbl_ddr_init.o ./src/xfsbl_dfu_util.o ./src/xfsbl_exit.o ./src/xfsbl_handoff.o ./src/xfsbl_hooks.o ./src/xfsbl_image_header.o ./src/xfsbl_initialization.o ./src/xfsbl_main.o ./src/xfsbl_misc.o ./src/xfsbl_misc_drivers.o ./src/xfsbl_nand.o ./src/xfsbl_partition_load.o ./src/xfsbl_plpartition_valid.o ./src/xfsbl_qspi.o ./src/xfsbl_rsa_sha.o ./src/xfsbl_sd.o ./src/xfsbl_usb.o  ./src/xfsbl_exit.d  ./src/psu_init.d ./src/xfsbl_authentication.d ./src/xfsbl_board.d ./src/xfsbl_bs.d ./src/xfsbl_csu_dma.d ./src/xfsbl_ddr_init.d ./src/xfsbl_dfu_util.d ./src/xfsbl_handoff.d ./src/xfsbl_hooks.d ./src/xfsbl_image_header.d ./src/xfsbl_initialization.d ./src/xfsbl_main.d ./src/xfsbl_misc.d ./src/xfsbl_misc_drivers.d ./src/xfsbl_nand.d ./src/xfsbl_partition_load.d ./src/xfsbl_plpartition_valid.d ./src/xfsbl_qspi.d ./src/xfsbl_rsa_sha.d ./src/xfsbl_sd.d ./src/xfsbl_usb.d  fsbl_r5.elf.size  fsbl_r5.elf
- 
-20:49:39 **** Build of configuration Debug for project fsbl_r5 ****
+18:18:34 **** Auto Build of configuration Debug for project fsbl_r5 ****
 make all 
 Building file: /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c
 Invoking: ARM R5 gcc compiler
@@ -1530,11 +229,6 @@ Building file: ../src/xfsbl_dfu_util.c
 Invoking: ARM R5 gcc compiler
 armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
 Finished building: ../src/xfsbl_dfu_util.c
- 
-Building file: ../src/xfsbl_exit.S
-Invoking: ARM R5 gcc compiler
-armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
-Finished building: ../src/xfsbl_exit.S
  
 Building file: ../src/xfsbl_handoff.c
 Invoking: ARM R5 gcc compiler
@@ -1657,10 +351,10 @@ Finished building target: fsbl_r5.elf
 Invoking: ARM R5 Print Size
 armr5-none-eabi-size fsbl_r5.elf  |tee "fsbl_r5.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  69945	   4040	  87636	 161621	  27755	fsbl_r5.elf
+  69941	   4040	  87636	 161617	  27751	fsbl_r5.elf
 Finished building: fsbl_r5.elf.size
  
-20:49:43 **** Build of configuration Debug for project testapp_r5 ****
+18:18:38 **** Auto Build of configuration Debug for project testapp_r5 ****
 make all 
 Building file: ../src/testapp.c
 Invoking: ARM R5 gcc compiler
@@ -1678,6 +372,257 @@ armr5-none-eabi-size testapp_r5.elf  |tee "testapp_r5.elf.size"
   17157	   4184	  22748	  44089	   ac39	testapp_r5.elf
 Finished building: testapp_r5.elf.size
  
-20:51:22 **** Incremental Build of configuration Debug for project test_a53 ****
+18:18:38 **** Auto Build of configuration Debug for project tmr_psled_r5 ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/timer_psled_r5.c
+Invoking: ARM R5 gcc compiler
+armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/timer_psled_r5.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/timer_psled_r5.d" -MT"src/timer_psled_r5.o" -o "src/timer_psled_r5.o" "../src/timer_psled_r5.c"
+Finished building: ../src/timer_psled_r5.c
+ 
+Building target: tmr_psled_r5.elf
+Invoking: ARM R5 gcc linker
+armr5-none-eabi-gcc -Wl,-T -Wl,../src/lscript.ld -L../../r5_bsp/psu_cortexr5_0/lib -o "tmr_psled_r5.elf"  ./src/timer_psled_r5.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilffs,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilsecure,-lxil,-lgcc,-lc,--end-group -Wl,--start-group,-lxilpm,-lxil,-lgcc,-lc,--end-group -mcpu=cortex-r5 -mfloat-abi=hard -mfpu=vfpv3-d16
+Finished building target: tmr_psled_r5.elf
+ 
+Invoking: ARM R5 Print Size
+armr5-none-eabi-size tmr_psled_r5.elf  |tee "tmr_psled_r5.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  21233	   4200	  22828	  48261	   bc85	tmr_psled_r5.elf
+Finished building: tmr_psled_r5.elf.size
+ 
+18:19:25 **** Build of project ps_pl_linux_app_bsp ****
+make -k all 
+Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexa53_0/libsrc/tmrctr_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/gpio_v4_3/src
+make -C psu_cortexa53_0/libsrc/gpio_v4_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sdps
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+Running Make libs in psu_cortexa53_0/libsrc/tmrctr_v4_5/src
+make -C psu_cortexa53_0/libsrc/tmrctr_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling tmrctr
+Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling standalone A53
+In file included from xtime_l.c:52:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:59:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling csudma
+Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ipipsu
+Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling emacps
+Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling resetps
+Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling axipmon
+Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling avbuf
+Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling dpdma
+Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling iicps
+Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling canps
+Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling scugic
+Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sysmonpsu
+Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ddrcpsu
+Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling video_common
+Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in psu_cortexa53_0/libsrc/gpio_v4_3/src
+make -C psu_cortexa53_0/libsrc/gpio_v4_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling gpio
+Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling cpu_cortexa53
+Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling uartps
+Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling qspipsu
+Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling rtcpsu
+Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling pciepsu
+Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling clockps
+Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling zdma
+Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling usbpsu
+Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling wdtps
+Finished building libraries
+
+**** Build of configuration Debug for project ps_pl_linux_app ****
+
+Nothing to build for project ps_pl_linux_app
+18:19:59 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+../src/ps_pl_linux_app.c:23:10: fatal error: sys/ioctl.h: No such file or directory
+ #include <sys/ioctl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+18:20:34 **** Clean-only build of configuration Debug for project ps_pl_linux_app ****
+make clean 
+rm -rf  ./src/ps_pl_linux_app.o  ./src/ps_pl_linux_app.d  ps_pl_linux_app.elf.size  ps_pl_linux_app.elf
+ 
+18:20:34 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+../src/ps_pl_linux_app.c:23:10: fatal error: sys/ioctl.h: No such file or directory
+ #include <sys/ioctl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+make: *** [src/ps_pl_linux_app.o] Error 1
+18:24:38 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+../src/ps_pl_linux_app.c:23:10: fatal error: sys/ioctl.h: No such file or directory
+ #include <sys/ioctl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+18:25:24 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+../src/ps_pl_linux_app.c:25:10: fatal error: sys/socket.h: No such file or directory
+ #include <sys/socket.h>
+          ^~~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+18:25:30 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+../src/ps_pl_linux_app.c:23:10: fatal error: sys/ioctl.h: No such file or directory
+ #include <sys/ioctl.h>
+          ^~~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+18:28:08 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+In file included from ../src/ps_pl_linux_app.c:23:0:
+/usr/include/sys/ioctl.h:21:10: fatal error: features.h: No such file or directory
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+ #include <features.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1

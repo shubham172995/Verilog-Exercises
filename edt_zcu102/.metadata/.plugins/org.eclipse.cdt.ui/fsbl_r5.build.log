@@ -1,4 +1,4 @@
-20:49:39 **** Build of configuration Debug for project fsbl_r5 ****
+18:18:34 **** Auto Build of configuration Debug for project fsbl_r5 ****
 make all 
 Building file: /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c
 Invoking: ARM R5 gcc compiler
@@ -46,11 +46,6 @@ Building file: ../src/xfsbl_dfu_util.c
 Invoking: ARM R5 gcc compiler
 armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
 Finished building: ../src/xfsbl_dfu_util.c
- 
-Building file: ../src/xfsbl_exit.S
-Invoking: ARM R5 gcc compiler
-armr5-none-eabi-gcc -DARMR5 -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -mcpu=cortex-r5 -mfloat-abi=hard  -mfpu=vfpv3-d16 -Os -flto -ffat-lto-objects -I../../r5_bsp/psu_cortexr5_0/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
-Finished building: ../src/xfsbl_exit.S
  
 Building file: ../src/xfsbl_handoff.c
 Invoking: ARM R5 gcc compiler
@@ -173,9 +168,9 @@ Finished building target: fsbl_r5.elf
 Invoking: ARM R5 Print Size
 armr5-none-eabi-size fsbl_r5.elf  |tee "fsbl_r5.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  69945	   4040	  87636	 161621	  27755	fsbl_r5.elf
+  69941	   4040	  87636	 161617	  27751	fsbl_r5.elf
 Finished building: fsbl_r5.elf.size
  
 
-20:49:43 Build Finished (took 4s.267ms)
+18:18:38 Build Finished (took 4s.20ms)
 

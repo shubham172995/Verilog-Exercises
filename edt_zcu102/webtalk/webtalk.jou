@@ -2,8 +2,8 @@
 # Webtalk v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
 # 
-# Start of session at: Fri Dec 27 20:13:21 2019
-# Process ID: 12501
+# Start of session at: Tue Dec 31 18:28:55 2019
+# Process ID: 13901
 # Current directory: /home/shubham/Vivado_Exercises/edt_zcu102/webtalk
 # Command line: wbtcv -mode batch -source sdk_webtalk.tcl
 # Log file: /home/shubham/Vivado_Exercises/edt_zcu102/webtalk/webtalk.log

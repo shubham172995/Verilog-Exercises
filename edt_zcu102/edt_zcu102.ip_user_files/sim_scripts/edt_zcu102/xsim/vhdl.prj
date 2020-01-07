@@ -1,4 +1,8 @@
 vhdl xil_defaultlib  \
 "../../../../edt_zcu102.srcs/sources_1/bd/edt_zcu102/sim/edt_zcu102.vhd" \
+"../../../../edt_zcu102.srcs/sources_1/bd/edt_zcu102/ip/edt_zcu102_axi_timer_0_0/sim/edt_zcu102_axi_timer_0_0.vhd" \
+"../../../../edt_zcu102.srcs/sources_1/bd/edt_zcu102/ip/edt_zcu102_axi_gpio_0_0/sim/edt_zcu102_axi_gpio_0_0.vhd" \
+"../../../../edt_zcu102.srcs/sources_1/bd/edt_zcu102/ip/edt_zcu102_axi_gpio_1_0/sim/edt_zcu102_axi_gpio_1_0.vhd" \
+"../../../../edt_zcu102.srcs/sources_1/bd/edt_zcu102/ip/edt_zcu102_rst_ps8_0_99M_0/sim/edt_zcu102_rst_ps8_0_99M_0.vhd" \
 
 nosort

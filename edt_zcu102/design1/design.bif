@@ -1,0 +1,11 @@
+//arch = zynqmp; split = false; format = BIN
+the_ROM_image:
+{
+	[fsbl_config]a53_x64
+	[bootloader]/home/shubham/Vivado_Exercises/edt_zcu102/fsbl_a53/Debug/fsbl_a53.elf
+	[pmufw_image]/home/shubham/Vivado_Exercises/edt_zcu102/pmu_fw/Debug/pmu_fw.elf
+	[destination_cpu = a53-0, exception_level = el-3, trustzone]/home/shubham/Petalinux_Projects/TEMP/images/linux/bl31.elf
+	[destination_cpu = a53-0, exception_level=el-2]/home/shubham/Petalinux_Projects/TEMP/images/linux/u-boot.elf
+	[destination_cpu = r5-lockstep]/home/shubham/Vivado_Exercises/edt_zcu102/tmr_psled_r5/Debug/tmr_psled_r5.elf
+	[destination_device = pl]/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/edt_zcu102_wrapper.bit
+}

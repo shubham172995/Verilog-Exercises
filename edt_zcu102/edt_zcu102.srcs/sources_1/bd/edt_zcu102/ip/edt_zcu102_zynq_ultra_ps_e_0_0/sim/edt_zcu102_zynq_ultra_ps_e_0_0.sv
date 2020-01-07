@@ -94,8 +94,8 @@
       bit  maxigp2_awvalid;
       bit  [15 : 0] maxigp2_awuser;
       bit  maxigp2_awready;
-      bit  [31 : 0] maxigp2_wdata;
-      bit  [3 : 0] maxigp2_wstrb;
+      bit  [127 : 0] maxigp2_wdata;
+      bit  [15 : 0] maxigp2_wstrb;
       bit  maxigp2_wlast;
       bit  maxigp2_wvalid;
       bit  maxigp2_wready;
@@ -115,7 +115,7 @@
       bit  [15 : 0] maxigp2_aruser;
       bit  maxigp2_arready;
       bit  [15 : 0] maxigp2_rid;
-      bit  [31 : 0] maxigp2_rdata;
+      bit  [127 : 0] maxigp2_rdata;
       bit  [1 : 0] maxigp2_rresp;
       bit  maxigp2_rlast;
       bit  maxigp2_rvalid;
@@ -1492,6 +1492,46 @@
 
 //MODULE DECLARATION
  module edt_zcu102_zynq_ultra_ps_e_0_0 (
+  maxihpm0_lpd_aclk,
+  maxigp2_awid,
+  maxigp2_awaddr,
+  maxigp2_awlen,
+  maxigp2_awsize,
+  maxigp2_awburst,
+  maxigp2_awlock,
+  maxigp2_awcache,
+  maxigp2_awprot,
+  maxigp2_awvalid,
+  maxigp2_awuser,
+  maxigp2_awready,
+  maxigp2_wdata,
+  maxigp2_wstrb,
+  maxigp2_wlast,
+  maxigp2_wvalid,
+  maxigp2_wready,
+  maxigp2_bid,
+  maxigp2_bresp,
+  maxigp2_bvalid,
+  maxigp2_bready,
+  maxigp2_arid,
+  maxigp2_araddr,
+  maxigp2_arlen,
+  maxigp2_arsize,
+  maxigp2_arburst,
+  maxigp2_arlock,
+  maxigp2_arcache,
+  maxigp2_arprot,
+  maxigp2_arvalid,
+  maxigp2_aruser,
+  maxigp2_arready,
+  maxigp2_rid,
+  maxigp2_rdata,
+  maxigp2_rresp,
+  maxigp2_rlast,
+  maxigp2_rvalid,
+  maxigp2_rready,
+  maxigp2_awqos,
+  maxigp2_arqos,
   pl_ps_irq0,
   pl_resetn0,
   pl_clk0
@@ -1503,7 +1543,7 @@
       parameter C_DP_USE_VIDEO = 0;
       parameter C_MAXIGP0_DATA_WIDTH = 128;
       parameter C_MAXIGP1_DATA_WIDTH = 128;
-      parameter C_MAXIGP2_DATA_WIDTH = 32;
+      parameter C_MAXIGP2_DATA_WIDTH = 128;
       parameter C_SAXIGP0_DATA_WIDTH = 128;
       parameter C_SAXIGP1_DATA_WIDTH = 128;
       parameter C_SAXIGP2_DATA_WIDTH = 128;
@@ -1539,12 +1579,80 @@
 
 //INPUT AND OUTPUT PORTS
 
+      input  maxihpm0_lpd_aclk;
+      output  [15 : 0] maxigp2_awid;
+      output  [39 : 0] maxigp2_awaddr;
+      output  [7 : 0] maxigp2_awlen;
+      output  [2 : 0] maxigp2_awsize;
+      output  [1 : 0] maxigp2_awburst;
+      output  maxigp2_awlock;
+      output  [3 : 0] maxigp2_awcache;
+      output  [2 : 0] maxigp2_awprot;
+      output  maxigp2_awvalid;
+      output  [15 : 0] maxigp2_awuser;
+      input  maxigp2_awready;
+      output  [127 : 0] maxigp2_wdata;
+      output  [15 : 0] maxigp2_wstrb;
+      output  maxigp2_wlast;
+      output  maxigp2_wvalid;
+      input  maxigp2_wready;
+      input  [15 : 0] maxigp2_bid;
+      input  [1 : 0] maxigp2_bresp;
+      input  maxigp2_bvalid;
+      output  maxigp2_bready;
+      output  [15 : 0] maxigp2_arid;
+      output  [39 : 0] maxigp2_araddr;
+      output  [7 : 0] maxigp2_arlen;
+      output  [2 : 0] maxigp2_arsize;
+      output  [1 : 0] maxigp2_arburst;
+      output  maxigp2_arlock;
+      output  [3 : 0] maxigp2_arcache;
+      output  [2 : 0] maxigp2_arprot;
+      output  maxigp2_arvalid;
+      output  [15 : 0] maxigp2_aruser;
+      input  maxigp2_arready;
+      input  [15 : 0] maxigp2_rid;
+      input  [127 : 0] maxigp2_rdata;
+      input  [1 : 0] maxigp2_rresp;
+      input  maxigp2_rlast;
+      input  maxigp2_rvalid;
+      output  maxigp2_rready;
+      output  [3 : 0] maxigp2_awqos;
+      output  [3 : 0] maxigp2_arqos;
       input  [0 : 0] pl_ps_irq0;
       output  pl_resetn0;
       output  pl_clk0;
 
 //REG DECLARATIONS
 
+      reg [15 : 0] maxigp2_awid;
+      reg [39 : 0] maxigp2_awaddr;
+      reg [7 : 0] maxigp2_awlen;
+      reg [2 : 0] maxigp2_awsize;
+      reg [1 : 0] maxigp2_awburst;
+      reg maxigp2_awlock;
+      reg [3 : 0] maxigp2_awcache;
+      reg [2 : 0] maxigp2_awprot;
+      reg maxigp2_awvalid;
+      reg [15 : 0] maxigp2_awuser;
+      reg [127 : 0] maxigp2_wdata;
+      reg [15 : 0] maxigp2_wstrb;
+      reg maxigp2_wlast;
+      reg maxigp2_wvalid;
+      reg maxigp2_bready;
+      reg [15 : 0] maxigp2_arid;
+      reg [39 : 0] maxigp2_araddr;
+      reg [7 : 0] maxigp2_arlen;
+      reg [2 : 0] maxigp2_arsize;
+      reg [1 : 0] maxigp2_arburst;
+      reg maxigp2_arlock;
+      reg [3 : 0] maxigp2_arcache;
+      reg [2 : 0] maxigp2_arprot;
+      reg maxigp2_arvalid;
+      reg [15 : 0] maxigp2_aruser;
+      reg maxigp2_rready;
+      reg [3 : 0] maxigp2_awqos;
+      reg [3 : 0] maxigp2_arqos;
       reg pl_resetn0;
       reg pl_clk0;
       string ip_name;
@@ -1887,6 +1995,52 @@ end
   ps8_set_input_pl_ps_irq0(0,0);
 end
 
+import "DPI-C" function void ps8_init_m_axi_hpm0_lpd(input int maxigp2_awid_size,input int maxigp2_awaddr_size,input int maxigp2_awlen_size,input int maxigp2_awsize_size,input int maxigp2_awburst_size,input int maxigp2_awlock_size,input int maxigp2_awcache_size,input int maxigp2_awprot_size,input int maxigp2_awqos_size,input int maxigp2_awuser_size,input int maxigp2_awvalid_size,input int maxigp2_awready_size,input int maxigp2_wdata_size,input int maxigp2_wstrb_size,input int maxigp2_wlast_size,input int maxigp2_wvalid_size,input int maxigp2_wready_size,input int maxigp2_bid_size,input int maxigp2_bresp_size,input int maxigp2_bvalid_size,input int maxigp2_bready_size,input int maxigp2_arid_size,input int maxigp2_araddr_size,input int maxigp2_arlen_size,input int maxigp2_arsize_size,input int maxigp2_arburst_size,input int maxigp2_arlock_size,input int maxigp2_arcache_size,input int maxigp2_arprot_size,input int maxigp2_arqos_size,input int maxigp2_aruser_size,input int maxigp2_arvalid_size,input int maxigp2_arready_size,input int maxigp2_rid_size,input int maxigp2_rdata_size,input int maxigp2_rresp_size,input int maxigp2_rlast_size,input int maxigp2_rvalid_size,input int maxigp2_rready_size);
+import "DPI-C" function void ps8_simulate_single_cycle_maxihpm0_lpd_aclk();
+import "DPI-C" function void ps8_set_inputs_m_axi_hpm0_lpd_maxihpm0_lpd_aclk(
+input bit maxigp2_awready,
+input bit maxigp2_wready,
+input bit [15 : 0] maxigp2_bid,
+input bit [1 : 0] maxigp2_bresp,
+input bit maxigp2_bvalid,
+input bit maxigp2_arready,
+input bit [15 : 0] maxigp2_rid,
+input bit [127 : 0] maxigp2_rdata,
+input bit [1 : 0] maxigp2_rresp,
+input bit maxigp2_rlast,
+input bit maxigp2_rvalid
+);
+import "DPI-C" function void ps8_get_outputs_m_axi_hpm0_lpd_maxihpm0_lpd_aclk(
+output bit [15 : 0] maxigp2_awid,
+output bit [39 : 0] maxigp2_awaddr,
+output bit [7 : 0] maxigp2_awlen,
+output bit [2 : 0] maxigp2_awsize,
+output bit [1 : 0] maxigp2_awburst,
+output bit maxigp2_awlock,
+output bit [3 : 0] maxigp2_awcache,
+output bit [2 : 0] maxigp2_awprot,
+output bit [3 : 0] maxigp2_awqos,
+output bit [15 : 0] maxigp2_awuser,
+output bit maxigp2_awvalid,
+output bit [127 : 0] maxigp2_wdata,
+output bit [15 : 0] maxigp2_wstrb,
+output bit maxigp2_wlast,
+output bit maxigp2_wvalid,
+output bit maxigp2_bready,
+output bit [15 : 0] maxigp2_arid,
+output bit [39 : 0] maxigp2_araddr,
+output bit [7 : 0] maxigp2_arlen,
+output bit [2 : 0] maxigp2_arsize,
+output bit [1 : 0] maxigp2_arburst,
+output bit maxigp2_arlock,
+output bit [3 : 0] maxigp2_arcache,
+output bit [2 : 0] maxigp2_arprot,
+output bit [3 : 0] maxigp2_arqos,
+output bit [15 : 0] maxigp2_aruser,
+output bit maxigp2_arvalid,
+output bit maxigp2_rready
+);
+
 import "DPI-C" function void ps8_simulate_single_cycle_pl_clk0();
    export "DPI-C" function ps8_stop_sim;
    function void ps8_stop_sim();
@@ -1947,6 +2101,8 @@ import "DPI-C" function void ps8_simulate_single_cycle_pl_clk0();
       ps8_set_int_param ( "C_NUM_F2P_1_INTR_INPUTS",C_NUM_F2P_1_INTR_INPUTS );
       ps8_set_int_param ( "C_EMIO_GPIO_WIDTH",C_EMIO_GPIO_WIDTH );
       ps8_set_int_param ( "C_NUM_FABRIC_RESETS",C_NUM_FABRIC_RESETS );
+
+  ps8_init_m_axi_hpm0_lpd($bits(maxigp2_awid),$bits(maxigp2_awaddr),$bits(maxigp2_awlen),$bits(maxigp2_awsize),$bits(maxigp2_awburst),$bits(maxigp2_awlock),$bits(maxigp2_awcache),$bits(maxigp2_awprot),$bits(maxigp2_awqos),$bits(maxigp2_awuser),$bits(maxigp2_awvalid),$bits(maxigp2_awready),$bits(maxigp2_wdata),$bits(maxigp2_wstrb),$bits(maxigp2_wlast),$bits(maxigp2_wvalid),$bits(maxigp2_wready),$bits(maxigp2_bid),$bits(maxigp2_bresp),$bits(maxigp2_bvalid),$bits(maxigp2_bready),$bits(maxigp2_arid),$bits(maxigp2_araddr),$bits(maxigp2_arlen),$bits(maxigp2_arsize),$bits(maxigp2_arburst),$bits(maxigp2_arlock),$bits(maxigp2_arcache),$bits(maxigp2_arprot),$bits(maxigp2_arqos),$bits(maxigp2_aruser),$bits(maxigp2_arvalid),$bits(maxigp2_arready),$bits(maxigp2_rid),$bits(maxigp2_rdata),$bits(maxigp2_rresp),$bits(maxigp2_rlast),$bits(maxigp2_rvalid),$bits(maxigp2_rready));
   ps8_init_c_model();
   pl_clk0=0;
   end
@@ -1962,6 +2118,60 @@ import "DPI-C" function void ps8_simulate_single_cycle_pl_clk0();
    ps8_set_ip_context(ip_name);
    ps8_simulate_single_cycle_pl_clk0();
   end
+
+
+always@(posedge maxihpm0_lpd_aclk)
+  begin
+
+   ps8_set_ip_context(ip_name);
+
+   ps8_set_inputs_m_axi_hpm0_lpd_maxihpm0_lpd_aclk(
+    maxigp2_awready,
+    maxigp2_wready,
+    maxigp2_bid,
+    maxigp2_bresp,
+    maxigp2_bvalid,
+    maxigp2_arready,
+    maxigp2_rid,
+    maxigp2_rdata,
+    maxigp2_rresp,
+    maxigp2_rlast,
+    maxigp2_rvalid
+  );
+
+   ps8_simulate_single_cycle_maxihpm0_lpd_aclk();
+
+   ps8_get_outputs_m_axi_hpm0_lpd_maxihpm0_lpd_aclk(
+    maxigp2_awid,
+    maxigp2_awaddr,
+    maxigp2_awlen,
+    maxigp2_awsize,
+    maxigp2_awburst,
+    maxigp2_awlock,
+    maxigp2_awcache,
+    maxigp2_awprot,
+    maxigp2_awqos,
+    maxigp2_awuser,
+    maxigp2_awvalid,
+    maxigp2_wdata,
+    maxigp2_wstrb,
+    maxigp2_wlast,
+    maxigp2_wvalid,
+    maxigp2_bready,
+    maxigp2_arid,
+    maxigp2_araddr,
+    maxigp2_arlen,
+    maxigp2_arsize,
+    maxigp2_arburst,
+    maxigp2_arlock,
+    maxigp2_arcache,
+    maxigp2_arprot,
+    maxigp2_arqos,
+    maxigp2_aruser,
+    maxigp2_arvalid,
+    maxigp2_rready
+  );
+   end
 
 endmodule
 

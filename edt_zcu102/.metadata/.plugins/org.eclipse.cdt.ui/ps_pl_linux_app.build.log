@@ -1,0 +1,15 @@
+18:28:08 **** Auto Build of configuration Debug for project ps_pl_linux_app ****
+make all 
+Building file: ../src/ps_pl_linux_app.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/ps_pl_linux_app.o" -I../../ps_pl_linux_app_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/ps_pl_linux_app.d" -MT"src/ps_pl_linux_app.o" -o "src/ps_pl_linux_app.o" "../src/ps_pl_linux_app.c"
+In file included from ../src/ps_pl_linux_app.c:23:0:
+/usr/include/sys/ioctl.h:21:10: fatal error: features.h: No such file or directory
+src/subdir.mk:21: recipe for target 'src/ps_pl_linux_app.o' failed
+ #include <features.h>
+          ^~~~~~~~~~~~
+compilation terminated.
+make: *** [src/ps_pl_linux_app.o] Error 1
+
+18:28:08 Build Finished (took 117ms)
+

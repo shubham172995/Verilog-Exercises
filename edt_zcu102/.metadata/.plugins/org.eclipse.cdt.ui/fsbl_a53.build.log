@@ -1,4 +1,4 @@
-20:49:08 **** Build of configuration Debug for project fsbl_a53 ****
+18:06:44 **** Build of configuration Debug for project fsbl_a53 ****
 make all 
 Building file: /home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0/psu_init.c
 Invoking: ARM v8 gcc compiler
@@ -46,11 +46,6 @@ Building file: ../src/xfsbl_dfu_util.c
 Invoking: ARM v8 gcc compiler
 aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_dfu_util.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_dfu_util.d" -MT"src/xfsbl_dfu_util.o" -o "src/xfsbl_dfu_util.o" "../src/xfsbl_dfu_util.c"
 Finished building: ../src/xfsbl_dfu_util.c
- 
-Building file: ../src/xfsbl_exit.S
-Invoking: ARM v8 gcc compiler
-aarch64-none-elf-gcc -DARMA53_64 -DFSBL_DEBUG_INFO -Wall -O0 -g3 -I"/home/shubham/Vivado_Exercises/edt_zcu102/edt_zcu102_wrapper_hw_platform_0" -c -fmessage-length=0 -MT"src/xfsbl_exit.o" -Os -flto -ffat-lto-objects -I../../a53_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/xfsbl_exit.d" -MT"src/xfsbl_exit.o" -o "src/xfsbl_exit.o" "../src/xfsbl_exit.S"
-Finished building: ../src/xfsbl_exit.S
  
 Building file: ../src/xfsbl_handoff.c
 Invoking: ARM v8 gcc compiler
@@ -178,9 +173,9 @@ Finished building target: fsbl_a53.elf
 Invoking: ARM v8 Print Size
 aarch64-none-elf-size fsbl_a53.elf  |tee "fsbl_a53.elf.size"
    text	   data	    bss	    dec	    hex	filename
- 110804	   4848	  87416	 203068	  3193c	fsbl_a53.elf
+ 110860	   4848	  87416	 203124	  31974	fsbl_a53.elf
 Finished building: fsbl_a53.elf.size
  
 
-20:49:14 Build Finished (took 6s.119ms)
+18:06:50 Build Finished (took 6s.473ms)
 

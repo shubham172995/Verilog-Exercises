@@ -152,6 +152,7 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     
     public:
     // Non-AXI ports are declared here
+    sc_core::sc_in<bool> maxihpm0_lpd_aclk;
     sc_core::sc_in<sc_dt::sc_bv<1> >  pl_ps_irq0;
     sc_core::sc_out<bool> pl_resetn0;
     sc_core::sc_out<bool> pl_clk0;
@@ -161,6 +162,8 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
 
     // Xtlm aximm master socket/s is/are delcared here. these XTLM sockets will hierachically bound with 
     // master sockets defined in vivado generated wrapper.
+    xtlm::xtlm_aximm_initiator_socket*      M_AXI_HPM0_LPD_wr_socket;
+    xtlm::xtlm_aximm_initiator_socket*      M_AXI_HPM0_LPD_rd_socket;
 
     //constructor having three paramters
     // 1. module name in sc_module_name objec, 
@@ -170,6 +173,7 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
     // of ZynqUltraScale+ IP propogated from Vivado
     zynq_ultra_ps_e_tlm(sc_core::sc_module_name name,
     xsc::common::properties&): sc_module(name)//registering module name with parent
+        ,maxihpm0_lpd_aclk("maxihpm0_lpd_aclk")
         ,pl_ps_irq0("pl_ps_irq0")
         ,pl_resetn0("pl_resetn0")
         ,pl_clk0("pl_clk0")
@@ -178,6 +182,8 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
         //creating instances of xtlm slave sockets
 
         //creating instances of xtlm master sockets
+        M_AXI_HPM0_LPD_wr_socket = new xtlm::xtlm_aximm_initiator_socket("M_AXI_HPM0_LPD_wr_socket", 128);
+        M_AXI_HPM0_LPD_rd_socket = new xtlm::xtlm_aximm_initiator_socket("M_AXI_HPM0_LPD_rd_socket", 128);
 
         char* tcpip_addr = getenv("COSIM_MACHINE_TCPIP_ADDRESS");
         if(tcpip_addr == NULL)  {
@@ -197,6 +203,13 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
         }
 
         
+        //instantiating TLM2XTLM bridge and stiching it between 
+        //s_axi_hpm_lpd initiator socket of zynqmp Qemu tlm wrapper to M_AXI_HPM0_LPD_wr_socket/rd_socket sockets 
+        m_tlm2xtlm[2] = new xtlm::xaximm_tlm2xtlm("M_AXI_HPM0_LPD_tlm2xtlm_bg",128);
+        m_tlm2xtlm[2]->wr_socket->bind(*M_AXI_HPM0_LPD_wr_socket);
+        m_tlm2xtlm[2]->rd_socket->bind(*M_AXI_HPM0_LPD_rd_socket);
+        m_tlm2xtlm[2]->target_socket.bind(*m_zynqmp_tlm_model->s_axi_hpm_lpd);
+
         m_zynqmp_tlm_model->tie_off();
 
  
@@ -208,12 +221,16 @@ class zynq_ultra_ps_e_tlm : public sc_core::sc_module   {
         sensitive << pl_clk0_clk;
         dont_initialize();
         
+        m_tlm2xtlm[2]->registerUserExtensionHandlerCallback(&get_extensions_from_tlm);
 
         m_zynqmp_tlm_model->rst(qemu_rst);
 
     }
     ~zynq_ultra_ps_e_tlm()    {
         //deleteing dynamically created objects 
+        delete M_AXI_HPM0_LPD_wr_socket;
+        delete M_AXI_HPM0_LPD_rd_socket;
+        delete m_tlm2xtlm[2];
         delete[] m_tlm2xtlm;
         delete[] m_xtlm2tlm;
     }
