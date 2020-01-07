@@ -1,0 +1,30 @@
+16:29:01 INFO  : Registering command handlers for SDK TCF services
+16:29:01 INFO  : Launching XSCT server: xsct -n -interactive /home/shubham/Vivado_Exercises/temp/temp.sdk/temp_xsdb_launch_script.tcl
+16:29:03 INFO  : XSCT server has started successfully.
+16:29:03 INFO  : Successfully done setting XSCT server connection channel  
+16:29:03 INFO  : Successfully done setting SDK workspace  
+16:29:03 INFO  : Processing command line option -hwspec /home/shubham/Vivado_Exercises/temp/temp.sdk/design_1_wrapper.hdf.
+16:30:02 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:30:02 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A5CC" && level==0} -index 0' command is executed.
+16:30:18 INFO  : FPGA configured successfully with bitstream "/home/shubham/Vivado_Exercises/temp/temp.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit"
+16:30:30 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:30:30 INFO  : Jtag cable 'Digilent JTAG-SMT2NC 210308A7A5CC' is selected.
+16:30:30 INFO  : 'jtag frequency' command is executed.
+16:30:30 INFO  : Sourcing of '/home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl' is done.
+16:30:30 INFO  : Context for 'APU' is selected.
+16:30:30 INFO  : Hardware design information is loaded from '/home/shubham/Vivado_Exercises/temp/temp.sdk/design_1_wrapper_hw_platform_0/system.hdf'.
+16:30:30 INFO  : 'configparams force-mem-access 1' command is executed.
+16:30:30 INFO  : Context for processor 'psu_cortexa53_0' is selected.
+16:30:30 INFO  : Processor reset is completed for 'psu_cortexa53_0'.
+16:30:31 ERROR : Memory write error at 0x0. Instruction transfer timeout
+16:30:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl
+targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A5CC"} -index 1
+loadhw -hw /home/shubham/Vivado_Exercises/temp/temp.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]
+configparams force-mem-access 1
+targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Digilent JTAG-SMT2NC 210308A7A5CC"} -index 1
+rst -processor
+dow /home/shubham/Vivado_Exercises/temp/temp.sdk/temp/Debug/temp.elf
+----------------End of Script----------------
+

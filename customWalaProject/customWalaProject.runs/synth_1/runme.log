@@ -17,51 +17,57 @@ Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xczu9eg'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xczu9eg'
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 6262 
+INFO: Helper process launched with PID 25084 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1487.223 ; gain = 87.000 ; free physical = 4003 ; free virtual = 9520
+Starting RTL Elaboration : Time (s): cpu = 00:00:01 ; elapsed = 00:00:01 . Memory (MB): peak = 1487.344 ; gain = 86.000 ; free physical = 4529 ; free virtual = 11193
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'design_1_wrapper' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
 INFO: [Synth 8-6157] synthesizing module 'design_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:13]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_0' (1#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_1_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_1_0' (2#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_ps8_0_axi_periph_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:404]
-INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_QJIMLI' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1176]
-INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_QJIMLI' (3#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1176]
-INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1D3SAH3' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1308]
-INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1D3SAH3' (4#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1308]
-INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1A7ZMW4' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1440]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_0' (5#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (6#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1A7ZMW4' (7#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1440]
-INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_KGUFR9' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1850]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_1' (8#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (9#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_KGUFR9' (10#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1850]
-INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_0' (11#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_xbar_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'xbar' of module 'design_1_xbar_0' requires 40 connections, but only 38 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1135]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_ps8_0_axi_periph_0' (12#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:404]
-INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_96M_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_96M_0' (13#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_rst_ps8_0_96M_0_stub.v:6]
-WARNING: [Synth 8-350] instance 'rst_ps8_0_96M' of module 'design_1_rst_ps8_0_96M_0' requires 10 connections, but only 6 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:316]
-INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_zynq_ultra_ps_e_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_1' (14#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-6232-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_zynq_ultra_ps_e_0_1_stub.v:6]
-WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_1' requires 82 connections, but only 78 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:323]
-INFO: [Synth 8-6155] done synthesizing module 'design_1' (15#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:13]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_0_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_0_1' (1#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_axi_gpio_1_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_1_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_axi_gpio_1_1' (2#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_axi_gpio_1_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_ps8_0_axi_periph_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:533]
+INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_QJIMLI' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1537]
+INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_QJIMLI' (3#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1537]
+INFO: [Synth 8-6157] synthesizing module 'm01_couplers_imp_1D3SAH3' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1669]
+INFO: [Synth 8-6155] done synthesizing module 'm01_couplers_imp_1D3SAH3' (4#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1669]
+INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_1A7ZMW4' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1801]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_0' (5#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_1A7ZMW4' (6#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1801]
+INFO: [Synth 8-6157] synthesizing module 's01_couplers_imp_KGUFR9' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:2103]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_0' (7#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_1' (8#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's01_couplers_imp_KGUFR9' (9#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:2103]
+INFO: [Synth 8-6157] synthesizing module 's02_couplers_imp_19AQZVR' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:2513]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_ds_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_ds_1' (10#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_ds_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'design_1_auto_pc_2' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_auto_pc_2' (11#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_auto_pc_2_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 's02_couplers_imp_19AQZVR' (12#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:2513]
+INFO: [Synth 8-6157] synthesizing module 'design_1_xbar_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_xbar_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_xbar_1' (13#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_xbar_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'xbar' of module 'design_1_xbar_1' requires 40 connections, but only 38 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:1496]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_ps8_0_axi_periph_1' (14#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:533]
+INFO: [Synth 8-6157] synthesizing module 'design_1_rst_ps8_0_96M_1' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_rst_ps8_0_96M_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_rst_ps8_0_96M_1' (15#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_rst_ps8_0_96M_1_stub.v:6]
+WARNING: [Synth 8-350] instance 'rst_ps8_0_96M' of module 'design_1_rst_ps8_0_96M_1' requires 10 connections, but only 6 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:407]
+INFO: [Synth 8-6157] synthesizing module 'design_1_zynq_ultra_ps_e_0_0' [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_zynq_ultra_ps_e_0_0' (16#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/.Xil/Vivado-25064-shubham-HP-Desktop-Pro-G1-MT/realtime/design_1_zynq_ultra_ps_e_0_0_stub.v:6]
+WARNING: [Synth 8-350] instance 'zynq_ultra_ps_e_0' of module 'design_1_zynq_ultra_ps_e_0_0' requires 122 connections, but only 116 given [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:414]
+INFO: [Synth 8-6155] done synthesizing module 'design_1' (17#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/synth/design_1.v:13]
 INFO: [Synth 8-6157] synthesizing module 'IOBUF' [/home/shubham/Xilinx2018.3/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
 	Parameter DRIVE bound to: 12 - type: integer 
 	Parameter IBUF_LOW_PWR bound to: TRUE - type: string 
 	Parameter IOSTANDARD bound to: DEFAULT - type: string 
 	Parameter SLEW bound to: SLOW - type: string 
-INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (16#1) [/home/shubham/Xilinx2018.3/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
-INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (17#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+INFO: [Synth 8-6155] done synthesizing module 'IOBUF' (18#1) [/home/shubham/Xilinx2018.3/Vivado/2018.3/scripts/rt/data/unisim_comp.v:23615]
+INFO: [Synth 8-6155] done synthesizing module 'design_1_wrapper' (19#1) [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v:12]
+WARNING: [Synth 8-3331] design s02_couplers_imp_19AQZVR has unconnected port M_ACLK
+WARNING: [Synth 8-3331] design s02_couplers_imp_19AQZVR has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design s01_couplers_imp_KGUFR9 has unconnected port M_ACLK
 WARNING: [Synth 8-3331] design s01_couplers_imp_KGUFR9 has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design s00_couplers_imp_1A7ZMW4 has unconnected port M_ACLK
@@ -74,16 +80,18 @@ WARNING: [Synth 8-3331] design m00_couplers_imp_QJIMLI has unconnected port M_AC
 WARNING: [Synth 8-3331] design m00_couplers_imp_QJIMLI has unconnected port M_ARESETN
 WARNING: [Synth 8-3331] design m00_couplers_imp_QJIMLI has unconnected port S_ACLK
 WARNING: [Synth 8-3331] design m00_couplers_imp_QJIMLI has unconnected port S_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S02_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S02_ARESETN
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1532.973 ; gain = 132.750 ; free physical = 4014 ; free virtual = 9532
+Finished RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1533.094 ; gain = 131.750 ; free physical = 4540 ; free virtual = 11205
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -96,54 +104,63 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1532.973 ; gain = 132.750 ; free physical = 4016 ; free virtual = 9533
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1533.094 ; gain = 131.750 ; free physical = 4541 ; free virtual = 11206
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1532.973 ; gain = 132.750 ; free physical = 4016 ; free virtual = 9533
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 1533.094 ; gain = 131.750 ; free physical = 4541 ; free virtual = 11206
 ---------------------------------------------------------------------------------
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_0/design_1_axi_gpio_0_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1/design_1_zynq_ultra_ps_e_0_1_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_xbar_0/design_1_xbar_0/design_1_xbar_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_96M_0/design_1_rst_ps8_0_96M_0/design_1_rst_ps8_0_96M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_96M'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_96M_0/design_1_rst_ps8_0_96M_0/design_1_rst_ps8_0_96M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_96M'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_in_context.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1/design_1_axi_gpio_0_1_in_context.xdc] for cell 'design_1_i/axi_gpio_0'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_axi_gpio_1_1/design_1_axi_gpio_1_1/design_1_axi_gpio_1_0_in_context.xdc] for cell 'design_1_i/axi_gpio_1'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1/design_1_xbar_1_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_xbar_1/design_1_xbar_1/design_1_xbar_1_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/xbar'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_96M_1/design_1_rst_ps8_0_96M_1/design_1_rst_ps8_0_96M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_96M'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_96M_1/design_1_rst_ps8_0_96M_1/design_1_rst_ps8_0_96M_0_in_context.xdc] for cell 'design_1_i/rst_ps8_0_96M'
 Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
 Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc'
-Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
-Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds'
 Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
 Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s02_couplers/auto_ds'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_1/design_1_auto_ds_1/design_1_auto_ds_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s02_couplers/auto_ds'
+Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s02_couplers/auto_pc'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_2/design_1_auto_pc_2/design_1_auto_pc_0_in_context.xdc] for cell 'design_1_i/ps8_0_axi_periph/s02_couplers/auto_pc'
 Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[7]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:2]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[6]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:3]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[5]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:4]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[7]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:10]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[6]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:11]
+WARNING: [Vivado 12-584] No ports matched 'gpio_rtl_0_tri_io[5]'. [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc:12]
 Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc]
+WARNING: [Project 1-498] One or more constraints failed evaluation while reading constraint file [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc] and the design contains unresolved black boxes. These constraints will be read post-synthesis (as long as their source constraint file is marked as used_in_implementation) and should be applied correctly then. You should review the constraints listed in the file [.Xil/design_1_wrapper_propImpl.xdc] and check the run log file to verify that these constraints were correctly applied.
 INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/constrs_1/new/custom.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/design_1_wrapper_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/design_1_wrapper_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/dont_touch.xdc]
 Finished Parsing XDC File [/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/dont_touch.xdc]
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2510.598 ; gain = 0.000 ; free physical = 3279 ; free virtual = 8797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2512.727 ; gain = 0.000 ; free physical = 3828 ; free virtual = 10492
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2510.598 ; gain = 0.000 ; free physical = 3280 ; free virtual = 8797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2512.727 ; gain = 0.000 ; free physical = 3829 ; free virtual = 10493
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 13 instances were transformed.
-  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 13 instances
+  A total of 21 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 21 instances
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2510.598 ; gain = 0.000 ; free physical = 3280 ; free virtual = 8797
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.01 . Memory (MB): peak = 2510.598 ; gain = 0.000 ; free physical = 3280 ; free virtual = 8797
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2512.727 ; gain = 0.000 ; free physical = 3829 ; free virtual = 10493
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2512.727 ; gain = 0.000 ; free physical = 3829 ; free virtual = 10493
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2510.598 ; gain = 1110.375 ; free physical = 3353 ; free virtual = 8870
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.727 ; gain = 1111.383 ; free physical = 3903 ; free virtual = 10568
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -151,27 +168,28 @@ Start Loading Part and Timing Information
 Loading part: xczu9eg-ffvb1156-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2510.598 ; gain = 1110.375 ; free physical = 3353 ; free virtual = 8870
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.727 ; gain = 1111.383 ; free physical = 3903 ; free virtual = 10568
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for design_1_i. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/zynq_ultra_ps_e_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_0. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/xbar. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/rst_ps8_0_96M. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/axi_gpio_1. (constraint file  auto generated constraint, line ).
-Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s00_couplers/auto_ds. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s00_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s01_couplers/auto_ds. (constraint file  auto generated constraint, line ).
 Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s01_couplers/auto_pc. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s02_couplers/auto_ds. (constraint file  auto generated constraint, line ).
+Applied set_property DONT_TOUCH = true for design_1_i/ps8_0_axi_periph/s02_couplers/auto_pc. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2510.598 ; gain = 1110.375 ; free physical = 3353 ; free virtual = 8870
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.727 ; gain = 1111.383 ; free physical = 3903 ; free virtual = 10568
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2510.598 ; gain = 1110.375 ; free physical = 3356 ; free virtual = 8873
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.727 ; gain = 1111.383 ; free physical = 3905 ; free virtual = 10570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -206,16 +224,18 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port M01_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S00_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S00_ARESETN
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S01_ACLK
-WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_0 has unconnected port S01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port M01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S00_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S00_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S01_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S01_ARESETN
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S02_ACLK
+WARNING: [Synth 8-3331] design design_1_ps8_0_axi_periph_1 has unconnected port S02_ARESETN
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:20 . Memory (MB): peak = 2510.598 ; gain = 1110.375 ; free physical = 3344 ; free virtual = 8862
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:12 ; elapsed = 00:00:19 . Memory (MB): peak = 2512.727 ; gain = 1111.383 ; free physical = 3892 ; free virtual = 10560
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -229,13 +249,13 @@ Start Applying XDC Timing Constraints
 INFO: [Synth 8-5578] Moved timing constraint from pin 'design_1_i/zynq_ultra_ps_e_0/pl_clk0' to pin 'design_1_i/zynq_ultra_ps_e_0/bbstub_pl_clk0/O'
 INFO: [Synth 8-5819] Moved 1 constraints on hierarchical pins to their respective driving/loading pins
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2737.262 ; gain = 1337.039 ; free physical = 2781 ; free virtual = 8300
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 2745.391 ; gain = 1344.047 ; free physical = 3331 ; free virtual = 10000
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2737.262 ; gain = 1337.039 ; free physical = 2780 ; free virtual = 8299
+Finished Timing Optimization : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 2746.391 ; gain = 1345.047 ; free physical = 3331 ; free virtual = 10000
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -247,7 +267,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2779 ; free virtual = 8298
+Finished Technology Mapping : Time (s): cpu = 00:00:29 ; elapsed = 00:00:49 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3330 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -271,7 +291,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished IO Insertion : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -284,7 +304,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -296,25 +316,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -324,15 +344,16 @@ Report BlackBoxes:
 +------+-----------------------------+----------+
 |      |BlackBox name                |Instances |
 +------+-----------------------------+----------+
-|1     |design_1_xbar_0              |         1|
-|2     |design_1_auto_ds_0           |         1|
-|3     |design_1_auto_pc_0           |         1|
-|4     |design_1_auto_ds_1           |         1|
-|5     |design_1_auto_pc_1           |         1|
-|6     |design_1_axi_gpio_0_0        |         1|
-|7     |design_1_axi_gpio_1_0        |         1|
-|8     |design_1_rst_ps8_0_96M_0     |         1|
-|9     |design_1_zynq_ultra_ps_e_0_1 |         1|
+|1     |design_1_xbar_1              |         1|
+|2     |design_1_auto_pc_0           |         1|
+|3     |design_1_auto_ds_0           |         1|
+|4     |design_1_auto_pc_1           |         1|
+|5     |design_1_auto_ds_1           |         1|
+|6     |design_1_auto_pc_2           |         1|
+|7     |design_1_axi_gpio_0_1        |         1|
+|8     |design_1_axi_gpio_1_1        |         1|
+|9     |design_1_rst_ps8_0_96M_1     |         1|
+|10    |design_1_zynq_ultra_ps_e_0_0 |         1|
 +------+-----------------------------+----------+
 
 Report Cell Usage: 
@@ -343,47 +364,49 @@ Report Cell Usage:
 |2     |design_1_auto_ds_1           |     1|
 |3     |design_1_auto_pc_0           |     1|
 |4     |design_1_auto_pc_1           |     1|
-|5     |design_1_axi_gpio_0_0        |     1|
-|6     |design_1_axi_gpio_1_0        |     1|
-|7     |design_1_rst_ps8_0_96M_0     |     1|
-|8     |design_1_xbar_0              |     1|
-|9     |design_1_zynq_ultra_ps_e_0_1 |     1|
-|10    |IOBUF                        |    13|
+|5     |design_1_auto_pc_2           |     1|
+|6     |design_1_axi_gpio_0_1        |     1|
+|7     |design_1_axi_gpio_1_1        |     1|
+|8     |design_1_rst_ps8_0_96M_1     |     1|
+|9     |design_1_xbar_1              |     1|
+|10    |design_1_zynq_ultra_ps_e_0_0 |     1|
+|11    |IOBUF                        |    21|
 +------+-----------------------------+------+
 
 Report Instance Areas: 
 +------+---------------------+----------------------------+------+
 |      |Instance             |Module                      |Cells |
 +------+---------------------+----------------------------+------+
-|1     |top                  |                            |  2190|
-|2     |  design_1_i         |design_1                    |  2177|
-|3     |    ps8_0_axi_periph |design_1_ps8_0_axi_periph_0 |  1374|
-|4     |      s00_couplers   |s00_couplers_imp_1A7ZMW4    |   519|
+|1     |top                  |                            |  2692|
+|2     |  design_1_i         |design_1                    |  2671|
+|3     |    ps8_0_axi_periph |design_1_ps8_0_axi_periph_1 |  1616|
+|4     |      s00_couplers   |s00_couplers_imp_1A7ZMW4    |   201|
 |5     |      s01_couplers   |s01_couplers_imp_KGUFR9     |   519|
+|6     |      s02_couplers   |s02_couplers_imp_19AQZVR    |   519|
 +------+---------------------+----------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.270 ; gain = 1355.047 ; free physical = 2778 ; free virtual = 8297
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:29 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.406 ; gain = 1356.062 ; free physical = 3329 ; free virtual = 9998
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 8 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:35 . Memory (MB): peak = 2755.270 ; gain = 377.422 ; free physical = 2816 ; free virtual = 8335
-Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 2755.277 ; gain = 1355.047 ; free physical = 2816 ; free virtual = 8335
+Synthesis finished with 0 errors, 0 critical warnings and 10 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:20 ; elapsed = 00:00:34 . Memory (MB): peak = 2757.406 ; gain = 376.430 ; free physical = 3367 ; free virtual = 10036
+Synthesis Optimization Complete : Time (s): cpu = 00:00:30 ; elapsed = 00:00:50 . Memory (MB): peak = 2757.414 ; gain = 1356.062 ; free physical = 3367 ; free virtual = 10036
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 13 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 21 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2788.902 ; gain = 0.000 ; free physical = 2746 ; free virtual = 8265
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.039 ; gain = 0.000 ; free physical = 3321 ; free virtual = 9990
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 13 instances were transformed.
-  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 13 instances
+  A total of 21 instances were transformed.
+  IOBUF => IOBUF (IBUFCTRL, INBUF, OBUFT): 21 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-54 Infos, 31 Warnings, 0 Critical Warnings and 0 Errors encountered.
+58 Infos, 44 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:51 . Memory (MB): peak = 2788.902 ; gain = 1416.355 ; free physical = 2794 ; free virtual = 8313
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2788.902 ; gain = 0.000 ; free physical = 2794 ; free virtual = 8313
+synth_design: Time (s): cpu = 00:00:31 ; elapsed = 00:00:50 . Memory (MB): peak = 2791.039 ; gain = 1411.645 ; free physical = 3372 ; free virtual = 10040
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2791.039 ; gain = 0.000 ; free physical = 3372 ; free virtual = 10040
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
 INFO: [Common 17-1381] The checkpoint '/home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.runs/synth_1/design_1_wrapper.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Jan  6 21:49:57 2020...
+INFO: [Common 17-206] Exiting Vivado at Tue Jan  7 16:45:53 2020...

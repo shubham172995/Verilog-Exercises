@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-| Date         : Mon Jan  6 21:49:56 2020
+| Date         : Tue Jan  7 16:45:53 2020
 | Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
 | Command      : report_utilization -file design_1_wrapper_utilization_synth.rpt -pb design_1_wrapper_utilization_synth.pb
 | Design       : design_1_wrapper
@@ -93,7 +93,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| Bonded IOB |   13 |     0 |       328 |  3.96 |
+| Bonded IOB |   21 |     0 |       328 |  6.40 |
 +------------+------+-------+-----------+-------+
 
 
@@ -152,9 +152,9 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| OBUFT    |   13 |                 I/O |
-| INBUF    |   13 |                 I/O |
-| IBUFCTRL |   13 |              Others |
+| OBUFT    |   21 |                 I/O |
+| INBUF    |   21 |                 I/O |
+| IBUFCTRL |   21 |              Others |
 +----------+------+---------------------+
 
 
@@ -164,11 +164,12 @@ Table of Contents
 +------------------------------+------+
 |           Ref Name           | Used |
 +------------------------------+------+
-| design_1_zynq_ultra_ps_e_0_1 |    1 |
-| design_1_xbar_0              |    1 |
-| design_1_rst_ps8_0_96M_0     |    1 |
-| design_1_axi_gpio_1_0        |    1 |
-| design_1_axi_gpio_0_0        |    1 |
+| design_1_zynq_ultra_ps_e_0_0 |    1 |
+| design_1_xbar_1              |    1 |
+| design_1_rst_ps8_0_96M_1     |    1 |
+| design_1_axi_gpio_1_1        |    1 |
+| design_1_axi_gpio_0_1        |    1 |
+| design_1_auto_pc_2           |    1 |
 | design_1_auto_pc_1           |    1 |
 | design_1_auto_pc_0           |    1 |
 | design_1_auto_ds_1           |    1 |

@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
--- Date        : Mon Jan  6 21:48:45 2020
+-- Date        : Mon Jan  6 21:48:44 2020
 -- Host        : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
--- Command     : write_vhdl -force -mode synth_stub
---               /home/shubham/Vivado_Exercises/customWalaProject/customWalaProject.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top design_1_auto_ds_0 -prefix
+--               design_1_auto_ds_0_ design_1_auto_ds_0_stub.vhdl
 -- Design      : design_1_auto_ds_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu9eg-ffvb1156-2-e
