@@ -1,0 +1,1 @@
+vopt -64 +acc -l elaborate.log -L xilinx_vip -L ecc_v2_0_12 -L fec_5g_common_v1_1_0 -L polar_v1_0_2 -L xil_defaultlib -L fec_5g_common_v1_1_0 -L polar_v1_0_2 -L unisims_ver -L unimacro_ver -L secureip -work xil_defaultlib xil_defaultlib.polar_2 xil_defaultlib.glbl -o polar_2_opt

@@ -1,0 +1,23 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_axi_gpio_0/sim/ps_example_axi_gpio_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_gpio_reset_0/sim/ps_example_gpio_reset_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_rtc_0/sim/ps_example_rtc_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ipshared/1196/axis_probe.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_enc_ip_probe_0/sim/ps_example_enc_ip_probe_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_enc_op_probe_0/sim/ps_example_enc_op_probe_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_dec_ip_probe_0/sim/ps_example_dec_ip_probe_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_dec_op_probe_0/sim/ps_example_dec_op_probe_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_microblaze_ps_0/sim/ps_example_microblaze_ps_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_dlmb_v10_0/sim/ps_example_dlmb_v10_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_ilmb_v10_0/sim/ps_example_ilmb_v10_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_dlmb_bram_if_cntlr_0/sim/ps_example_dlmb_bram_if_cntlr_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_ilmb_bram_if_cntlr_0/sim/ps_example_ilmb_bram_if_cntlr_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_mdm_1_0/sim/ps_example_mdm_1_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_rst_clk_wiz_100M_0/sim/ps_example_rst_clk_wiz_100M_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_rst_clk_wiz_200M_0/sim/ps_example_rst_clk_wiz_200M_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_rst_clk_wiz_150M_0/sim/ps_example_rst_clk_wiz_150M_0.vhd" \
+"../../../../polar_0_ex.ip_user_files/bd/ps_example/ip/ps_example_axi_intc_0/sim/ps_example_axi_intc_0.vhd" \
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,50 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu9eg-ffvb1156-2-e",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "axi_traffic_gen_0": ""
+    },
+    "components": {
+      "axi_traffic_gen_0": {
+        "vlnv": "xilinx.com:ip:axi_traffic_gen:3.0",
+        "xci_name": "design_1_axi_traffic_gen_0_0",
+        "parameters": {
+          "ATG_OPTIONS": {
+            "value": "High Level Traffic"
+          },
+          "C_ATG_REPEAT_TYPE": {
+            "value": "Repetitive"
+          },
+          "DATA_SIZE_AVG": {
+            "value": "8"
+          },
+          "DATA_SIZE_MAX": {
+            "value": "64"
+          },
+          "MASTER_AXI_WIDTH": {
+            "value": "512"
+          },
+          "TRAFFIC_PROFILE": {
+            "value": "Data"
+          }
+        }
+      }
+    },
+    "addressing": {
+      "/axi_traffic_gen_0": {
+        "address_spaces": {
+          "Data": {
+            "range": "4G",
+            "width": "32"
+          }
+        }
+      }
+    }
+  }
+}
