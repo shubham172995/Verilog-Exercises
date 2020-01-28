@@ -1,0 +1,81 @@
+
+*** Running vivado
+    with args -log design_1_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source design_1_wrapper.tcl -notrace
+
+
+****** Vivado v2018.3 (64-bit)
+  **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+  **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source design_1_wrapper.tcl -notrace
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/shubham/HLS_Exercises/CustomClocks2/solution1/impl/ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/shubham/Xilinx2018.3/Vivado/2018.3/data/ip'.
+Command: link_design -top design_1_wrapper -part xczu9eg-ffvb1156-2-e
+Design is defaulting to srcset: sources_1
+Design is defaulting to constrset: constrs_1
+INFO: [Project 1-454] Reading design checkpoint '/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.dcp' for cell 'design_1_i/clk_wiz_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_custom2_0_0/design_1_custom2_0_0.dcp' for cell 'design_1_i/custom2_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_system_ila_1_3/design_1_system_ila_1_3.dcp' for cell 'design_1_i/system_ila_1'
+INFO: [Project 1-454] Reading design checkpoint '/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0.dcp' for cell 'design_1_i/vio_0'
+INFO: [Project 1-454] Reading design checkpoint '/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.dcp' for cell 'design_1_i/zynq_ultra_ps_e_0'
+INFO: [Netlist 29-17] Analyzing 60 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.3
+INFO: [Device 21-403] Loading part xczu9eg-ffvb1156-2-e
+INFO: [Project 1-570] Preparing netlist for logic optimization
+WARNING: [Opt 31-32] Removing redundant IBUF since it is not being driven by a top-level port. design_1_i/clk_wiz_0/inst/clkin1_ibuf 
+Resolution: The tool has removed redundant IBUF. To resolve this warning, check for redundant IBUF in the input design.
+WARNING: [Constraints 18-550] Could not create 'IBUF_LOW_PWR' constraint because net 'design_1_i/clk_wiz_0/clk_in1' is not directly connected to top level port. Synthesis is ignored for IBUF_LOW_PWR but preserved for implementation.
+INFO: [Chipscope 16-324] Core: design_1_i/system_ila_1/inst/ila_lib UUID: 1ac8c4c2-d1ac-5faa-b5d9-9a6ca09c91e7 
+INFO: [Chipscope 16-324] Core: design_1_i/vio_0 UUID: 01a4b594-7c44-5fa6-bd66-f70f5f031273 
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc] for cell 'design_1_i/zynq_ultra_ps_e_0/inst'
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0.xdc] for cell 'design_1_i/vio_0'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_vio_0_0/design_1_vio_0_0.xdc] for cell 'design_1_i/vio_0'
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0_board.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+INFO: [Timing 38-35] Done setting XDC timing constraints. [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+INFO: [Timing 38-2] Deriving generated clocks [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+get_clocks: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 2995.184 ; gain = 375.133 ; free physical = 1084 ; free virtual = 3061
+WARNING: [Vivado 12-2489] -input_jitter contains time 0.103120 which will be rounded to 0.103 to ensure it is an integer multiple of 1 picosecond [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc:57]
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_clk_wiz_0_0/design_1_clk_wiz_0_0.xdc] for cell 'design_1_i/clk_wiz_0/inst'
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_system_ila_1_3/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'design_1_i/system_ila_1/inst/ila_lib/inst'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_system_ila_1_3/bd_0/ip/ip_0/ila_v6_2/constraints/ila_impl.xdc] for cell 'design_1_i/system_ila_1/inst/ila_lib/inst'
+Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_system_ila_1_3/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_1/inst/ila_lib/inst'
+Finished Parsing XDC File [/home/shubham/Vivado_Exercises/project_7/project_7.srcs/sources_1/bd/design_1/ip/design_1_system_ila_1_3/bd_0/ip/ip_0/ila_v6_2/constraints/ila.xdc] for cell 'design_1_i/system_ila_1/inst/ila_lib/inst'
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 3099.234 ; gain = 0.000 ; free physical = 1077 ; free virtual = 3061
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 40 instances were transformed.
+  CFGLUT5 => CFGLUT5 (SRLC32E, SRL16E): 40 instances
+
+19 Infos, 3 Warnings, 0 Critical Warnings and 0 Errors encountered.
+link_design completed successfully
+link_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:55 . Memory (MB): peak = 3099.234 ; gain = 1684.422 ; free physical = 1077 ; free virtual = 3061
+Command: opt_design
+Attempting to get a license for feature 'Implementation' and/or device 'xczu9eg'
+INFO: [Common 17-349] Got license for feature 'Implementation' and/or device 'xczu9eg'
+Running DRC as a precondition to command opt_design
+
+Starting DRC Task
+INFO: [DRC 23-27] Running DRC with 8 threads
+INFO: [Project 1-461] DRC finished with 0 Errors
+INFO: [Project 1-462] Please refer to the DRC report (report_drc) for more information.
+
+Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 3099.234 ; gain = 0.000 ; free physical = 1021 ; free virtual = 3049
+
+Starting Cache Timing Information Task
+INFO: [Timing 38-35] Done setting XDC timing constraints.
+Ending Cache Timing Information Task | Checksum: 12dc05c65
+
+Time (s): cpu = 00:00:00.26 ; elapsed = 00:00:00.15 . Memory (MB): peak = 3099.234 ; gain = 0.000 ; free physical = 1020 ; free virtual = 3047
+
+Starting Logic Optimization Task
+
+Phase 1 Generate And Synthesize Debug Cores
+INFO: [Chipscope 16-329] Generating Script for core instance : dbg_hub 
+INFO: [IP_Flow 19-3806] Processing IP xilinx.com:ip:xsdbm:3.0 for cell dbg_hub_CV.
+/home/shubham/Xilinx2018.3/Vivado/2018.3/bin/loader: line 213: 27216 Killed                  "$RDI_PROG" "$@"

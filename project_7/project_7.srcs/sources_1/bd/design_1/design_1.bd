@@ -1,0 +1,177 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu9eg-ffvb1156-2-e",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3",
+      "validated": "true"
+    },
+    "design_tree": {
+      "custom2_0": "",
+      "zynq_ultra_ps_e_0": "",
+      "vio_0": "",
+      "clk_wiz_0": "",
+      "system_ila_1": ""
+    },
+    "components": {
+      "custom2_0": {
+        "vlnv": "xilinx.com:hls:custom2:1.0",
+        "xci_name": "design_1_custom2_0_0"
+      },
+      "zynq_ultra_ps_e_0": {
+        "vlnv": "xilinx.com:ip:zynq_ultra_ps_e:3.2",
+        "xci_name": "design_1_zynq_ultra_ps_e_0_0",
+        "parameters": {
+          "PSU_DDR_RAM_HIGHADDR_OFFSET": {
+            "value": "0x00000002"
+          },
+          "PSU_DDR_RAM_LOWADDR_OFFSET": {
+            "value": "0x80000000"
+          },
+          "PSU__DDR_HIGH_ADDRESS_GUI_ENABLE": {
+            "value": "0"
+          },
+          "PSU__USE__M_AXI_GP2": {
+            "value": "0"
+          }
+        }
+      },
+      "vio_0": {
+        "vlnv": "xilinx.com:ip:vio:3.0",
+        "xci_name": "design_1_vio_0_0",
+        "parameters": {
+          "C_NUM_PROBE_IN": {
+            "value": "0"
+          },
+          "C_NUM_PROBE_OUT": {
+            "value": "2"
+          },
+          "C_PROBE_OUT0_INIT_VAL": {
+            "value": "0x1"
+          }
+        }
+      },
+      "clk_wiz_0": {
+        "vlnv": "xilinx.com:ip:clk_wiz:6.0",
+        "xci_name": "design_1_clk_wiz_0_0",
+        "parameters": {
+          "CLKOUT2_JITTER": {
+            "value": "90.201"
+          },
+          "CLKOUT2_PHASE_ERROR": {
+            "value": "87.180"
+          },
+          "CLKOUT2_REQUESTED_OUT_FREQ": {
+            "value": "400.000"
+          },
+          "CLKOUT2_USED": {
+            "value": "true"
+          },
+          "MMCM_CLKOUT1_DIVIDE": {
+            "value": "3"
+          },
+          "MMCM_DIVCLK_DIVIDE": {
+            "value": "1"
+          },
+          "NUM_OUT_CLKS": {
+            "value": "2"
+          },
+          "USE_LOCKED": {
+            "value": "false"
+          },
+          "USE_RESET": {
+            "value": "false"
+          }
+        }
+      },
+      "system_ila_1": {
+        "vlnv": "xilinx.com:ip:system_ila:1.1",
+        "xci_name": "design_1_system_ila_1_3",
+        "parameters": {
+          "C_DATA_DEPTH": {
+            "value": "4096"
+          },
+          "C_MON_TYPE": {
+            "value": "NATIVE"
+          },
+          "C_NUM_OF_PROBES": {
+            "value": "3"
+          }
+        }
+      }
+    },
+    "nets": {
+      "zynq_ultra_ps_e_0_pl_clk0": {
+        "ports": [
+          "zynq_ultra_ps_e_0/pl_clk0",
+          "clk_wiz_0/clk_in1"
+        ]
+      },
+      "clk_wiz_0_clk_out1": {
+        "ports": [
+          "clk_wiz_0/clk_out1",
+          "custom2_0/clock1"
+        ]
+      },
+      "clk_wiz_0_clk_out2": {
+        "ports": [
+          "clk_wiz_0/clk_out2",
+          "custom2_0/clock2",
+          "vio_0/clk",
+          "system_ila_1/clk"
+        ]
+      },
+      "custom2_0_out_counter1": {
+        "ports": [
+          "custom2_0/out_counter1",
+          "system_ila_1/probe0"
+        ],
+        "hdl_attributes": {
+          "DEBUG": {
+            "value": "true"
+          },
+          "MARK_DEBUG": {
+            "value": "true"
+          }
+        }
+      },
+      "custom2_0_out_counter2": {
+        "ports": [
+          "custom2_0/out_counter2",
+          "system_ila_1/probe1"
+        ],
+        "hdl_attributes": {
+          "DEBUG": {
+            "value": "true"
+          },
+          "MARK_DEBUG": {
+            "value": "true"
+          }
+        }
+      },
+      "vio_0_probe_out1": {
+        "ports": [
+          "vio_0/probe_out1",
+          "custom2_0/enable",
+          "system_ila_1/probe2"
+        ],
+        "hdl_attributes": {
+          "DEBUG": {
+            "value": "true"
+          },
+          "MARK_DEBUG": {
+            "value": "true"
+          }
+        }
+      },
+      "vio_0_probe_out0": {
+        "ports": [
+          "vio_0/probe_out0",
+          "custom2_0/reset"
+        ]
+      }
+    }
+  }
+}

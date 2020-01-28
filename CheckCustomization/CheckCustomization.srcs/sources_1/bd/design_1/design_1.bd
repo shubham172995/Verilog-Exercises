@@ -1,0 +1,20 @@
+{
+  "design": {
+    "design_info": {
+      "boundary_crc": "0x0",
+      "device": "xczu9eg-ffvb1156-2-e",
+      "name": "design_1",
+      "synth_flow_mode": "Hierarchical",
+      "tool_version": "2018.3"
+    },
+    "design_tree": {
+      "Check_0": ""
+    },
+    "components": {
+      "Check_0": {
+        "vlnv": "xilinx.com:hls:Check:1.0",
+        "xci_name": "design_1_Check_0_0"
+      }
+    }
+  }
+}

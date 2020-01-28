@@ -1,0 +1,23 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace inst vio_0 -pg 1 -lvl 2 -y 220 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst custom2_0 -pg 1 -lvl 3 -y 120 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -y 120 -defaultsOSRD
+preplace inst clk_wiz_0 -pg 1 -lvl 2 -y 100 -defaultsOSRD
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 1 1 450
+preplace netloc custom2_0_out_counter1 1 3 1 N
+preplace netloc custom2_0_out_counter2 1 3 1 N
+preplace netloc vio_0_probe_out0 1 2 1 760
+preplace netloc vio_0_probe_out1 1 2 2 770 210 1090
+preplace netloc clk_wiz_0_clk_out1 1 2 1 N
+preplace netloc clk_wiz_0_clk_out2 1 2 2 760 30 1090
+levelinfo -pg 1 -90 230 650 930 1180 1280 -top 0 -bot 290
+"
+}
+{
+   "da_clkrst_cnt":"1",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}
