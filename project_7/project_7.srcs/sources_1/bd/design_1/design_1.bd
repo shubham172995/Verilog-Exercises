@@ -5,8 +5,7 @@
       "device": "xczu9eg-ffvb1156-2-e",
       "name": "design_1",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2018.3",
-      "validated": "true"
+      "tool_version": "2018.3"
     },
     "design_tree": {
       "custom2_0": "",
@@ -14,6 +13,17 @@
       "vio_0": "",
       "clk_wiz_0": "",
       "system_ila_1": ""
+    },
+    "ports": {
+      "clk": {
+        "type": "clk",
+        "direction": "I"
+      },
+      "probe0": {
+        "direction": "I",
+        "left": "0",
+        "right": "0"
+      }
     },
     "components": {
       "custom2_0": {

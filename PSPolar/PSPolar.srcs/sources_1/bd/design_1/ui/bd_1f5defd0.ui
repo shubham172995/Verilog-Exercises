@@ -1,0 +1,35 @@
+{
+   "ExpandedHierarchyInLayout":"",
+   "guistr":"# # String gsaved with Nlview 6.8.11  2018-08-07 bk=1.4403 VDI=40 GEI=35 GUI=JA:9.0 TLS
+#  -string -flagsOSRD
+preplace inst vio_0 -pg 1 -lvl 1 -y 420 -defaultsOSRD
+preplace inst rst_ps8_0_99M -pg 1 -lvl 1 -y 280 -defaultsOSRD
+preplace inst ps8_0_axi_periph -pg 1 -lvl 2 -y 130 -defaultsOSRD
+preplace inst zynq_ultra_ps_e_0 -pg 1 -lvl 1 -y 90 -defaultsOSRD
+preplace inst xlconstant_0 -pg 1 -lvl 4 -y 280 -defaultsOSRD
+preplace inst datag_0 -pg 1 -lvl 2 -y 430 -defaultsOSRD
+preplace inst system_ila_0 -pg 1 -lvl 4 -y 490 -defaultsOSRD
+preplace inst polar_0 -pg 1 -lvl 3 -y 450 -defaultsOSRD
+preplace netloc polar_0_M_AXIS_STATUS 1 3 1 1400
+preplace netloc zynq_ultra_ps_e_0_pl_clk0 1 0 4 -50 480 590 530 950 620 1450J
+preplace netloc datag_0_control_V 1 2 2 920 310 1450J
+preplace netloc zynq_ultra_ps_e_0_M_AXI_HPM0_FPD 1 1 1 N
+preplace netloc datag_0_din_V_V 1 2 2 960 320 1420J
+preplace netloc vio_0_probe_out0 1 1 3 600 520 940 610 1460J
+preplace netloc xlconstant_0_dout 1 3 2 1410 640 1680
+preplace netloc vio_0_probe_out1 1 1 1 NJ
+preplace netloc ps8_0_axi_periph_M00_AXI 1 2 2 930 600 1430
+preplace netloc polar_0_M_AXIS_DOUT 1 3 1 1400
+preplace netloc zynq_ultra_ps_e_0_pl_resetn0 1 0 2 -40 180 580
+preplace netloc polar_0_interrupt 1 3 1 1400
+preplace netloc datag_0_dout_words_V_V 1 2 2 970 590 1440J
+preplace netloc datag_0_din_words_V_V 1 2 2 960 580 1420J
+levelinfo -pg 1 -70 270 760 1190 1580 1700 -top 0 -bot 870
+"
+}
+{
+   "da_axi4_cnt":"4",
+   "da_board_cnt":"2",
+   "da_clkrst_cnt":"7",
+   "da_zynq_ultra_ps_e_cnt":"1"
+}

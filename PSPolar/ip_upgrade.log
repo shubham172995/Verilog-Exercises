@@ -1,0 +1,658 @@
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Mon Feb 17 18:09:13 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002061650) to (Rev. 2002171808)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Feb  6 16:50:30 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002061606) to (Rev. 2002061650)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Feb  6 16:06:34 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002060033) to (Rev. 2002061606)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Feb  6 00:51:43 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002060026) to (Rev. 2002060033)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'din_TDATA' width 128 differs from original width 40
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Thu Feb  6 00:30:24 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002052112) to (Rev. 2002060026)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_0_0'.
+
+
+-Upgrade has removed interface 'din_V_V'
+
+-Upgrade has removed interface 'din_words_V_V'
+
+-Upgrade has removed interface 'dout_words_V_V'
+
+-Upgrade has added interface 'din' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'din_words' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'dout_words' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'din_V_V_TDATA'
+
+-Upgrade has removed port 'din_V_V_TREADY'
+
+-Upgrade has removed port 'din_V_V_TVALID'
+
+-Upgrade has removed port 'din_words_V_V_TDATA'
+
+-Upgrade has removed port 'din_words_V_V_TREADY'
+
+-Upgrade has removed port 'din_words_V_V_TVALID'
+
+-Upgrade has removed port 'dout_words_V_V_TDATA'
+
+-Upgrade has removed port 'dout_words_V_V_TREADY'
+
+-Upgrade has removed port 'dout_words_V_V_TVALID'
+
+-Upgrade has added port 'din_TDATA'
+
+-Upgrade has added port 'din_TLAST'
+
+-Upgrade has added port 'din_TREADY'
+
+-Upgrade has added port 'din_TVALID'
+
+-Upgrade has added port 'din_words_TDATA'
+
+-Upgrade has added port 'din_words_TLAST'
+
+-Upgrade has added port 'din_words_TREADY'
+
+-Upgrade has added port 'din_words_TVALID'
+
+-Upgrade has added port 'dout_words_TDATA'
+
+-Upgrade has added port 'dout_words_TLAST'
+
+-Upgrade has added port 'dout_words_TREADY'
+
+-Upgrade has added port 'dout_words_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 21:12:51 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002052021) to (Rev. 2002052112)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_0_0'.
+
+
+-Upgrade has removed interface 'din'
+
+-Upgrade has added interface 'din_V_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'din_TDATA'
+
+-Upgrade has removed port 'din_TDEST'
+
+-Upgrade has removed port 'din_TID'
+
+-Upgrade has removed port 'din_TKEEP'
+
+-Upgrade has removed port 'din_TLAST'
+
+-Upgrade has removed port 'din_TREADY'
+
+-Upgrade has removed port 'din_TSTRB'
+
+-Upgrade has removed port 'din_TUSER'
+
+-Upgrade has removed port 'din_TVALID'
+
+-Upgrade has added port 'din_V_V_TDATA'
+
+-Upgrade has added port 'din_V_V_TREADY'
+
+-Upgrade has added port 'din_V_V_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 20:21:56 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051844) to (Rev. 2002052021)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_0_0'.
+
+
+-Upgrade has removed interface 'din_V_V'
+
+-Upgrade has added interface 'din' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'din_V_V_TDATA'
+
+-Upgrade has removed port 'din_V_V_TREADY'
+
+-Upgrade has removed port 'din_V_V_TVALID'
+
+-Upgrade has added port 'din_TDATA'
+
+-Upgrade has added port 'din_TDEST'
+
+-Upgrade has added port 'din_TID'
+
+-Upgrade has added port 'din_TKEEP'
+
+-Upgrade has added port 'din_TLAST'
+
+-Upgrade has added port 'din_TREADY'
+
+-Upgrade has added port 'din_TSTRB'
+
+-Upgrade has added port 'din_TUSER'
+
+-Upgrade has added port 'din_TVALID'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 18:44:42 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051827) to (Rev. 2002051844)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 18:27:32 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051805) to (Rev. 2002051827)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 18:06:38 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051732) to (Rev. 2002051805)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 17:32:53 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051557) to (Rev. 2002051732)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_0_0'.
+
+
+-Upgrade has removed interface 'start'
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'start'
+
+-Upgrade has removed port 'start_ap_ack'
+
+-Upgrade has removed port 'start_ap_vld'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 15:57:57 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051554) to (Rev. 2002051557)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'din_V_V_TDATA' width 128 differs from original width 64
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 15:55:11 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051450) to (Rev. 2002051554)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgraded port 'din_V_V_TDATA' width 64 differs from original width 128
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 14:52:23 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+SUCCESS in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002051426) to (Rev. 2002051450)
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Wed Feb  5 14:27:21 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_0_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_0_0 (xilinx.com:hls:datag:1.0) from (Rev. 2002012122) to (Rev. 2002051426)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_0_0'.
+
+
+-Upgrade has added interface 'start' (xilinx.com:signal:data:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_0_0'. These changes may impact your design.
+
+
+-Upgrade has added port 'start'
+
+-Upgrade has added port 'start_ap_ack'
+
+-Upgrade has added port 'start_ap_vld'
+
+
+
+
+
+
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
+| Date         : Sat Feb  1 16:38:12 2020
+| Host         : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
+| Command      : upgrade_ip
+| Device       : xczu9eg-ffvb1156-2-e
+------------------------------------------------------------------------------------
+
+Upgrade Log for IP 'design_1_datag_1_0'
+
+1. Summary
+----------
+
+CAUTION (success, with warnings) in the upgrade of design_1_datag_1_0 (xilinx.com:hls:datag:1.0) from (Rev. 2001311712) to (Rev. 2002011637)
+
+After upgrade, an IP may have parameter and port differences compared to the original customization. Please review the parameters within the IP customization GUI to ensure proper functionality. Also, please review the updated IP instantiation template to ensure proper connectivity, and update your design if required.
+
+2. Interface Information
+------------------------
+
+Detected external interface differences while upgrading 'design_1_datag_1_0'.
+
+
+-Upgrade has removed interface 'dat_V_address0'
+
+-Upgrade has removed interface 'dat_V_address1'
+
+-Upgrade has removed interface 'dat_V_ce1'
+
+-Upgrade has removed interface 'dat_V_d0'
+
+-Upgrade has removed interface 'dat_V_d1'
+
+-Upgrade has removed interface 'dat_V_q0'
+
+-Upgrade has removed interface 'dat_V_we1'
+
+-Upgrade has removed interface 'din_tlast'
+
+-Upgrade has removed interface 'din_words'
+
+-Upgrade has removed interface 'dout_words'
+
+-Upgrade has added interface 'din_words_V' (xilinx.com:interface:axis:1.0)
+
+-Upgrade has added interface 'dout_words_V' (xilinx.com:interface:axis:1.0)
+
+
+3. Connection Warnings
+----------------------
+
+Detected external port differences while upgrading 'design_1_datag_1_0'. These changes may impact your design.
+
+
+-Upgrade has removed port 'dat_V_address0'
+
+-Upgrade has removed port 'dat_V_address1'
+
+-Upgrade has removed port 'dat_V_ce0'
+
+-Upgrade has removed port 'dat_V_ce1'
+
+-Upgrade has removed port 'dat_V_d0'
+
+-Upgrade has removed port 'dat_V_d1'
+
+-Upgrade has removed port 'dat_V_q0'
+
+-Upgrade has removed port 'dat_V_we0'
+
+-Upgrade has removed port 'dat_V_we1'
+
+-Upgrade has removed port 'din_tlast_TDATA'
+
+-Upgrade has removed port 'din_tlast_TREADY'
+
+-Upgrade has removed port 'din_tlast_TVALID'
+
+-Upgrade has removed port 'din_words_TDATA'
+
+-Upgrade has removed port 'din_words_TREADY'
+
+-Upgrade has removed port 'din_words_TVALID'
+
+-Upgrade has removed port 'dout_words_TDATA'
+
+-Upgrade has removed port 'dout_words_TREADY'
+
+-Upgrade has removed port 'dout_words_TVALID'
+
+-Upgrade has added port 'din_words_V_TDATA'
+
+-Upgrade has added port 'din_words_V_TREADY'
+
+-Upgrade has added port 'din_words_V_TVALID'
+
+-Upgrade has added port 'dout_words_V_TDATA'
+
+-Upgrade has added port 'dout_words_V_TREADY'
+
+-Upgrade has added port 'dout_words_V_TVALID'
+
+
