@@ -1,10 +1,10 @@
 -- Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
--- Date        : Mon Feb 17 18:11:12 2020
+-- Date        : Thu Feb 27 17:59:00 2020
 -- Host        : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
--- Command     : write_vhdl -force -mode funcsim
---               /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_datag_0_0/design_1_datag_0_0_sim_netlist.vhdl
+-- Command     : write_vhdl -force -mode funcsim -rename_top design_1_datag_0_0 -prefix
+--               design_1_datag_0_0_ design_1_datag_0_0_sim_netlist.vhdl
 -- Design      : design_1_datag_0_0
 -- Purpose     : This VHDL netlist is a functional simulation representation of the design and should not be modified or
 --               synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -38,8 +38,6 @@ entity design_1_datag_0_0_datag is
     dout_words_TREADY : in STD_LOGIC;
     dout_words_TLAST : out STD_LOGIC
   );
-  attribute ORIG_REF_NAME : string;
-  attribute ORIG_REF_NAME of design_1_datag_0_0_datag : entity is "datag";
   attribute ap_ST_fsm_state1 : string;
   attribute ap_ST_fsm_state1 of design_1_datag_0_0_datag : entity is "2'b01";
   attribute ap_ST_fsm_state2 : string;
@@ -103,31 +101,31 @@ begin
   control_V_TDATA(29) <= \<const0>\;
   control_V_TDATA(28) <= \<const0>\;
   control_V_TDATA(27) <= \<const0>\;
-  control_V_TDATA(26) <= \<const1>\;
+  control_V_TDATA(26) <= \<const0>\;
   control_V_TDATA(25) <= \<const0>\;
   control_V_TDATA(24) <= \<const0>\;
-  control_V_TDATA(23) <= \<const1>\;
+  control_V_TDATA(23) <= \<const0>\;
   control_V_TDATA(22) <= \<const0>\;
   control_V_TDATA(21) <= \<const0>\;
   control_V_TDATA(20) <= \<const0>\;
-  control_V_TDATA(19) <= \<const1>\;
-  control_V_TDATA(18) <= \<const1>\;
-  control_V_TDATA(17) <= \<const1>\;
-  control_V_TDATA(16) <= \<const1>\;
+  control_V_TDATA(19) <= \<const0>\;
+  control_V_TDATA(18) <= \<const0>\;
+  control_V_TDATA(17) <= \<const0>\;
+  control_V_TDATA(16) <= \<const0>\;
   control_V_TDATA(15) <= \<const0>\;
-  control_V_TDATA(14) <= \<const1>\;
+  control_V_TDATA(14) <= \<const0>\;
   control_V_TDATA(13) <= \<const0>\;
-  control_V_TDATA(12) <= \<const1>\;
+  control_V_TDATA(12) <= \<const0>\;
   control_V_TDATA(11) <= \<const0>\;
-  control_V_TDATA(10) <= \<const1>\;
+  control_V_TDATA(10) <= \<const0>\;
   control_V_TDATA(9) <= \<const0>\;
-  control_V_TDATA(8) <= \<const1>\;
-  control_V_TDATA(7) <= \<const1>\;
-  control_V_TDATA(6) <= \<const1>\;
-  control_V_TDATA(5) <= \<const1>\;
-  control_V_TDATA(4) <= \<const1>\;
-  control_V_TDATA(3) <= \<const1>\;
-  control_V_TDATA(2) <= \<const1>\;
+  control_V_TDATA(8) <= \<const0>\;
+  control_V_TDATA(7) <= \<const0>\;
+  control_V_TDATA(6) <= \<const0>\;
+  control_V_TDATA(5) <= \<const0>\;
+  control_V_TDATA(4) <= \<const0>\;
+  control_V_TDATA(3) <= \<const0>\;
+  control_V_TDATA(2) <= \<const0>\;
   control_V_TDATA(1) <= \<const0>\;
   control_V_TDATA(0) <= \<const0>\;
   control_V_TVALID <= \^control_v_tvalid\;
@@ -220,8 +218,8 @@ begin
   din_TDATA(41) <= \<const0>\;
   din_TDATA(40) <= \<const0>\;
   din_TDATA(39) <= \<const1>\;
-  din_TDATA(38) <= \<const0>\;
-  din_TDATA(37) <= \<const0>\;
+  din_TDATA(38) <= \<const1>\;
+  din_TDATA(37) <= \<const1>\;
   din_TDATA(36) <= \<const1>\;
   din_TDATA(35) <= \<const0>\;
   din_TDATA(34) <= \<const1>\;
@@ -264,11 +262,11 @@ begin
   din_words_TDATA(7) <= \<const0>\;
   din_words_TDATA(6) <= \<const0>\;
   din_words_TDATA(5) <= \<const0>\;
-  din_words_TDATA(4) <= \<const1>\;
+  din_words_TDATA(4) <= \<const0>\;
   din_words_TDATA(3) <= \<const0>\;
-  din_words_TDATA(2) <= \<const0>\;
+  din_words_TDATA(2) <= \<const1>\;
   din_words_TDATA(1) <= \<const0>\;
-  din_words_TDATA(0) <= \<const0>\;
+  din_words_TDATA(0) <= \<const1>\;
   din_words_TLAST <= \<const1>\;
   din_words_TVALID <= \^din_words_tvalid\;
   dout_words_TDATA(7) <= \<const0>\;
@@ -809,13 +807,13 @@ architecture STRUCTURE of design_1_datag_0_0 is
   attribute X_INTERFACE_PARAMETER of control_V_TDATA : signal is "XIL_INTERFACENAME control_V, TDATA_NUM_BYTES 4, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}} TDATA_WIDTH 32}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of din_TDATA : signal is "xilinx.com:interface:axis:1.0 din TDATA";
   attribute X_INTERFACE_INFO of din_TLAST : signal is "xilinx.com:interface:axis:1.0 din TLAST";
-  attribute X_INTERFACE_PARAMETER of din_TLAST : signal is "XIL_INTERFACENAME din, TDATA_NUM_BYTES 16, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of din_TLAST : signal is "XIL_INTERFACENAME din, TDATA_NUM_BYTES 16, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 128} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 128}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0, words_TDATA_NUM_BYTES 1, words_TUSER_WIDTH 0";
   attribute X_INTERFACE_INFO of din_words_TDATA : signal is "xilinx.com:interface:axis:1.0 din_words TDATA";
   attribute X_INTERFACE_INFO of din_words_TLAST : signal is "xilinx.com:interface:axis:1.0 din_words TLAST";
-  attribute X_INTERFACE_PARAMETER of din_words_TLAST : signal is "XIL_INTERFACENAME din_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of din_words_TLAST : signal is "XIL_INTERFACENAME din_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
   attribute X_INTERFACE_INFO of dout_words_TDATA : signal is "xilinx.com:interface:axis:1.0 dout_words TDATA";
   attribute X_INTERFACE_INFO of dout_words_TLAST : signal is "xilinx.com:interface:axis:1.0 dout_words TLAST";
-  attribute X_INTERFACE_PARAMETER of dout_words_TLAST : signal is "XIL_INTERFACENAME dout_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
+  attribute X_INTERFACE_PARAMETER of dout_words_TLAST : signal is "XIL_INTERFACENAME dout_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0";
 begin
 inst: entity work.design_1_datag_0_0_datag
      port map (

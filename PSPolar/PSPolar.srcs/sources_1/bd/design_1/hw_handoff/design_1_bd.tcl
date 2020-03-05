@@ -165,7 +165,8 @@ proc create_root_design { parentCell } {
   # Create instance: polar_0, and set properties
   set polar_0 [ create_bd_cell -type ip -vlnv xilinx.com:ip:polar:1.0 polar_0 ]
   set_property -dict [ list \
-   CONFIG.Operation {Encode} \
+   CONFIG.Include_PS_Example_Design {false} \
+   CONFIG.Operation {Decode} \
  ] $polar_0
 
   # Create instance: ps8_0_axi_periph, and set properties

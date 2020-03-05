@@ -3,7 +3,7 @@
 	"modules": {
 		"design_1": {
 			"proto_instances": {
-				"/datag_0/control_V": {
+				"/datagdec_0/control_V": {
 					"interface": "xilinx.com:interface:axis:1.0",
 					"ports": {
 						"ACLK": { "actual": "ap_clk"},
@@ -13,7 +13,7 @@
 						"TVALID": { "actual": "control_V_TVALID"}
 					}
 				},
-				"/datag_0/din": {
+				"/datagdec_0/din": {
 					"interface": "xilinx.com:interface:axis:1.0",
 					"ports": {
 						"ACLK": { "actual": "ap_clk"},
@@ -24,7 +24,7 @@
 						"TVALID": { "actual": "din_TVALID"}
 					}
 				},
-				"/datag_0/din_words": {
+				"/datagdec_0/din_words": {
 					"interface": "xilinx.com:interface:axis:1.0",
 					"ports": {
 						"ACLK": { "actual": "ap_clk"},
@@ -35,7 +35,7 @@
 						"TVALID": { "actual": "din_words_TVALID"}
 					}
 				},
-				"/datag_0/dout_words": {
+				"/datagdec_0/dout_words": {
 					"interface": "xilinx.com:interface:axis:1.0",
 					"ports": {
 						"ACLK": { "actual": "ap_clk"},

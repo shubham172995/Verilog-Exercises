@@ -1,0 +1,28 @@
+verilog xil_defaultlib --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/00a3/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/a023/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/46fd/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/7d3c/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/c45e/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
+"../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/5f84/hdl/verilog/datag.v" \
+"../../../bd/design_1/ip/design_1_datag_0_0/sim/design_1_datag_0_0.v" \
+
+sv xil_defaultlib --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/00a3/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/a023/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/46fd/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/7d3c/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/c45e/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_polar_0_0/sim/design_1_polar_0_0.sv" \
+
+verilog xil_defaultlib --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/ec67/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/00a3/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim_tlm" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/a023/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/1b7e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/122e/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/46fd/hdl" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/7d3c/hdl/verilog" --include "../../../../pspolar111.srcs/sources_1/bd/design_1/ipshared/c45e/hdl/verilog" \
+"../../../bd/design_1/ip/design_1_vio_0_0/sim/design_1_vio_0_0.v" \
+"../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/sim/bd_f60c.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_0/sim/bd_f60c_ila_lib_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/bd_f60c_g_inst_0_gigantic_mux.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_1/sim/bd_f60c_g_inst_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_2/sim/bd_f60c_slot_5_aw_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_3/sim/bd_f60c_slot_5_w_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_4/sim/bd_f60c_slot_5_b_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/sim/bd_f60c_slot_5_ar_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/sim/bd_f60c_slot_5_r_0.v" \
+"../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
+"../../../bd/design_1/sim/design_1.v" \
+"../../../bd/design_1/ip/design_1_auto_ds_0/sim/design_1_auto_ds_0.v" \
+"../../../bd/design_1/ip/design_1_auto_pc_0/sim/design_1_auto_pc_0.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+nosort

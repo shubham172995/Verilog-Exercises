@@ -65,15 +65,16 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param xicom.use_bs_reader 1
-  set_param tcl.collectionResultDisplayLimit 0
   create_project -in_memory -part xczu9eg-ffvb1156-2-e
   set_property board_part xilinx.com:zcu102:part0:3.2 [current_project]
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
   set_property webtalk.parent_dir /home/shubham/Vivado_Exercises/PSPolar/PSPolar.cache/wt [current_project]
   set_property parent.project_path /home/shubham/Vivado_Exercises/PSPolar/PSPolar.xpr [current_project]
-  set_property ip_repo_paths /home/shubham/HLS_Exercises/DataCPP/solution1/impl/ip [current_project]
+  set_property ip_repo_paths {
+  /home/shubham/HLS_Exercises/DataCPP/solution1/impl/ip
+  /home/shubham/HLS_Exercises/DataDecCPP/solution1/impl/ip
+} [current_project]
   update_ip_catalog
   set_property ip_output_repo /home/shubham/Vivado_Exercises/PSPolar/PSPolar.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]

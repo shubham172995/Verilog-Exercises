@@ -1,10 +1,10 @@
 // Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-// Date        : Mon Feb 17 18:11:12 2020
+// Date        : Thu Feb 27 17:59:00 2020
 // Host        : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
-// Command     : write_verilog -force -mode funcsim
-//               /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_datag_0_0/design_1_datag_0_0_sim_netlist.v
+// Command     : write_verilog -force -mode funcsim -rename_top design_1_datag_0_0 -prefix
+//               design_1_datag_0_0_ design_1_datag_0_0_sim_netlist.v
 // Design      : design_1_datag_0_0
 // Purpose     : This verilog netlist is a functional simulation representation of the design and should not be modified
 //               or synthesized. This netlist cannot be used for SDF annotated simulation.
@@ -12,103 +12,7 @@
 // --------------------------------------------------------------------------------
 `timescale 1 ps / 1 ps
 
-(* CHECK_LICENSE_TYPE = "design_1_datag_0_0,datag,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "HLS" *) 
-(* X_CORE_INFO = "datag,Vivado 2018.3" *) (* hls_module = "yes" *) 
-(* NotValidForBitStream *)
-module design_1_datag_0_0
-   (ap_clk,
-    ap_rst_n,
-    ap_start,
-    ap_done,
-    ap_idle,
-    ap_ready,
-    din_TVALID,
-    din_TREADY,
-    din_TDATA,
-    din_TLAST,
-    control_V_TVALID,
-    control_V_TREADY,
-    control_V_TDATA,
-    din_words_TVALID,
-    din_words_TREADY,
-    din_words_TDATA,
-    din_words_TLAST,
-    dout_words_TVALID,
-    dout_words_TREADY,
-    dout_words_TDATA,
-    dout_words_TLAST);
-  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 ap_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_clk, ASSOCIATED_BUSIF din:control_V:din_words:dout_words, ASSOCIATED_RESET ap_rst_n, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) input ap_clk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 ap_rst_n RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_rst_n, POLARITY ACTIVE_LOW, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {RST {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, INSERT_VIP 0" *) input ap_rst_n;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl start" *) input ap_start;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl done" *) output ap_done;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl idle" *) output ap_idle;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl ready" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_ctrl, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {start {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} done {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} idle {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} ready {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}" *) output ap_ready;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TVALID" *) output din_TVALID;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TREADY" *) input din_TREADY;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TDATA" *) output [127:0]din_TDATA;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME din, TDATA_NUM_BYTES 16, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [0:0]din_TLAST;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TVALID" *) output control_V_TVALID;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TREADY" *) input control_V_TREADY;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TDATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME control_V, TDATA_NUM_BYTES 4, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}} TDATA_WIDTH 32}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [31:0]control_V_TDATA;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TVALID" *) output din_words_TVALID;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TREADY" *) input din_words_TREADY;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TDATA" *) output [7:0]din_words_TDATA;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME din_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [0:0]din_words_TLAST;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TVALID" *) output dout_words_TVALID;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TREADY" *) input dout_words_TREADY;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TDATA" *) output [7:0]dout_words_TDATA;
-  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dout_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [0:0]dout_words_TLAST;
-
-  wire ap_clk;
-  wire ap_done;
-  wire ap_idle;
-  wire ap_ready;
-  wire ap_rst_n;
-  wire ap_start;
-  wire [31:0]control_V_TDATA;
-  wire control_V_TREADY;
-  wire control_V_TVALID;
-  wire [127:0]din_TDATA;
-  wire [0:0]din_TLAST;
-  wire din_TREADY;
-  wire din_TVALID;
-  wire [7:0]din_words_TDATA;
-  wire [0:0]din_words_TLAST;
-  wire din_words_TREADY;
-  wire din_words_TVALID;
-  wire [7:0]dout_words_TDATA;
-  wire [0:0]dout_words_TLAST;
-  wire dout_words_TREADY;
-  wire dout_words_TVALID;
-
-  (* ap_ST_fsm_state1 = "2'b01" *) 
-  (* ap_ST_fsm_state2 = "2'b10" *) 
-  design_1_datag_0_0_datag inst
-       (.ap_clk(ap_clk),
-        .ap_done(ap_done),
-        .ap_idle(ap_idle),
-        .ap_ready(ap_ready),
-        .ap_rst_n(ap_rst_n),
-        .ap_start(ap_start),
-        .control_V_TDATA(control_V_TDATA),
-        .control_V_TREADY(control_V_TREADY),
-        .control_V_TVALID(control_V_TVALID),
-        .din_TDATA(din_TDATA),
-        .din_TLAST(din_TLAST),
-        .din_TREADY(din_TREADY),
-        .din_TVALID(din_TVALID),
-        .din_words_TDATA(din_words_TDATA),
-        .din_words_TLAST(din_words_TLAST),
-        .din_words_TREADY(din_words_TREADY),
-        .din_words_TVALID(din_words_TVALID),
-        .dout_words_TDATA(dout_words_TDATA),
-        .dout_words_TLAST(dout_words_TLAST),
-        .dout_words_TREADY(dout_words_TREADY),
-        .dout_words_TVALID(dout_words_TVALID));
-endmodule
-
-(* ORIG_REF_NAME = "datag" *) (* ap_ST_fsm_state1 = "2'b01" *) (* ap_ST_fsm_state2 = "2'b10" *) 
-(* hls_module = "yes" *) 
+(* ap_ST_fsm_state1 = "2'b01" *) (* ap_ST_fsm_state2 = "2'b10" *) (* hls_module = "yes" *) 
 module design_1_datag_0_0_datag
    (ap_clk,
     ap_rst_n,
@@ -208,31 +112,31 @@ module design_1_datag_0_0_datag
   assign control_V_TDATA[29] = \<const0> ;
   assign control_V_TDATA[28] = \<const0> ;
   assign control_V_TDATA[27] = \<const0> ;
-  assign control_V_TDATA[26] = \<const1> ;
+  assign control_V_TDATA[26] = \<const0> ;
   assign control_V_TDATA[25] = \<const0> ;
   assign control_V_TDATA[24] = \<const0> ;
-  assign control_V_TDATA[23] = \<const1> ;
+  assign control_V_TDATA[23] = \<const0> ;
   assign control_V_TDATA[22] = \<const0> ;
   assign control_V_TDATA[21] = \<const0> ;
   assign control_V_TDATA[20] = \<const0> ;
-  assign control_V_TDATA[19] = \<const1> ;
-  assign control_V_TDATA[18] = \<const1> ;
-  assign control_V_TDATA[17] = \<const1> ;
-  assign control_V_TDATA[16] = \<const1> ;
+  assign control_V_TDATA[19] = \<const0> ;
+  assign control_V_TDATA[18] = \<const0> ;
+  assign control_V_TDATA[17] = \<const0> ;
+  assign control_V_TDATA[16] = \<const0> ;
   assign control_V_TDATA[15] = \<const0> ;
-  assign control_V_TDATA[14] = \<const1> ;
+  assign control_V_TDATA[14] = \<const0> ;
   assign control_V_TDATA[13] = \<const0> ;
-  assign control_V_TDATA[12] = \<const1> ;
+  assign control_V_TDATA[12] = \<const0> ;
   assign control_V_TDATA[11] = \<const0> ;
-  assign control_V_TDATA[10] = \<const1> ;
+  assign control_V_TDATA[10] = \<const0> ;
   assign control_V_TDATA[9] = \<const0> ;
-  assign control_V_TDATA[8] = \<const1> ;
-  assign control_V_TDATA[7] = \<const1> ;
-  assign control_V_TDATA[6] = \<const1> ;
-  assign control_V_TDATA[5] = \<const1> ;
-  assign control_V_TDATA[4] = \<const1> ;
-  assign control_V_TDATA[3] = \<const1> ;
-  assign control_V_TDATA[2] = \<const1> ;
+  assign control_V_TDATA[8] = \<const0> ;
+  assign control_V_TDATA[7] = \<const0> ;
+  assign control_V_TDATA[6] = \<const0> ;
+  assign control_V_TDATA[5] = \<const0> ;
+  assign control_V_TDATA[4] = \<const0> ;
+  assign control_V_TDATA[3] = \<const0> ;
+  assign control_V_TDATA[2] = \<const0> ;
   assign control_V_TDATA[1] = \<const0> ;
   assign control_V_TDATA[0] = \<const0> ;
   assign din_TDATA[127] = \<const0> ;
@@ -324,8 +228,8 @@ module design_1_datag_0_0_datag
   assign din_TDATA[41] = \<const0> ;
   assign din_TDATA[40] = \<const0> ;
   assign din_TDATA[39] = \<const1> ;
-  assign din_TDATA[38] = \<const0> ;
-  assign din_TDATA[37] = \<const0> ;
+  assign din_TDATA[38] = \<const1> ;
+  assign din_TDATA[37] = \<const1> ;
   assign din_TDATA[36] = \<const1> ;
   assign din_TDATA[35] = \<const0> ;
   assign din_TDATA[34] = \<const1> ;
@@ -367,11 +271,11 @@ module design_1_datag_0_0_datag
   assign din_words_TDATA[7] = \<const0> ;
   assign din_words_TDATA[6] = \<const0> ;
   assign din_words_TDATA[5] = \<const0> ;
-  assign din_words_TDATA[4] = \<const1> ;
+  assign din_words_TDATA[4] = \<const0> ;
   assign din_words_TDATA[3] = \<const0> ;
-  assign din_words_TDATA[2] = \<const0> ;
+  assign din_words_TDATA[2] = \<const1> ;
   assign din_words_TDATA[1] = \<const0> ;
-  assign din_words_TDATA[0] = \<const0> ;
+  assign din_words_TDATA[0] = \<const1> ;
   assign din_words_TLAST = \<const1> ;
   assign dout_words_TDATA[7] = \<const0> ;
   assign dout_words_TDATA[6] = \<const0> ;
@@ -719,6 +623,101 @@ module design_1_datag_0_0_datag
         .D(dout_words_V_tlast_1_state),
         .Q(\dout_words_V_tlast_1_state_reg_n_0_[1] ),
         .R(ap_rst_n_inv));
+endmodule
+
+(* CHECK_LICENSE_TYPE = "design_1_datag_0_0,datag,{}" *) (* DowngradeIPIdentifiedWarnings = "yes" *) (* IP_DEFINITION_SOURCE = "HLS" *) 
+(* X_CORE_INFO = "datag,Vivado 2018.3" *) (* hls_module = "yes" *) 
+(* NotValidForBitStream *)
+module design_1_datag_0_0
+   (ap_clk,
+    ap_rst_n,
+    ap_start,
+    ap_done,
+    ap_idle,
+    ap_ready,
+    din_TVALID,
+    din_TREADY,
+    din_TDATA,
+    din_TLAST,
+    control_V_TVALID,
+    control_V_TREADY,
+    control_V_TDATA,
+    din_words_TVALID,
+    din_words_TREADY,
+    din_words_TDATA,
+    din_words_TLAST,
+    dout_words_TVALID,
+    dout_words_TREADY,
+    dout_words_TDATA,
+    dout_words_TLAST);
+  (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 ap_clk CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_clk, ASSOCIATED_BUSIF din:control_V:din_words:dout_words, ASSOCIATED_RESET ap_rst_n, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) input ap_clk;
+  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 ap_rst_n RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_rst_n, POLARITY ACTIVE_LOW, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {RST {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}, INSERT_VIP 0" *) input ap_rst_n;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl start" *) input ap_start;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl done" *) output ap_done;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl idle" *) output ap_idle;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:acc_handshake:1.0 ap_ctrl ready" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME ap_ctrl, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {start {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} done {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} idle {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} ready {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}" *) output ap_ready;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TVALID" *) output din_TVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TREADY" *) input din_TREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TDATA" *) output [127:0]din_TDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME din, TDATA_NUM_BYTES 16, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 128} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 128}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0, words_TDATA_NUM_BYTES 1, words_TUSER_WIDTH 0" *) output [0:0]din_TLAST;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TVALID" *) output control_V_TVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TREADY" *) input control_V_TREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 control_V TDATA" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME control_V, TDATA_NUM_BYTES 4, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 32} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value true}}}} TDATA_WIDTH 32}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 0, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [31:0]control_V_TDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TVALID" *) output din_words_TVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TREADY" *) input din_words_TREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TDATA" *) output [7:0]din_words_TDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 din_words TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME din_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [0:0]din_words_TLAST;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TVALID" *) output dout_words_TVALID;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TREADY" *) input dout_words_TREADY;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TDATA" *) output [7:0]dout_words_TDATA;
+  (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 dout_words TLAST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME dout_words, TDATA_NUM_BYTES 1, TUSER_WIDTH 0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}, TDEST_WIDTH 0, TID_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, INSERT_VIP 0" *) output [0:0]dout_words_TLAST;
+
+  wire ap_clk;
+  wire ap_done;
+  wire ap_idle;
+  wire ap_ready;
+  wire ap_rst_n;
+  wire ap_start;
+  wire [31:0]control_V_TDATA;
+  wire control_V_TREADY;
+  wire control_V_TVALID;
+  wire [127:0]din_TDATA;
+  wire [0:0]din_TLAST;
+  wire din_TREADY;
+  wire din_TVALID;
+  wire [7:0]din_words_TDATA;
+  wire [0:0]din_words_TLAST;
+  wire din_words_TREADY;
+  wire din_words_TVALID;
+  wire [7:0]dout_words_TDATA;
+  wire [0:0]dout_words_TLAST;
+  wire dout_words_TREADY;
+  wire dout_words_TVALID;
+
+  (* ap_ST_fsm_state1 = "2'b01" *) 
+  (* ap_ST_fsm_state2 = "2'b10" *) 
+  design_1_datag_0_0_datag inst
+       (.ap_clk(ap_clk),
+        .ap_done(ap_done),
+        .ap_idle(ap_idle),
+        .ap_ready(ap_ready),
+        .ap_rst_n(ap_rst_n),
+        .ap_start(ap_start),
+        .control_V_TDATA(control_V_TDATA),
+        .control_V_TREADY(control_V_TREADY),
+        .control_V_TVALID(control_V_TVALID),
+        .din_TDATA(din_TDATA),
+        .din_TLAST(din_TLAST),
+        .din_TREADY(din_TREADY),
+        .din_TVALID(din_TVALID),
+        .din_words_TDATA(din_words_TDATA),
+        .din_words_TLAST(din_words_TLAST),
+        .din_words_TREADY(din_words_TREADY),
+        .din_words_TVALID(din_words_TVALID),
+        .dout_words_TDATA(dout_words_TDATA),
+        .dout_words_TLAST(dout_words_TLAST),
+        .dout_words_TREADY(dout_words_TREADY),
+        .dout_words_TVALID(dout_words_TVALID));
 endmodule
 `ifndef GLBL
 `define GLBL

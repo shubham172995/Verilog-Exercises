@@ -52,7 +52,7 @@
 
 (* X_CORE_INFO = "polar_v1_0_2,Vivado 2018.3" *)
 (* CHECK_LICENSE_TYPE = "design_1_polar_0_0,polar_v1_0_2,{}" *)
-(* CORE_GENERATION_INFO = "design_1_polar_0_0,polar_v1_0_2,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=polar,x_ipVersion=1.0,x_ipCoreRevision=2,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,x_ipLicense=polar@2018.04(hardware_evaluation),C_XDEVICEFAMILY=zynquplus,ENCODE=1,MEM_TYPE=0,VERSION_REGISTER=16777728}" *)
+(* CORE_GENERATION_INFO = "design_1_polar_0_0,polar_v1_0_2,{x_ipProduct=Vivado 2018.3,x_ipVendor=xilinx.com,x_ipLibrary=ip,x_ipName=polar,x_ipVersion=1.0,x_ipCoreRevision=2,x_ipLanguage=VERILOG,x_ipSimLanguage=MIXED,x_ipLicense=polar@2018.04(hardware_evaluation),C_XDEVICEFAMILY=zynquplus,ENCODE=0,MEM_TYPE=0,VERSION_REGISTER=16777728}" *)
 (* DowngradeIPIdentifiedWarnings = "yes" *)
 module design_1_polar_0_0 (
   reset_n,
@@ -143,7 +143,7 @@ input wire s_axis_din_words_tvalid;
 input wire s_axis_din_words_tlast;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME S_AXIS_DIN_WORDS, TDATA_NUM_BYTES 1, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bi\
 toffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum\
- {} maximum {}} value true}}}} TDATA_WIDTH 8}, INSERT_VIP 0" *)
+ {} maximum {}} value false}}}} TDATA_WIDTH 8}, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 S_AXIS_DIN_WORDS TDATA" *)
 input wire [7 : 0] s_axis_din_words_tdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 S_AXIS_CTRL TREADY" *)
@@ -181,7 +181,7 @@ input wire s_axis_dout_words_tvalid;
 input wire s_axis_dout_words_tlast;
 (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME S_AXIS_DOUT_WORDS, TDATA_NUM_BYTES 1, TDEST_WIDTH 0, TID_WIDTH 0, TUSER_WIDTH 0, HAS_TREADY 1, HAS_TSTRB 0, HAS_TKEEP 0, HAS_TLAST 1, FREQ_HZ 99990005, PHASE 0.000, CLK_DOMAIN design_1_zynq_ultra_ps_e_0_0_pl_clk0, LAYERED_METADATA xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} b\
 itoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimu\
-m {} maximum {}} value true}}}} TDATA_WIDTH 8}, INSERT_VIP 0" *)
+m {} maximum {}} value false}}}} TDATA_WIDTH 8}, INSERT_VIP 0" *)
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 S_AXIS_DOUT_WORDS TDATA" *)
 input wire [7 : 0] s_axis_dout_words_tdata;
 (* X_INTERFACE_INFO = "xilinx.com:interface:axis:1.0 M_AXIS_DOUT TREADY" *)
@@ -196,7 +196,7 @@ output wire [127 : 0] m_axis_dout_tdata;
 
   polar_v1_0_2 #(
     .C_XDEVICEFAMILY("zynquplus"),
-    .ENCODE(1),
+    .ENCODE(0),
     .MEM_TYPE(0),
     .VERSION_REGISTER(16777728)
   ) inst (

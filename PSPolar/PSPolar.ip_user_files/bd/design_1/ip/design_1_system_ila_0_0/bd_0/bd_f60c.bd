@@ -169,8 +169,8 @@
             "value_src": "default"
           },
           "LAYERED_METADATA": {
-            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}",
-            "value_src": "default_prop"
+            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 128} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 128}",
+            "value_src": "default"
           },
           "PHASE": {
             "value": "0.000",
@@ -357,8 +357,8 @@
             "value_src": "default"
           },
           "LAYERED_METADATA": {
-            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}",
-            "value_src": "default_prop"
+            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}",
+            "value_src": "default"
           },
           "PHASE": {
             "value": "0.000",
@@ -415,8 +415,8 @@
             "value_src": "default"
           },
           "LAYERED_METADATA": {
-            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}}}",
-            "value_src": "default_prop"
+            "value": "xilinx.com:interface:datatypes:1.0 {CLK {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 1} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0}}} TDATA {datatype {name {attribs {resolve_type immediate dependency {} format string minimum {} maximum {}} value {}} bitwidth {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 8} bitoffset {attribs {resolve_type immediate dependency {} format long minimum {} maximum {}} value 0} integer {signed {attribs {resolve_type immediate dependency {} format bool minimum {} maximum {}} value false}}}} TDATA_WIDTH 8}",
+            "value_src": "default"
           },
           "PHASE": {
             "value": "0.000",
@@ -1124,22 +1124,22 @@
       }
     },
     "interface_nets": {
-      "Conn6": {
+      "Conn4": {
         "interface_ports": [
-          "SLOT_6_AXIS",
-          "g_inst/slot_6_axis"
-        ]
-      },
-      "Conn3": {
-        "interface_ports": [
-          "SLOT_3_AXI",
-          "g_inst/slot_3_axi"
+          "SLOT_4_AXIS",
+          "g_inst/slot_4_axis"
         ]
       },
       "Conn2": {
         "interface_ports": [
           "SLOT_2_AXIS",
           "g_inst/slot_2_axis"
+        ]
+      },
+      "Conn1": {
+        "interface_ports": [
+          "SLOT_1_AXIS",
+          "g_inst/slot_1_axis"
         ]
       },
       "Conn": {
@@ -1154,16 +1154,16 @@
           "g_inst/slot_5_axis"
         ]
       },
-      "Conn4": {
+      "Conn3": {
         "interface_ports": [
-          "SLOT_4_AXIS",
-          "g_inst/slot_4_axis"
+          "SLOT_3_AXI",
+          "g_inst/slot_3_axi"
         ]
       },
-      "Conn1": {
+      "Conn6": {
         "interface_ports": [
-          "SLOT_1_AXIS",
-          "g_inst/slot_1_axis"
+          "SLOT_6_AXIS",
+          "g_inst/slot_6_axis"
         ]
       }
     },

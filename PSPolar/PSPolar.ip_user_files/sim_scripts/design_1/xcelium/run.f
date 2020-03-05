@@ -27,8 +27,6 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/sim/design_1_zynq_ultra_ps_e_0_0_vip_wrapper.v" \
-  "../../../../PSPolar.srcs/sources_1/bd/design_1/ipshared/b9dd/hdl/verilog/datag.v" \
-  "../../../bd/design_1/ip/design_1_datag_0_0/sim/design_1_datag_0_0.v" \
 -endlib
 -makelib xcelium_lib/ecc_v2_0_12 \
   "../../../../PSPolar.srcs/sources_1/bd/design_1/ipshared/690a/hdl/ecc_v2_0_vl_rfs.v" \
@@ -72,7 +70,6 @@
   "../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_5/sim/bd_f60c_slot_3_ar_0.v" \
   "../../../bd/design_1/ip/design_1_system_ila_0_0/bd_0/ip/ip_6/sim/bd_f60c_slot_3_r_0.v" \
   "../../../bd/design_1/ip/design_1_system_ila_0_0/sim/design_1_system_ila_0_0.v" \
-  "../../../bd/design_1/sim/design_1.v" \
   "../../../bd/design_1/ip/design_1_vio_0_1/sim/design_1_vio_0_1.v" \
 -endlib
 -makelib xcelium_lib/xlconstant_v1_1_5 \
@@ -80,6 +77,10 @@
 -endlib
 -makelib xcelium_lib/xil_defaultlib \
   "../../../bd/design_1/ip/design_1_xlconstant_0_0/sim/design_1_xlconstant_0_0.v" \
+  "../../../../PSPolar.srcs/sources_1/bd/design_1/ipshared/edcc/hdl/verilog/datagdec_t.v" \
+  "../../../../PSPolar.srcs/sources_1/bd/design_1/ipshared/edcc/hdl/verilog/datagdec.v" \
+  "../../../bd/design_1/ip/design_1_datagdec_0_0/sim/design_1_datagdec_0_0.v" \
+  "../../../bd/design_1/sim/design_1.v" \
 -endlib
 -makelib xcelium_lib/generic_baseblocks_v2_1_0 \
   "../../../../PSPolar.srcs/sources_1/bd/design_1/ipshared/b752/hdl/generic_baseblocks_v2_1_vl_rfs.v" \

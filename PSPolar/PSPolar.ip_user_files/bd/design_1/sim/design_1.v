@@ -1,7 +1,7 @@
 //Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2018.3 (lin64) Build 2405991 Thu Dec  6 23:36:41 MST 2018
-//Date        : Mon Feb 17 18:09:34 2020
+//Date        : Thu Feb 27 23:53:31 2020
 //Host        : shubham-HP-Desktop-Pro-G1-MT running 64-bit Ubuntu 18.04.1 LTS
 //Command     : generate_target design_1.bd
 //Design      : design_1
@@ -91,7 +91,7 @@ module design_1
   wire zynq_ultra_ps_e_0_pl_clk0;
   wire zynq_ultra_ps_e_0_pl_resetn0;
 
-  design_1_datag_0_0 datag_0
+  design_1_datagdec_0_0 datagdec_0
        (.ap_clk(zynq_ultra_ps_e_0_pl_clk0),
         .ap_rst_n(vio_0_probe_out0),
         .ap_start(vio_0_probe_out1),

@@ -17,8 +17,6 @@ proc create_report { reportName command } {
     send_msg_id runtcl-5 warning "$msg"
   }
 }
-set_param xicom.use_bs_reader 1
-set_param tcl.collectionResultDisplayLimit 0
 create_project -in_memory -part xczu9eg-ffvb1156-2-e
 
 set_param project.singleFileAddWarning.threshold 0
@@ -31,7 +29,10 @@ set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part xilinx.com:zcu102:part0:3.2 [current_project]
-set_property ip_repo_paths /home/shubham/HLS_Exercises/DataCPP/solution1/impl/ip [current_project]
+set_property ip_repo_paths {
+  /home/shubham/HLS_Exercises/DataCPP/solution1/impl/ip
+  /home/shubham/HLS_Exercises/DataDecCPP/solution1/impl/ip
+} [current_project]
 update_ip_catalog
 set_property ip_output_repo /home/shubham/Vivado_Exercises/PSPolar/PSPolar.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
@@ -39,7 +40,6 @@ read_verilog -library xil_defaultlib /home/shubham/Vivado_Exercises/PSPolar/PSPo
 add_files /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/design_1.bd
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_zynq_ultra_ps_e_0_0/design_1_zynq_ultra_ps_e_0_0.xdc]
-set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_datag_0_0/constraints/datag_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_polar_0_0/design_1_polar_0_0_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0_board.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_rst_ps8_0_99M_0/design_1_rst_ps8_0_99M_0.xdc]
@@ -52,6 +52,7 @@ set_property used_in_implementation false [get_files -all /home/shubham/Vivado_E
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_system_ila_0_0/bd_0/bd_f60c_ooc.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/design_1_vio_0_1.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_vio_0_1/design_1_vio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_datag_0_0/constraints/datag_ooc.xdc]
 set_property used_in_synthesis false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_clocks.xdc]
 set_property used_in_implementation false [get_files -all /home/shubham/Vivado_Exercises/PSPolar/PSPolar.srcs/sources_1/bd/design_1/ip/design_1_auto_ds_0/design_1_auto_ds_0_ooc.xdc]

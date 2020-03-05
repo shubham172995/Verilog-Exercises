@@ -1,6 +1,21 @@
-18:22:02 **** Incremental Build of configuration Debug for project PSPolar ****
+12:10:54 **** Auto Build of configuration Debug for project PSPolar ****
 make all 
-make: Nothing to be done for 'all'.
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../PSPolar_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: PSPolar.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../PSPolar_bsp/psu_cortexa53_0/lib -o "PSPolar.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: PSPolar.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size PSPolar.elf  |tee "PSPolar.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41604	   2888	  20712	  65204	   feb4	PSPolar.elf
+Finished building: PSPolar.elf.size
+ 
 
-18:22:02 Build Finished (took 61ms)
+12:10:54 Build Finished (took 109ms)
 

@@ -1060,8 +1060,11 @@
         "vlnv": "xilinx.com:ip:polar:1.0",
         "xci_name": "design_1_polar_0_0",
         "parameters": {
+          "Include_PS_Example_Design": {
+            "value": "false"
+          },
           "Operation": {
-            "value": "Encode"
+            "value": "Decode"
           }
         }
       },
@@ -1203,6 +1206,12 @@
               }
             },
             "interface_nets": {
+              "auto_pc_to_s00_couplers": {
+                "interface_ports": [
+                  "M_AXI",
+                  "auto_pc/M_AXI"
+                ]
+              },
               "auto_ds_to_auto_pc": {
                 "interface_ports": [
                   "auto_ds/M_AXI",
@@ -1213,12 +1222,6 @@
                 "interface_ports": [
                   "S_AXI",
                   "auto_ds/S_AXI"
-                ]
-              },
-              "auto_pc_to_s00_couplers": {
-                "interface_ports": [
-                  "M_AXI",
-                  "auto_pc/M_AXI"
                 ]
               }
             },
@@ -1387,11 +1390,31 @@
       }
     },
     "interface_nets": {
-      "datag_0_din_V_V": {
+      "ps8_0_axi_periph_M00_AXI": {
         "interface_ports": [
-          "polar_0/S_AXIS_DIN",
-          "datag_0/din",
-          "system_ila_0/SLOT_2_AXIS"
+          "ps8_0_axi_periph/M00_AXI",
+          "polar_0/S_AXI",
+          "system_ila_0/SLOT_3_AXI"
+        ]
+      },
+      "datag_0_dout_words_V_V": {
+        "interface_ports": [
+          "datag_0/dout_words",
+          "polar_0/S_AXIS_DOUT_WORDS",
+          "system_ila_0/SLOT_5_AXIS"
+        ]
+      },
+      "datag_0_din_words_V_V": {
+        "interface_ports": [
+          "datag_0/din_words",
+          "polar_0/S_AXIS_DIN_WORDS",
+          "system_ila_0/SLOT_4_AXIS"
+        ]
+      },
+      "polar_0_M_AXIS_DOUT": {
+        "interface_ports": [
+          "polar_0/M_AXIS_DOUT",
+          "system_ila_0/SLOT_0_AXIS"
         ]
       },
       "zynq_ultra_ps_e_0_M_AXI_HPM0_FPD": {
@@ -1407,37 +1430,17 @@
           "system_ila_0/SLOT_6_AXIS"
         ]
       },
-      "datag_0_din_words_V_V": {
+      "datag_0_din_V_V": {
         "interface_ports": [
-          "datag_0/din_words",
-          "polar_0/S_AXIS_DIN_WORDS",
-          "system_ila_0/SLOT_4_AXIS"
+          "polar_0/S_AXIS_DIN",
+          "datag_0/din",
+          "system_ila_0/SLOT_2_AXIS"
         ]
       },
       "polar_0_M_AXIS_STATUS": {
         "interface_ports": [
           "polar_0/M_AXIS_STATUS",
           "system_ila_0/SLOT_1_AXIS"
-        ]
-      },
-      "ps8_0_axi_periph_M00_AXI": {
-        "interface_ports": [
-          "ps8_0_axi_periph/M00_AXI",
-          "polar_0/S_AXI",
-          "system_ila_0/SLOT_3_AXI"
-        ]
-      },
-      "polar_0_M_AXIS_DOUT": {
-        "interface_ports": [
-          "polar_0/M_AXIS_DOUT",
-          "system_ila_0/SLOT_0_AXIS"
-        ]
-      },
-      "datag_0_dout_words_V_V": {
-        "interface_ports": [
-          "datag_0/dout_words",
-          "polar_0/S_AXIS_DOUT_WORDS",
-          "system_ila_0/SLOT_5_AXIS"
         ]
       }
     },
