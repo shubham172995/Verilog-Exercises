@@ -1,0 +1,235 @@
+/*
+
+Xilinx Vivado v2018.3 (64-bit) [Major: 2018, Minor: 3]
+SW Build: 2405991 on Thu Dec  6 23:36:41 MST 2018
+IP Build: 2404404 on Fri Dec  7 01:43:56 MST 2018
+
+Process ID (PID): 15379
+License: Customer
+
+Current time: 	Mon Mar 09 11:20:49 IST 2020
+Time zone: 	India Standard Time (Asia/Kolkata)
+
+OS: Ubuntu
+OS Version: 4.15.0-88-generic
+OS Architecture: amd64
+Available processors (cores): 12
+
+Display: :0
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 173 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	9.0.4 64-bit
+Java home: 	/home/shubham/Xilinx2018.3/Vivado/2018.3/tps/lnx64/jre9.0.4
+Java executable location: 	/home/shubham/Xilinx2018.3/Vivado/2018.3/tps/lnx64/jre9.0.4/bin/java
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 3 GB
+
+
+User name: 	shubham
+User home directory: /home/shubham
+User working directory: /home/shubham/Vivado_Exercises/polar_4_ex
+User country: 	US
+User language: 	en
+User locale: 	en_US
+
+RDI_BASEROOT: /home/shubham/Xilinx2018.3/Vivado
+HDI_APPROOT: /home/shubham/Xilinx2018.3/Vivado/2018.3
+RDI_DATADIR: /home/shubham/Xilinx2018.3/Vivado/2018.3/data
+RDI_BINDIR: /home/shubham/Xilinx2018.3/Vivado/2018.3/bin
+
+Vivado preferences file location: /home/shubham/.Xilinx/Vivado/2018.3/vivado.xml
+Vivado preferences directory: /home/shubham/.Xilinx/Vivado/2018.3/
+Vivado layouts directory: /home/shubham/.Xilinx/Vivado/2018.3/layouts
+PlanAhead jar file location: 	/home/shubham/Xilinx2018.3/Vivado/2018.3/lib/classes/planAhead.jar
+Vivado log file location: 	/home/shubham/Vivado_Exercises/polar_4_ex/vivado.log
+Vivado journal file location: 	/home/shubham/Vivado_Exercises/polar_4_ex/vivado.jou
+Engine tmp dir: 	./.Xil/Vivado-15379-shubham-HP-Desktop-Pro-G1-MT
+
+Xilinx Environment Variables
+----------------------------
+XILINX: /home/shubham/Xilinx2018.3/Vivado/2018.3/ids_lite/ISE
+XILINX_DSP: /home/shubham/Xilinx2018.3/Vivado/2018.3/ids_lite/ISE
+XILINX_PLANAHEAD: /home/shubham/Xilinx2018.3/Vivado/2018.3
+XILINX_SDK: /home/shubham/Xilinx2018.3/SDK/2018.3
+XILINX_VIVADO: /home/shubham/Xilinx2018.3/Vivado/2018.3
+XILINX_VIVADO_HLS: /home/shubham/Xilinx2018.3/Vivado/2018.3
+
+
+GUI allocated memory:	128 MB
+GUI max memory:		3,072 MB
+Engine allocated memory: 943 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: START_PROGRESS_DIALOG
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// bx (cp):  Sourcing Tcl script '/home/shubham/Vivado_Exercises/EncoderDecoderChain/.Xil/polar_4/tmp_polar_4.srcs/sources_1/ip/polar_4/polar_4_ex.tcl' : addNotify
+// Tcl Message: source /home/shubham/Vivado_Exercises/EncoderDecoderChain/.Xil/polar_4/tmp_polar_4.srcs/sources_1/ip/polar_4/polar_4_ex.tcl -notrace 
+// Tcl Message: INFO: [open_example_project] Creating new example project... 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_DASHBOARD_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_DASHBOARD_GADGET_NEW
+// TclEventType: PROJECT_DASHBOARD_GADGET_CHANGE
+// TclEventType: PROJECT_NEW
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 82 MB (+83765kb) [00:00:12]
+// [Engine Memory]: 922 MB (+815806kb) [00:00:12]
+// [GUI Memory]: 96 MB (+9815kb) [00:00:12]
+// [GUI Memory]: 109 MB (+8585kb) [00:00:12]
+// WARNING: HEventQueue.dispatchEvent() is taking  1884 ms.
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/home/shubham/Xilinx2018.3/Vivado/2018.3/data/ip'. 
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// HMemoryUtils.trashcanNow. Engine heap size: 950 MB. GUI used memory: 50 MB. Current time: 3/9/20, 11:20:49 AM IST
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: RUN_MODIFY
+// Tcl Message: create_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:05 . Memory (MB): peak = 6462.562 ; gain = 155.152 ; free physical = 4325 ; free virtual = 12870 
+// TclEventType: PART_MODIFIED
+// TclEventType: BOARD_MODIFIED
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: CREATE_IP_CATALOG
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: INFO: [open_example_project] Loading IP Catalog... 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/shubham/HLS_Exercises/LLRGen/solution1/impl'. INFO: [IP_Flow 19-1700] Loaded user IP repository '/home/shubham/HLS_Exercises/DataCPP/solution1/impl'. 
+// Tcl Message: INFO: [open_example_project] Importing original IP ... INFO: [open_example_project] Generating the example project IP ... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// [Engine Memory]: 1,002 MB (+35483kb) [00:00:19]
+// Tcl Message: INFO: [open_example_project] Adding simulation HDL files ... INFO: [open_example_project] Adding simulation miscellaneous files ... INFO: [open_example_project] Sourcing example extension scripts ... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: INFO: [open_example_project] Rebuilding all the top level IPs ... 
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'C Simulation' target for IP 'polar_4'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// Tcl Message: INFO: [IP_Flow 19-1686] Generating 'Software Driver' target for IP 'polar_4'... INFO: [IP_Flow 19-1686] Generating 'Change Log' target for IP 'polar_4'... 
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: PROJECT_CHANGE
+// TclEventType: LOAD_FEATURE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: INFO: [open_example_project] Open Example Project completed 
+dismissDialog("Sourcing Tcl script '/home/shubham/Vivado_Exercises/EncoderDecoderChain/.Xil/polar_4/tmp_polar_4.srcs/sources_1/ip/polar_4/polar_4_ex.tcl'"); // bx (cp)
+// TclEventType: STOP_PROGRESS_DIALOG
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 208 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (Q, cp)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // af (al, cp)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (cp):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// TclEventType: PACKAGER_MESSAGE_RESET
+// TclEventType: PACKAGER_UNLOAD_CORE
+// Tcl Message: launch_simulation 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in '/home/shubham/Vivado_Exercises/polar_4_ex/polar_4_ex.sim/sim_1/behav/xsim' 
+// Tcl Message: Vivado Simulator 2018.3 Copyright 1986-1999, 2001-2018 Xilinx, Inc. All Rights Reserved. Running: /home/shubham/Xilinx2018.3/Vivado/2018.3/bin/unwrapped/lnx64.o/xelab -wto 241c09ef65f348fba7324812bf2ec18f --incr --debug typical --relax --mt 8 -L ecc_v2_0_12 -L fec_5g_common_v1_1_0 -L polar_v1_0_2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm --snapshot example_tb_behav xil_defaultlib.example_tb xil_defaultlib.glbl -log elaborate.log  Using 8 slave threads. Starting static elaboration 
+// Tcl Message: Completed static elaboration 
+// Tcl Message: Built simulation snapshot example_tb_behav 
+// Tcl Message:  ****** Webtalk v2018.3 (64-bit)   **** SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018   **** IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source /home/shubham/Vivado_Exercises/polar_4_ex/polar_4_ex.sim/sim_1/behav/xsim/xsim.dir/example_tb_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-206] Exiting Webtalk at Mon Mar  9 11:24:40 2020... 
+// Tcl Message: run_program: Time (s): cpu = 00:00:16 ; elapsed = 00:00:11 . Memory (MB): peak = 6548.445 ; gain = 0.000 ; free physical = 4204 ; free virtual = 12879 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '11' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in '/home/shubham/Vivado_Exercises/polar_4_ex/polar_4_ex.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "example_tb_behav -key {Behavioral:sim_1:Functional:example_tb} -tclbatch {example_tb.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.3 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// [Engine Memory]: 1,056 MB (+4039kb) [00:04:06]
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Tcl Message: Time resolution is 1 ps 
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// Elapsed time: 14 seconds
+closeView(PAResourceOtoP.PAViews_PROJECT_SUMMARY, "Project Summary"); // v
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// HMemoryUtils.trashcanNow. Engine heap size: 1,066 MB. GUI used memory: 67 MB. Current time: 3/9/20, 11:24:43 AM IST
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: SIMULATION_OBJECT_TREE_REFRESHING
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: source example_tb.tcl 
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'example_tb_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:23 ; elapsed = 00:00:15 . Memory (MB): peak = 6595.289 ; gain = 46.844 ; free physical = 4127 ; free virtual = 12826 
+// 'd' command handler elapsed time: 15 seconds
+dismissDialog("Run Simulation"); // e (cp)
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// Elapsed time: 87 seconds
+selectMenuItem((HResource) null, "Copy"); // af (al, cp)
+selectMenuItem((HResource) null, "Copy Value"); // af (al, cp)
+// [GUI Memory]: 115 MB (+358kb) [00:29:12]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 56 MB. Current time: 3/9/20, 11:54:44 AM IST
+// HMemoryUtils.trashcanNow. Engine heap size: 1,078 MB. GUI used memory: 50 MB. Current time: 3/9/20, 12:24:44 PM IST

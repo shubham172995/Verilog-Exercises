@@ -1,0 +1,1032 @@
+10:30:44 **** Build of project EncoderDecoderChain_bsp ****
+make -k all 
+Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/polar_v1_0/src
+make -C psu_cortexa53_0/libsrc/polar_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sdps
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling csudma
+Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling standalone A53
+In file included from xtime_l.c:52:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:59:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ipipsu
+Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling emacps
+Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling resetps
+Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling axipmon
+Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling avbuf
+Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling dpdma
+Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling iicps
+Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling canps
+Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling scugic
+Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sysmonpsu
+Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ddrcpsu
+Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling video_common
+Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling cpu_cortexa53
+Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling uartps
+Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling qspipsu
+Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling rtcpsu
+Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling pciepsu
+Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling clockps
+Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling zdma
+Running Make libs in psu_cortexa53_0/libsrc/polar_v1_0/src
+make -C psu_cortexa53_0/libsrc/polar_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling polar
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_N_words':
+xpolar.c:386:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_N_words':
+xpolar.c:400:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_K_words':
+xpolar.c:413:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_K_words':
+xpolar.c:427:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_words':
+xpolar.c:440:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_words':
+xpolar.c:452:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_AUGMENT_words':
+xpolar.c:464:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_AUGMENT_words':
+xpolar.c:478:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_CRC_SEL_words':
+xpolar.c:491:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_CRC_SEL_words':
+xpolar.c:505:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_ITLV_words':
+xpolar.c:518:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_ITLV_words':
+xpolar.c:532:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_CRC_INIT_words':
+xpolar.c:545:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_CRC_INIT_words':
+xpolar.c:559:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_words':
+xpolar.c:572:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_words':
+xpolar.c:584:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG3_words':
+xpolar.c:596:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG3_words':
+xpolar.c:608:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_BA_TABLE_words':
+xpolar.c:620:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_BA_TABLE_words':
+xpolar.c:632:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling usbpsu
+Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling wdtps
+Finished building libraries
+10:30:57 **** Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  30516	   2344	  20632	  53492	   d0f4	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+10:30:59 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+make: Nothing to be done for 'all'.
+10:35:50 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41668	   2912	  20752	  65332	   ff34	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+11:49:35 **** Clean-only build of project EncoderDecoderChain_bsp ****
+make -k clean 
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s clean 
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s clean 
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s clean 
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s clean 
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s clean 
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s clean 
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s clean 
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s clean 
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s clean 
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s clean 
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s clean 
+make -C psu_cortexa53_0/libsrc/polar_v1_0/src -s clean 
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s clean 
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s clean 
+rm -f psu_cortexa53_0/lib/libxil.a
+11:49:36 **** Clean-only build of configuration Debug for project EncoderDecoderChain ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  EncoderDecoderChain.elf.size  EncoderDecoderChain.elf
+ 
+11:49:36 **** Build of project EncoderDecoderChain_bsp ****
+make -k all 
+Running Make include in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/polar_v1_0/src
+make -C psu_cortexa53_0/libsrc/polar_v1_0/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make include in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s include  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Running Make libs in psu_cortexa53_0/libsrc/sdps_v3_6/src
+make -C psu_cortexa53_0/libsrc/sdps_v3_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sdps
+aarch64-none-elf-ar: creating ../../../lib/libxil.a
+Running Make libs in psu_cortexa53_0/libsrc/csudma_v1_3/src
+make -C psu_cortexa53_0/libsrc/csudma_v1_3/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling csudma
+Running Make libs in psu_cortexa53_0/libsrc/standalone_v6_8/src
+make -C psu_cortexa53_0/libsrc/standalone_v6_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling standalone A53
+In file included from xtime_l.c:52:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from sleep.c:59:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+In file included from xil_sleeptimer.c:51:0:
+xtime_l.h:77:9: note: #pragma message: For the sleep routines, Global timer is being used
+ #pragma message ("For the sleep routines, Global timer is being used")
+         ^~~~~~~
+Running Make libs in psu_cortexa53_0/libsrc/ipipsu_v2_4/src
+make -C psu_cortexa53_0/libsrc/ipipsu_v2_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ipipsu
+Running Make libs in psu_cortexa53_0/libsrc/emacps_v3_8/src
+make -C psu_cortexa53_0/libsrc/emacps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling emacps
+Running Make libs in psu_cortexa53_0/libsrc/ttcps_v3_7/src
+make -C psu_cortexa53_0/libsrc/ttcps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ttcps
+Running Make libs in psu_cortexa53_0/libsrc/resetps_v1_2/src
+make -C psu_cortexa53_0/libsrc/resetps_v1_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling resetps
+Running Make libs in psu_cortexa53_0/libsrc/axipmon_v6_7/src
+make -C psu_cortexa53_0/libsrc/axipmon_v6_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling axipmon
+Running Make libs in psu_cortexa53_0/libsrc/avbuf_v2_2/src
+make -C psu_cortexa53_0/libsrc/avbuf_v2_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling avbuf
+Running Make libs in psu_cortexa53_0/libsrc/dpdma_v1_1/src
+make -C psu_cortexa53_0/libsrc/dpdma_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling dpdma
+Running Make libs in psu_cortexa53_0/libsrc/iicps_v3_8/src
+make -C psu_cortexa53_0/libsrc/iicps_v3_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling iicps
+Running Make libs in psu_cortexa53_0/libsrc/canps_v3_2/src
+make -C psu_cortexa53_0/libsrc/canps_v3_2/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling canps
+Running Make libs in psu_cortexa53_0/libsrc/scugic_v3_10/src
+make -C psu_cortexa53_0/libsrc/scugic_v3_10/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling scugic
+Running Make libs in psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src
+make -C psu_cortexa53_0/libsrc/sysmonpsu_v2_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling sysmonpsu
+Running Make libs in psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src
+make -C psu_cortexa53_0/libsrc/ddrcpsu_v1_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling ddrcpsu
+Running Make libs in psu_cortexa53_0/libsrc/video_common_v4_5/src
+make -C psu_cortexa53_0/libsrc/video_common_v4_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling video_common
+Running Make libs in psu_cortexa53_0/libsrc/gpiops_v3_4/src
+make -C psu_cortexa53_0/libsrc/gpiops_v3_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling gpiops
+Running Make libs in psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src
+make -C psu_cortexa53_0/libsrc/cpu_cortexa53_v1_5/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling cpu_cortexa53
+Running Make libs in psu_cortexa53_0/libsrc/uartps_v3_7/src
+make -C psu_cortexa53_0/libsrc/uartps_v3_7/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling uartps
+Running Make libs in psu_cortexa53_0/libsrc/qspipsu_v1_8/src
+make -C psu_cortexa53_0/libsrc/qspipsu_v1_8/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling qspipsu
+Running Make libs in psu_cortexa53_0/libsrc/rtcpsu_v1_6/src
+make -C psu_cortexa53_0/libsrc/rtcpsu_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling rtcpsu
+Running Make libs in psu_cortexa53_0/libsrc/pciepsu_v1_0/src
+make -C psu_cortexa53_0/libsrc/pciepsu_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling pciepsu
+Running Make libs in psu_cortexa53_0/libsrc/clockps_v1_0/src
+make -C psu_cortexa53_0/libsrc/clockps_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling clockps
+Running Make libs in psu_cortexa53_0/libsrc/zdma_v1_6/src
+make -C psu_cortexa53_0/libsrc/zdma_v1_6/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling zdma
+Running Make libs in psu_cortexa53_0/libsrc/polar_v1_0/src
+make -C psu_cortexa53_0/libsrc/polar_v1_0/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling polar
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_N_words':
+xpolar.c:386:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_N_words':
+xpolar.c:400:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_K_words':
+xpolar.c:413:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_K_words':
+xpolar.c:427:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG0_words':
+xpolar.c:440:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG0_words':
+xpolar.c:452:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_AUGMENT_words':
+xpolar.c:464:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_AUGMENT_words':
+xpolar.c:478:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_CRC_SEL_words':
+xpolar.c:491:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_CRC_SEL_words':
+xpolar.c:505:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_ITLV_words':
+xpolar.c:518:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_ITLV_words':
+xpolar.c:532:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_CRC_INIT_words':
+xpolar.c:545:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_CRC_INIT_words':
+xpolar.c:559:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG2_words':
+xpolar.c:572:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG2_words':
+xpolar.c:584:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_CODE_REG3_words':
+xpolar.c:596:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_CODE_REG3_words':
+xpolar.c:608:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_write_POLAR_BA_TABLE_words':
+xpolar.c:620:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar.c: In function 'xpolar_read_POLAR_BA_TABLE_words':
+xpolar.c:632:17: warning: comparison between signed and unsigned integer expressions [-Wsign-compare]
+   for (i = 0; i < length; i++) {
+                 ^
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+ {
+ ^
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+xpolar_g.c:44:1: warning: missing braces around initializer [-Wmissing-braces]
+Running Make libs in psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src
+make -C psu_cortexa53_0/libsrc/coresightps_dcc_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling coresightps_dcc
+Running Make libs in psu_cortexa53_0/libsrc/usbpsu_v1_4/src
+make -C psu_cortexa53_0/libsrc/usbpsu_v1_4/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling usbpsu
+Running Make libs in psu_cortexa53_0/libsrc/wdtps_v3_1/src
+make -C psu_cortexa53_0/libsrc/wdtps_v3_1/src -s libs  "SHELL=/bin/sh" "COMPILER=aarch64-none-elf-gcc" "ARCHIVER=aarch64-none-elf-ar" "COMPILER_FLAGS=  -O2 -c" "EXTRA_COMPILER_FLAGS=-g -Wall -Wextra"
+Compiling wdtps
+Finished building libraries
+11:49:47 **** Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building file: ../src/platform.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+Finished building: ../src/platform.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41668	   2912	  20752	  65332	   ff34	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+12:07:32 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41668	   2912	  20752	  65332	   ff34	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+12:11:48 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:2: error: 'polar' undeclared (first use in this function); did you mean 'polar2'?
+  polar.code_id=0x04;
+  ^~~~~
+  polar2
+../src/helloworld.c:57:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+12:12:08 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:27:2: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  polar_params.N=128;
+  ^~~~~~~~~~~~
+  polar_params2
+../src/helloworld.c:27:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:57:2: error: 'polar' undeclared (first use in this function); did you mean 'polar2'?
+  polar.code_id=0x04;
+  ^~~~~
+  polar2
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+../src/helloworld.c:26:26: warning: unused variable 'polar_params1' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                          ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:12:17 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:32:26: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  u32 compressed_length = polar_params.N / 16;
+                          ^~~~~~~~~~~~
+                          polar_params2
+../src/helloworld.c:32:26: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:57:2: error: 'polar' undeclared (first use in this function); did you mean 'polar2'?
+  polar.code_id=0x04;
+  ^~~~~
+  polar2
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+../src/helloworld.c:26:26: warning: variable 'polar_params1' set but not used [-Wunused-but-set-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+  xpolar_polar_parameters polar_params1, polar_params2;
+                          ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:12:24 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:37:3: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+   polar_params.BA_TABLE[i] = compressed_BA_TABLE[i];
+   ^~~~~~~~~~~~
+   polar_params2
+../src/helloworld.c:37:3: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:57:2: error: 'polar' undeclared (first use in this function); did you mean 'polar2'?
+  polar.code_id=0x04;
+  ^~~~~
+  polar2
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+12:12:29 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:57:2: error: 'polar' undeclared (first use in this function); did you mean 'polar2'?
+  polar.code_id=0x04;
+  ^~~~~
+  polar2
+../src/helloworld.c:57:2: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:72:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:12:46 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:72:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:72:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+12:13:16 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:44:6: error: redefinition of 'compressed_length'
+  u32 compressed_length = polar_params1.N / 16;
+      ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:32:6: note: previous definition of 'compressed_length' was here
+  u32 compressed_length = polar_params1.N / 16;
+      ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:45:6: error: redeclaration of 'compressed_BA_TABLE' with no linkage
+  u32 compressed_BA_TABLE[compressed_length];
+      ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:33:6: note: previous declaration of 'compressed_BA_TABLE' was here
+  u32 compressed_BA_TABLE[compressed_length];
+      ^~~~~~~~~~~~~~~~~~~
+../src/helloworld.c:84:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:84:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:52:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:51:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: unused variable 'polar_params2' [-Wunused-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:13:48 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:44:6: error: redefinition of 'compressed_length'
+  u32 compressed_length = polar_params2.N / 16;
+      ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:32:6: note: previous definition of 'compressed_length' was here
+  u32 compressed_length = polar_params1.N / 16;
+      ^~~~~~~~~~~~~~~~~
+../src/helloworld.c:81:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:81:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:49:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+../src/helloworld.c:48:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:13:59 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:80:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:80:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:48:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:47:29: warning: unused variable 'polar_cfg2' [-Wunused-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: variable 'polar_params2' set but not used [-Wunused-but-set-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:14:22 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:51:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_XPOLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:81:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:81:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:48:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:47:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: variable 'polar_params2' set but not used [-Wunused-but-set-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+12:14:40 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:51:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_XPOLAR_0_DEVICE_ID);
+             ^
+../src/helloworld.c:81:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:81:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:48:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+                 ^~~~~~
+../src/helloworld.c:47:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: variable 'polar_params2' set but not used [-Wunused-but-set-variable]
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:14:55 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:51:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_XPOLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:81:36: error: 'polar_params' undeclared (first use in this function); did you mean 'polar_params2'?
+  xpolar_add_polar_params(&polar1, &polar_params);
+                                    ^~~~~~~~~~~~
+                                    polar_params2
+../src/helloworld.c:81:36: note: each undeclared identifier is reported only once for each function it appears in
+../src/helloworld.c:48:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:47:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+../src/helloworld.c:26:41: warning: variable 'polar_params2' set but not used [-Wunused-but-set-variable]
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+  xpolar_polar_parameters polar_params1, polar_params2;
+                                         ^~~~~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+12:20:37 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_XPOLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+make: *** [src/helloworld.o] Error 1
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+12:20:57 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_XPOLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+12:21:45 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_POLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:40:17: warning: unused variable 'polar2' [-Wunused-variable]
+  xpolar polar1, polar2;
+                 ^~~~~~
+../src/helloworld.c:39:29: warning: variable 'polar_cfg2' set but not used [-Wunused-but-set-variable]
+  xpolar_Config* polar_cfg1, polar_cfg2;
+                             ^~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+12:24:14 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+../src/helloworld.c: In function 'main':
+../src/helloworld.c:43:13: error: incompatible types when assigning to type 'xpolar_Config {aka struct <anonymous>}' from type 'xpolar_Config * {aka struct <anonymous> *}'
+  polar_cfg2 = xpolar_LookupConfig(XPAR_POLAR_1_DEVICE_ID);
+             ^
+../src/helloworld.c:55:41: error: incompatible type for argument 2 of 'xpolar_CfgInitialize'
+  status = xpolar_CfgInitialize(&polar2, polar_cfg2);
+                                         ^~~~~~~~~~
+In file included from ../src/helloworld.c:8:0:
+../../EncoderDecoderChain_bsp/psu_cortexa53_0/include/xpolar.h:166:5: note: expected 'xpolar_Config * {aka struct <anonymous> *}' but argument is of type 'xpolar_Config {aka struct <anonymous>}'
+ int xpolar_CfgInitialize(xpolar *InstancePtr, xpolar_Config *ConfigPtr);
+     ^~~~~~~~~~~~~~~~~~~~
+src/subdir.mk:24: recipe for target 'src/helloworld.o' failed
+make: *** [src/helloworld.o] Error 1
+12:24:50 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41668	   2912	  20752	  65332	   ff34	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+12:25:33 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41796	   2912	  20752	  65460	   ffb4	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+12:26:03 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41796	   2912	  20752	  65460	   ffb4	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 

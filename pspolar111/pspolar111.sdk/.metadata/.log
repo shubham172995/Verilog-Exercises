@@ -27860,3 +27860,1609 @@ Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-286
 
 !ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 15:24:13.911
 !MESSAGE XSCT command with result: [disconnect tcfchan#11], Result: [null, ]. Thread: Thread-1434
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.757
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.759
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.759
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.760
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.760
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:54.761
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-05 18:43:58.416
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:58.416
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.494
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.693
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.693
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.696
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.696
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.724
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.725
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.725
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.726
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.729
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.729
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.729
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.740
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.741
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.744
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.745
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.757
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.757
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.761
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.761
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.773
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.774
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.777
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.777
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.789
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.789
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.793
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.793
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.804
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.804
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.806
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.806
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.807
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.807
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.836
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.837
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.840
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.841
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.853
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.853
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.857
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.857
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.868
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.868
+!MESSAGE XSCT Command: [version -server], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.989
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.989
+!MESSAGE XSCT Command: [version], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.990
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:43:59.990
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.003
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.004
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.042
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.042
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.057
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.058
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.058
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.059
+!MESSAGE XSCT Command: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.078
+!MESSAGE XSCT command with result: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.079
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.159
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:00.159
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:01.173
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:01.173
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.178
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.179
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.247
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.247
+!MESSAGE XSCT Command: [reset_apu], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.381
+!MESSAGE XSCT command with result: [reset_apu], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.381
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.399
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.399
+!MESSAGE XSCT Command: [clear_rpu_reset], Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.518
+!MESSAGE XSCT command with result: [clear_rpu_reset], Result: [null, ]. Thread: Worker-297
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.526
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.580
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.580
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.596
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.597
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.610
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:04.611
+!MESSAGE XSCT Command: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:18.760
+!MESSAGE XSCT Command: abort "", Thread: Thread-1483
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:18.762
+!MESSAGE XSCT command with result: abort "", Result: [null]. Thread: Thread-1483
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.343
+!MESSAGE XSCT command with result: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [{Format=Command canceled, Time=1583414059343, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 1 0 2020-03-05 18:44:19.802
+!MESSAGE Updating toolusage
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.804
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.807
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.807
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.818
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.818
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.822
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.822
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.833
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.833
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.836
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.836
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.847
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.847
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.851
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.851
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.861
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.861
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.864
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.865
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.875
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.875
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.878
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.879
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.889
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.889
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.890
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.890
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.891
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.891
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.916
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.916
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.920
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.920
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.931
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.931
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.935
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.935
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.946
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.946
+!MESSAGE XSCT Command: [version -server], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.947
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.947
+!MESSAGE XSCT Command: [version], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.947
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.947
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.951
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.951
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.962
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.962
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.973
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.973
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.974
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.974
+!MESSAGE XSCT Command: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.974
+!MESSAGE XSCT command with result: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.974
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.989
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:19.990
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:20.838
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:20.839
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:20.972
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.858
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.858
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.861
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.862
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.914
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.914
+!MESSAGE XSCT Command: [reset_apu], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.915
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:23.916
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.072
+!MESSAGE XSCT command with result: [reset_apu], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.073
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.073
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.091
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.091
+!MESSAGE XSCT Command: [clear_rpu_reset], Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.135
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.197
+!MESSAGE XSCT command with result: [clear_rpu_reset], Result: [null, ]. Thread: Worker-296
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.254
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.254
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.255
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.255
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.256
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.323
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.325
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.325
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.326
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.326
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.327
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.394
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.396
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.396
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.397
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.398
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:24.398
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.063
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.071
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.071
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.087
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.087
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.100
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:25.100
+!MESSAGE XSCT Command: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:27.658
+!MESSAGE XSCT Command: abort "", Thread: Thread-1533
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:27.660
+!MESSAGE XSCT command with result: abort "", Result: [null]. Thread: Thread-1533
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:28.000
+!MESSAGE XSCT command with result: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [{Format=abort, Time=1583414068000, Code=1}, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.795
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.797
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.797
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.798
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.798
+!MESSAGE XSCT Command: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:30.798
+!MESSAGE XSCT command with result: [::hsi::utils::closesw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, ]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.418
+!MESSAGE XSCT Command: [connect -url tcp:127.0.0.1:3121], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.420
+!MESSAGE XSCT command with result: [connect -url tcp:127.0.0.1:3121], Result: [null, tcfchan#12]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.420
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.426
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.426
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.431
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.431
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.443
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.443
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.447
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.447
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.458
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.458
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.462
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.462
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.473
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.473
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.477
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.477
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.488
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.488
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.491
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.491
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.502
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.502
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.504
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.504
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.505
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.505
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.529
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.529
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.533
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.534
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.545
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.545
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.548
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.549
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.559
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.559
+!MESSAGE XSCT Command: [version -server], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.560
+!MESSAGE XSCT command with result: [version -server], Result: [null, 2018.3]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.560
+!MESSAGE XSCT Command: [version], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.561
+!MESSAGE XSCT command with result: [version], Result: [null, xsct 2018.3
+SW Build 2405991 on Thu Dec  6 23:36:41 MST 2018
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.561
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.564
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.564
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.578
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.578
+!MESSAGE XSCT Command: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.599
+!MESSAGE XSCT command with result: [jtag targets -set -filter {name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level == 0}], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.599
+!MESSAGE XSCT Command: [jtag frequency], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.600
+!MESSAGE XSCT command with result: [jtag frequency], Result: [null, 15000000]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.600
+!MESSAGE XSCT Command: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.601
+!MESSAGE XSCT command with result: [source /home/shubham/Xilinx2018.3/SDK/2018.3/scripts/sdk/util/zynqmp_utils.tcl], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.601
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.619
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:35.619
+!MESSAGE XSCT Command: [rst -system], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:36.618
+!MESSAGE XSCT command with result: [rst -system], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:36.619
+!MESSAGE XSCT Command: [after 3000], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.639
+!MESSAGE XSCT command with result: [after 3000], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.639
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.666
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.666
+!MESSAGE XSCT Command: [reset_apu], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.819
+!MESSAGE XSCT command with result: [reset_apu], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.819
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.835
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"RPU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.835
+!MESSAGE XSCT Command: [clear_rpu_reset], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.940
+!MESSAGE XSCT command with result: [clear_rpu_reset], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:39.948
+!MESSAGE XSCT Command: [jtag targets -filter {level == 0}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.000
+!MESSAGE XSCT command with result: [jtag targets -filter {level == 0}], Result: [null,   1* Xilinx HW-Z1-ZCU111 FT4232H 96907A]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.001
+!MESSAGE XSCT Command: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.012
+!MESSAGE XSCT command with result: [jtag targets -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==1}], Result: [null,      2  xczu28dr (idcode 147e0093 irlen 12 fpga)
+     3  arm_dap (idcode 5ba00477 irlen 4)]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.012
+!MESSAGE XSCT Command: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.026
+!MESSAGE XSCT command with result: [targets -set -filter {jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A" && level==0} -index 0], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:40.026
+!MESSAGE XSCT Command: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.611
+!MESSAGE XSCT command with result: [fpga -file /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/design_1_wrapper.bit], Result: [null, ]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.623
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.642
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.642
+!MESSAGE XSCT Command: [loadhw -hw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.660
+!MESSAGE XSCT command with result: [loadhw -hw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf -mem-ranges [list {0x80000000 0xbfffffff} {0x400000000 0x5ffffffff} {0x1000000000 0x7fffffffff}]], Result: [null, design_1_wrapper_9]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.660
+!MESSAGE XSCT Command: [configparams force-mem-access 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.660
+!MESSAGE XSCT command with result: [configparams force-mem-access 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.660
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.680
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"APU*" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.680
+!MESSAGE XSCT Command: [source /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.685
+!MESSAGE XSCT command with result: [source /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/psu_init.tcl], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:44:59.685
+!MESSAGE XSCT Command: [psu_init], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:01.039
+!MESSAGE XSCT command with result: [psu_init], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:01.039
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:02.042
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:02.042
+!MESSAGE XSCT Command: [psu_ps_pl_isolation_removal], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:02.075
+!MESSAGE XSCT command with result: [psu_ps_pl_isolation_removal], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:02.076
+!MESSAGE XSCT Command: [after 1000], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.078
+!MESSAGE XSCT command with result: [after 1000], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.079
+!MESSAGE XSCT Command: [psu_ps_pl_reset_config], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.111
+!MESSAGE XSCT command with result: [psu_ps_pl_reset_config], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.112
+!MESSAGE XSCT Command: [catch {psu_protection}], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.182
+!MESSAGE XSCT command with result: [catch {psu_protection}], Result: [null, 0]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.182
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.221
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.221
+!MESSAGE XSCT Command: [rst -processor], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.244
+!MESSAGE XSCT command with result: [rst -processor], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.244
+!MESSAGE XSCT Command: [dow /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111/Debug/pspolar111.elf], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.601
+!MESSAGE XSCT command with result: [dow /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111/Debug/pspolar111.elf], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.602
+!MESSAGE XSCT Command: [configparams force-mem-access 0], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.603
+!MESSAGE XSCT command with result: [configparams force-mem-access 0], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.604
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.604
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss ], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.604
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.606
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"procname": "psu_cortexa53_0",
+"osname": "standalone",
+"osver": "6.8",
+}]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.606
+!MESSAGE XSCT Command: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.629
+!MESSAGE XSCT command with result: [::hsi::utils::get_config_params_for_sw -json /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/design_1_wrapper_hw_platform_0/system.hdf /home/shubham/Vivado_Exercises/pspolar111/pspolar111.sdk/pspolar111_bsp/system.mss], Result: [null, {"psu_cortexa53_0": {"archiver": {"category": "",
+"value": "aarch64-none-elf-ar",
+"default": "aarch64-none-elf-ar",
+"type": "string",
+"desc": "Archiver used to archive libraries for both BSP generation as well as for applications",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler": {"category": "",
+"value": "aarch64-none-elf-gcc",
+"default": "aarch64-none-elf-gcc",
+"type": "string",
+"desc": "Compiler used to compile both BSP/Libraries and Applications.",
+"permit": "",
+"options": {},
+"range": "",
+},
+"compiler_flags": {"category": "",
+"value": "-O2 -c",
+"default": "-O2 -c",
+"type": "string",
+"desc": "Compiler flags used in BSP and library generation. '-c' flag stands for 'compile and assemble, but do not link'. Without this flag, gcc tries to link the code, which will fail bacause there is no application involved during libgen. '-O2' can be overwritten by extra compiler flags",
+"permit": "none",
+"options": {},
+"range": "",
+},
+"exec_mode": {"category": "",
+"value": "aarch64",
+"default": "aarch64",
+"type": "enum",
+"desc": "Execution mode of the processor - aarch32 vs aarch64",
+"permit": "",
+"options": {"AARCH32": "aarch32",
+"AARCH64": "aarch64",
+},
+"range": "",
+},
+"extra_compiler_flags": {"category": "",
+"value": "-g -Wall -Wextra",
+"default": "-g -Wall -Wextra",
+"type": "string",
+"desc": "Extra compiler flags used in BSP and library generation.",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+"standalone": {"enable_sw_intrusive_profiling": {"category": "sw_intrusive_profiling",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable S/W Intrusive Profiling on Hardware Targets",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"hypervisor_guest": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable hypervisor guest support for A53 64bit EL1 Non-Secure. If hypervisor_guest is not selected, BSP will be built for EL3.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"lockstep_mode_debug": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable debug logic in non-JTAG boot mode, when Cortex R5 is configured in lockstep mode",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"microblaze_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Enable MicroBlaze Exceptions",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"predecode_fpu_exceptions": {"category": "microblaze_exceptions",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "(MicroBlaze) Predecode FPU exceptions and save operand info before invoking user registered exception handler.",
+"permit": "user",
+"options": {},
+"range": "",
+},
+"profile_timer": {"category": "sw_intrusive_profiling",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "Specify the Timer to use for Profiling. For PowerPC system, specify none to use PIT timer. For ARM system, specify none to use SCU timer",
+"permit": "",
+"options": {},
+"range": "",
+},
+"sleep_timer": {"category": "",
+"value": "none",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "This parameter is used to select specific timer for sleep functionality",
+"permit": "user",
+"options": {},
+"range": "psu_ttc_3 psu_ttc_2 psu_ttc_1 psu_ttc_0 psu_iou_scntr psu_iou_scntrs",
+},
+"stdin": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdin peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"stdout": {"category": "",
+"value": "psu_uart_0",
+"default": "none",
+"type": "peripheral_instance",
+"desc": "stdout peripheral",
+"permit": "",
+"options": {},
+"range": "psu_coresight_0 psu_uart_0 psu_uart_1",
+},
+"ttc_select_cntr": {"category": "",
+"value": "2",
+"default": "2",
+"type": "enum",
+"desc": "Selects the counter to be used in the repective module. Allowed range is 0-2",
+"permit": "user",
+"options": {"0": "0",
+"1": "1",
+"2": "2",
+},
+"range": "",
+},
+"zynqmp_fsbl_bsp": {"category": "",
+"value": "false",
+"default": "false",
+"type": "bool",
+"desc": "Disable or Enable Optimization for FSBL's BSP. ZynqMP FSBL will set this to true",
+"permit": "",
+"options": {},
+"range": "",
+},
+},
+}]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.631
+!MESSAGE XSCT Command: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.649
+!MESSAGE XSCT command with result: [targets -set -nocase -filter {name =~"*A53*0" && jtag_cable_name =~ "Xilinx HW-Z1-ZCU111 FT4232H 96907A"} -index 1], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.650
+!MESSAGE XSCT Command: [con], Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.672
+!MESSAGE XSCT command with result: [con], Result: [null, ]. Thread: Worker-299
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.672
+!MESSAGE XSCT Command: [disconnect tcfchan#12], Thread: Thread-1594
+
+!ENTRY com.xilinx.sdk.utils 0 0 2020-03-05 18:45:03.675
+!MESSAGE XSCT command with result: [disconnect tcfchan#12], Result: [null, ]. Thread: Thread-1594

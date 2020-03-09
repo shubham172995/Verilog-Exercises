@@ -1,0 +1,21 @@
+12:26:03 **** Auto Build of configuration Debug for project EncoderDecoderChain ****
+make all 
+Building file: ../src/helloworld.c
+Invoking: ARM v8 gcc compiler
+aarch64-none-elf-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -I../../EncoderDecoderChain_bsp/psu_cortexa53_0/include -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+Finished building: ../src/helloworld.c
+ 
+Building target: EncoderDecoderChain.elf
+Invoking: ARM v8 gcc linker
+aarch64-none-elf-gcc -Wl,-T -Wl,../src/lscript.ld -L../../EncoderDecoderChain_bsp/psu_cortexa53_0/lib -o "EncoderDecoderChain.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+Finished building target: EncoderDecoderChain.elf
+ 
+Invoking: ARM v8 Print Size
+aarch64-none-elf-size EncoderDecoderChain.elf  |tee "EncoderDecoderChain.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  41796	   2912	  20752	  65460	   ffb4	EncoderDecoderChain.elf
+Finished building: EncoderDecoderChain.elf.size
+ 
+
+12:26:03 Build Finished (took 111ms)
+

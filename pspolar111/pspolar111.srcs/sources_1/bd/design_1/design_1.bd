@@ -5,14 +5,12 @@
       "device": "xczu28dr-ffvg1517-2-e",
       "name": "design_1",
       "synth_flow_mode": "Hierarchical",
-      "tool_version": "2018.3",
-      "validated": "true"
+      "tool_version": "2018.3"
     },
     "design_tree": {
       "zynq_ultra_ps_e_0": "",
       "polar_0": "",
       "vio_0": "",
-      "xlconstant_0": "",
       "ps8_0_axi_periph": {
         "s00_couplers": {
           "auto_ds": "",
@@ -20,8 +18,9 @@
         }
       },
       "rst_ps8_0_96M": "",
-      "system_ila_0": "",
-      "datag_0": ""
+      "datag_0": "",
+      "xlconstant_0": "",
+      "system_ila_0": ""
     },
     "components": {
       "zynq_ultra_ps_e_0": {
@@ -945,10 +944,6 @@
           }
         }
       },
-      "xlconstant_0": {
-        "vlnv": "xilinx.com:ip:xlconstant:1.1",
-        "xci_name": "design_1_xlconstant_0_0"
-      },
       "ps8_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
         "xci_name": "design_1_ps8_0_axi_periph_0",
@@ -1172,6 +1167,14 @@
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
         "xci_name": "design_1_rst_ps8_0_96M_0"
       },
+      "datag_0": {
+        "vlnv": "xilinx.com:hls:datag:1.0",
+        "xci_name": "design_1_datag_0_0"
+      },
+      "xlconstant_0": {
+        "vlnv": "xilinx.com:ip:xlconstant:1.1",
+        "xci_name": "design_1_xlconstant_0_0"
+      },
       "system_ila_0": {
         "vlnv": "xilinx.com:ip:system_ila:1.1",
         "xci_name": "design_1_system_ila_0_0",
@@ -1269,10 +1272,6 @@
             "vlnv": "xilinx.com:interface:aximm_rtl:1.0"
           }
         }
-      },
-      "datag_0": {
-        "vlnv": "xilinx.com:hls:datag:1.0",
-        "xci_name": "design_1_datag_0_0"
       }
     },
     "interface_nets": {
@@ -1348,8 +1347,8 @@
           "ps8_0_axi_periph/ACLK",
           "vio_0/clk",
           "zynq_ultra_ps_e_0/maxihpm0_fpd_aclk",
-          "system_ila_0/clk",
-          "datag_0/ap_clk"
+          "datag_0/ap_clk",
+          "system_ila_0/clk"
         ]
       },
       "zynq_ultra_ps_e_0_pl_resetn0": {
@@ -1365,8 +1364,8 @@
           "ps8_0_axi_periph/M00_ARESETN",
           "ps8_0_axi_periph/ARESETN",
           "polar_0/reset_n",
-          "system_ila_0/resetn",
-          "datag_0/ap_rst_n"
+          "datag_0/ap_rst_n",
+          "system_ila_0/resetn"
         ]
       },
       "vio_0_probe_out0": {
@@ -1375,17 +1374,17 @@
           "datag_0/ap_start"
         ]
       },
-      "polar_0_interrupt": {
-        "ports": [
-          "polar_0/interrupt",
-          "system_ila_0/probe0"
-        ]
-      },
       "xlconstant_0_dout": {
         "ports": [
           "xlconstant_0/dout",
           "polar_0/m_axis_dout_tready",
           "polar_0/m_axis_status_tready"
+        ]
+      },
+      "polar_0_interrupt": {
+        "ports": [
+          "polar_0/interrupt",
+          "system_ila_0/probe0"
         ]
       }
     },
